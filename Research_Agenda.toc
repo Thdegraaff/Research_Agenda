@@ -10,5 +10,11 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3}Research Agenda}{1}{section.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{References}{1}{section.3}
+\contentsline {subsection}{\numberline {3.1}Regional heterogeneity}{1}{subsection.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2}Conditional robustness}{1}{subsection.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.3}Regional sorting models}{1}{subsection.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{References}{1}{subsection.3.3}
 \contentsfinish 

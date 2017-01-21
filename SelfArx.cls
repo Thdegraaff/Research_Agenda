@@ -136,7 +136,7 @@ justification=raggedright]{caption}
   {\hfill\thecontentspage}
   []
 \titlecontents{subsection}[\tocsep]
-  {\addvspace{2pt}\sffamily}
+  {\addvspace{2pt}\footnotesize\sffamily}
   {\contentslabel[\thecontentslabel]{\tocsep}}
   {}
   {\ \titlerule*[.5pc]{.}\ \thecontentspage}
