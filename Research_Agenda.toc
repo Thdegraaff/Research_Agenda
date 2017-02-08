@@ -2,11 +2,11 @@
 \defcounter {refsection}{0}\relax 
 \select@language {english}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Introduction}{1}{Doc-Start}
+\contentsline {section}{What is the problem}{1}{Doc-Start}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1}Literature review}{1}{section.1}
+\contentsline {section}{\numberline {1}Previous findings}{1}{section.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2}Methodology}{1}{section.2}
+\contentsline {section}{\numberline {2}Research gaps}{1}{section.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3}Research Agenda}{1}{section.3}
 \defcounter {refsection}{0}\relax 
