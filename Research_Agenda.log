@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210) (preloaded format=pdflatex 2016.12.22)  7 FEB 2017 16:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210) (preloaded format=pdflatex 2016.12.22)  8 FEB 2017 15:00
 entering extended mode
 **./Research_Agenda.tex
 (Research_Agenda.tex
@@ -1289,11 +1289,6 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 154.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 154.
 Package rerunfilecheck Info: File `Research_Agenda.out' has not changed.
 (rerunfilecheck)             Checksum: 3B5359358AE939F159C04B22A9EB1079;476.
-
-
-Package biblatex Warning: Please rerun LaTeX.
-(biblatex)                Page breaks have changed.
-
 Package logreq Info: Writing requests to 'Research_Agenda.run.xml'.
 \openout1 = `Research_Agenda.run.xml'.
 
