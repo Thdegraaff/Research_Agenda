@@ -182,6 +182,7 @@ justification=raggedright]{caption}
 %----------------------------------------------------------------------  
 
 \newcommand{\PaperTitle}[1]{\def\@PaperTitle{#1}}
+\newcommand{\SubPaperTitle}[1]{\def\@SubPaperTitle{#1}}
 \newcommand{\Archive}[1]{\def\@Archive{#1}}
 \newcommand{\Authors}[1]{\def\@Authors{#1}}
 \newcommand{\JournalInfo}[1]{\def\@JournalInfo{#1}}
@@ -197,6 +198,8 @@ justification=raggedright]{caption}
 {\raggedleft\small\sffamily\bfseries\@JournalInfo\\\@Archive\par}%
 \vskip20pt%
 {\raggedright\color{color1}\sffamily\bfseries\fontsize{20}{25}\selectfont \@PaperTitle\par}%
+\vskip10pt%
+{\raggedright\color{color1}\sffamily\bfseries\fontsize{14}{18}\selectfont \@SubPaperTitle\par}%
 \vskip10pt%
 {\raggedright\color{color1}\sffamily\fontsize{12}{16}\selectfont  \@Authors\par}%
 \vskip18pt%
