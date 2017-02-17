@@ -24,7 +24,7 @@
 
 \usepackage[english]{babel} % Specify a different language here - english by default
 
-\usepackage{marvosym, epigraph}
+\usepackage{marvosym, epigraph, subfig}
 
 \usepackage[sortcites=false,style=authoryear-comp,bibencoding=utf8, natbib=true, firstinits=true, maxcitenames=2, maxbibnames = 99, uniquename=false, backend=bibtex, useprefix=true, backref=false,doi=false,isbn=false,url=false,dashed=true]{biblatex}
 \setlength\bibhang{20pt}
@@ -97,11 +97,27 @@
 
 \epigraph{The sexiest job in the next 10 years will be statisticians.}{Hal Varian, 2009}
 
-The above quote from Hal Varian is in one aspect wrong; nowadays, we do not call them statisticians, but data scientists. Nevertheless, companies such as Google, Ebay, Whatsapp, Facebook, Booking.com and Airbnb, have not only witnessed enormous growth but also changes the socio-economic landscape. 
+The above quote from Hal Varian is in one aspect wrong; nowadays, we do not call them statisticians but data scientists instead. Nevertheless, in the last two decades companies such as Google, Ebay, Whatsapp, Facebook, Booking.com and Airbnb, have not only witnessed enormous growth but also changed the socio-economic landscape. Indeed, with the increasing abundance of (spatial) data and computer capacity, the ability to gather, process, and visualize data has become highly important and therefore highly in demand. And the models and tools, the data scientists within these companies use are very much \textit{data driven} with remarkable results 
+
+Therefore it is striking 
+
+\cite{breiman2001statistical}
 
 %------------------------------------------------
 
 \section{Background\label{Background}}
+
+\begin{figure*}[ht]\centering 
+	\subfloat[First sub-figure\label{subfig-1:dummy}]{%
+		\includegraphics[width=0.45\textwidth]{./figures/modelapproach}
+	}
+	\hfill
+	\subfloat[First sub-figure\label{subfig-2:dummy}]{%
+		\includegraphics[width=0.45\textwidth]{./figures/dataapproach}
+	}
+	\caption{Dummy figure}
+	\label{fig:dummy}
+\end{figure*}
 
 Regions are conceptually different than cities, as they contain urban, suburban and rural areas simultaneously. Whilst smaller regions can still be seen as the total influence radius of metropolitan areas---such as measured by the concept of local labor markets and the NUTS-2 regions in Europe---, larger regions can typically contain a multiple of cities in combinations with their various hinterlands --such as the Dutch Randstad, the Belgian Flemish Diamond, and the German Ruhr areas. 
 
