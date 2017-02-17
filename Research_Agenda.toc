@@ -4,7 +4,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{Introduction}{1}{Doc-Start}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1}Background}{2}{section.1}
+\contentsline {section}{\numberline {1}Background}{1}{section.1}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2}Research gaps}{2}{section.2}
 \defcounter {refsection}{0}\relax 
