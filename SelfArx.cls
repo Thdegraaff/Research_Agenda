@@ -60,7 +60,8 @@ letterpaper]{geometry}%
 \RequirePackage[labelfont={bf,sf,small},%
 labelsep=period,%
 justification=raggedright]{caption}
-\setlength{\abovecaptionskip}{0pt}
+\captionsetup[subfloat]{captionskip=10pt}
+\setlength{\abovecaptionskip}{10pt}
 \setlength{\belowcaptionskip}{0pt}
 				
 %----------------------------------------------------------------------

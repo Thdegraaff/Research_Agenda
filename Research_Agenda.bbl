@@ -1,5 +1,5 @@
 % $ biblatex auxiliary file $
-% $ biblatex version 2.5 $
+% $ biblatex bbl format version 2.7 $
 % Do not modify the above lines!
 %
 % This is an auxiliary file used by the 'biblatex' package.
@@ -16,352 +16,434 @@
   {}
 \endgroup
 
+\sortlist[entry]{nyt/global/}
 \preamble{%
  \newcommand{\noop}[1]{}
 }
 
-\entry{arribas2015woow}{article}{}
-  \name{author}{2}{}{%
-    {{}%
-     {Arribas-Bel}{A.-B.}%
-     {Daniel}{D.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Graaff}{G.}%
-     {Thomas}{T.}%
-     {de}{d.}%
-     {}{}}%
-  }
-  \strng{namehash}{ABDdGT1}
-  \strng{fullhash}{ABDdGT1}
-  \field{labelyear}{2015}
-  \field{sortinit}{A}
-  \field{number}{2}
-  \field{pages}{1\bibrangedash 2}
-  \field{title}{WooW-II: Workshop on open workflows}
-  \field{volume}{2}
-  \field{journaltitle}{REGION}
-  \field{year}{2015}
-\endentry
+  \entry{arribas2015woow}{article}{}
+    \name{author}{2}{}{%
+      {{hash=ABD}{%
+         family={Arribas-Bel},
+         family_i={A\bibinitperiod-B\bibinitperiod},
+         given={Daniel},
+         given_i={D\bibinitperiod},
+      }}%
+      {{hash=dGT}{%
+         prefix={de},
+         prefix_i={d\bibinitperiod},
+         family={Graaff},
+         family_i={G\bibinitperiod},
+         given={Thomas},
+         given_i={T\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{ABDdGT1}
+    \strng{fullhash}{ABDdGT1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2015}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{number}{2}
+    \field{pages}{1\bibrangedash 2}
+    \field{title}{WooW-II: Workshop on open workflows}
+    \field{volume}{2}
+    \field{journaltitle}{REGION}
+    \field{year}{2015}
+  \endentry
 
-\entry{Arribas2016}{incollection}{}
-  \name{author}{3}{}{%
-    {{}%
-     {Arribas-Bel}{A.-B.}%
-     {Daniel}{D.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Graaff}{G.}%
-     {Thomas}{T.}%
-     {de}{d.}%
-     {}{}}%
-    {{}%
-     {Rey}{R.}%
-     {Sergio}{S.}%
-     {}{}%
-     {}{}}%
-  }
-  \name{editor}{2}{}{%
-    {{}%
-     {Jackson}{J.}%
-     {Randall}{R.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Schaeffer}{S.}%
-     {Peter}{P.}%
-     {}{}%
-     {}{}}%
-  }
-  \list{publisher}{1}{%
-    {Springer}%
-  }
-  \strng{namehash}{ABD+1}
-  \strng{fullhash}{ABDdGTRS1}
-  \field{labelyear}{\noop{3002}Forthcoming}
-  \field{sortinit}{A}
-  \field{booktitle}{Regional Research Frontiers: The Next 50 Years}
-  \field{title}{Looking at John Snow’s cholera map from the XXIst Century: a
-  practical primer on reproducibility and Open Science}
-  \list{location}{1}{%
-    {Berlin}%
-  }
-  \field{year}{\noop{3002}Forthcoming}
-\endentry
+  \entry{Arribas2016}{incollection}{}
+    \name{author}{3}{}{%
+      {{hash=ABD}{%
+         family={Arribas-Bel},
+         family_i={A\bibinitperiod-B\bibinitperiod},
+         given={Daniel},
+         given_i={D\bibinitperiod},
+      }}%
+      {{hash=dGT}{%
+         prefix={de},
+         prefix_i={d\bibinitperiod},
+         family={Graaff},
+         family_i={G\bibinitperiod},
+         given={Thomas},
+         given_i={T\bibinitperiod},
+      }}%
+      {{hash=RS}{%
+         family={Rey},
+         family_i={R\bibinitperiod},
+         given={Sergio},
+         given_i={S\bibinitperiod},
+      }}%
+    }
+    \name{editor}{2}{}{%
+      {{hash=JR}{%
+         family={Jackson},
+         family_i={J\bibinitperiod},
+         given={Randall},
+         given_i={R\bibinitperiod},
+      }}%
+      {{hash=SP}{%
+         family={Schaeffer},
+         family_i={S\bibinitperiod},
+         given={Peter},
+         given_i={P\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer}%
+    }
+    \strng{namehash}{ABD+1}
+    \strng{fullhash}{ABDdGTRS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{\noop{3002}Forthcoming}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{booktitle}{Regional Research Frontiers: The Next 50 Years}
+    \field{title}{Looking at John Snow’s cholera map from the XXIst Century:
+  a practical primer on reproducibility and Open Science}
+    \list{location}{1}{%
+      {Berlin}%
+    }
+    \field{year}{\noop{3002}Forthcoming}
+  \endentry
 
-\entry{Bayer2007a}{article}{}
-  \name{author}{2}{}{%
-    {{}%
-     {Bayer}{B.}%
-     {Patrick}{P.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Timmins}{T.}%
-     {Christopher}{C.}%
-     {}{}%
-     {}{}}%
-  }
-  \list{publisher}{1}{%
-    {Wiley Online Library}%
-  }
-  \strng{namehash}{BPTC1}
-  \strng{fullhash}{BPTC1}
-  \field{labelyear}{2007}
-  \field{sortinit}{B}
-  \field{number}{518}
-  \field{pages}{353\bibrangedash 374}
-  \field{title}{Estimating Equilibrium Models Of Sorting Across Locations}
-  \field{volume}{117}
-  \field{journaltitle}{The Economic Journal}
-  \field{year}{2007}
-\endentry
+  \entry{Bayer2007a}{article}{}
+    \name{author}{2}{}{%
+      {{hash=BP}{%
+         family={Bayer},
+         family_i={B\bibinitperiod},
+         given={Patrick},
+         given_i={P\bibinitperiod},
+      }}%
+      {{hash=TC}{%
+         family={Timmins},
+         family_i={T\bibinitperiod},
+         given={Christopher},
+         given_i={C\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Wiley Online Library}%
+    }
+    \strng{namehash}{BPTC1}
+    \strng{fullhash}{BPTC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2007}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{number}{518}
+    \field{pages}{353\bibrangedash 374}
+    \field{title}{Estimating Equilibrium Models Of Sorting Across Locations}
+    \field{volume}{117}
+    \field{journaltitle}{The Economic Journal}
+    \field{year}{2007}
+  \endentry
 
-\entry{Bayer2004}{unpublished}{}
-  \name{author}{3}{}{%
-    {{}%
-     {Bayer}{B.}%
-     {Patrick}{P.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {McMillan}{M.}%
-     {Robert}{R.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Rueben}{R.}%
-     {Kim}{K.}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{BP+1}
-  \strng{fullhash}{BPMRRK1}
-  \field{labelyear}{2004}
-  \field{sortinit}{B}
-  \field{note}{NBER working paper: No. w10865}
-  \field{title}{An Equilibrium Model of Sorting in an Urban Housing Market}
-  \field{year}{2004}
-\endentry
+  \entry{Bayer2004}{unpublished}{}
+    \name{author}{3}{}{%
+      {{hash=BP}{%
+         family={Bayer},
+         family_i={B\bibinitperiod},
+         given={Patrick},
+         given_i={P\bibinitperiod},
+      }}%
+      {{hash=MR}{%
+         family={McMillan},
+         family_i={M\bibinitperiod},
+         given={Robert},
+         given_i={R\bibinitperiod},
+      }}%
+      {{hash=RK}{%
+         family={Rueben},
+         family_i={R\bibinitperiod},
+         given={Kim},
+         given_i={K\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BP+1}
+    \strng{fullhash}{BPMRRK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2004}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{note}{NBER working paper: No. w10865}
+    \field{title}{An Equilibrium Model of Sorting in an Urban Housing Market}
+    \field{year}{2004}
+  \endentry
 
-\entry{Bernasco2016}{article}{}
-  \name{author}{4}{}{%
-    {{}%
-     {Bernasco}{B.}%
-     {Wim}{W.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Graaff}{G.}%
-     {Thomas}{T.}%
-     {de}{d.}%
-     {}{}}%
-    {{}%
-     {Rouwendal}{R.}%
-     {Jan}{J.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Steenbeek}{S.}%
-     {Wouter}{W.}%
-     {}{}%
-     {}{}}%
-  }
-  \list{publisher}{1}{%
-    {MIT Press}%
-  }
-  \strng{namehash}{BW+1}
-  \strng{fullhash}{BWdGTRJSW1}
-  \field{labelyear}{\noop{3002}Forthcoming}
-  \field{sortinit}{B}
-  \field{title}{Social Interactions and Crime Revisited: An Investigation Using
-  Individual Offender Rates}
-  \field{journaltitle}{Review of Economics and Statistics}
-  \field{year}{\noop{3002}Forthcoming}
-\endentry
+  \entry{Bernasco2016}{article}{}
+    \name{author}{4}{}{%
+      {{hash=BW}{%
+         family={Bernasco},
+         family_i={B\bibinitperiod},
+         given={Wim},
+         given_i={W\bibinitperiod},
+      }}%
+      {{hash=dGT}{%
+         prefix={de},
+         prefix_i={d\bibinitperiod},
+         family={Graaff},
+         family_i={G\bibinitperiod},
+         given={Thomas},
+         given_i={T\bibinitperiod},
+      }}%
+      {{hash=RJ}{%
+         family={Rouwendal},
+         family_i={R\bibinitperiod},
+         given={Jan},
+         given_i={J\bibinitperiod},
+      }}%
+      {{hash=SW}{%
+         family={Steenbeek},
+         family_i={S\bibinitperiod},
+         given={Wouter},
+         given_i={W\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {MIT Press}%
+    }
+    \strng{namehash}{BW+1}
+    \strng{fullhash}{BWdGTRJSW1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{\noop{3002}Forthcoming}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{title}{Social Interactions and Crime Revisited: An Investigation
+  Using Individual Offender Rates}
+    \field{journaltitle}{Review of Economics and Statistics}
+    \field{year}{\noop{3002}Forthcoming}
+  \endentry
 
-\entry{breiman2001statistical}{article}{}
-  \name{author}{1}{}{%
-    {{}%
-     {Breiman}{B.}%
-     {Leo}{L.}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{BL1}
-  \strng{fullhash}{BL1}
-  \field{labelyear}{2001}
-  \field{sortinit}{B}
-  \field{number}{3}
-  \field{pages}{199\bibrangedash 231}
-  \field{title}{Statistical Modeling: The Two Cultures}
-  \field{volume}{16}
-  \field{journaltitle}{Statistical Science}
-  \field{year}{2001}
-\endentry
+  \entry{breiman2001statistical}{article}{}
+    \name{author}{1}{}{%
+      {{hash=BL}{%
+         family={Breiman},
+         family_i={B\bibinitperiod},
+         given={Leo},
+         given_i={L\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BL1}
+    \strng{fullhash}{BL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2001}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{number}{3}
+    \field{pages}{199\bibrangedash 231}
+    \field{title}{Statistical Modeling: The Two Cultures}
+    \field{volume}{16}
+    \field{journaltitle}{Statistical Science}
+    \field{year}{2001}
+  \endentry
 
-\entry{DeGraaff2012}{article}{}
-  \name{author}{3}{}{%
-    {{}%
-     {Graaff}{G.}%
-     {Thomas}{T.}%
-     {de}{d.}%
-     {}{}}%
-    {{}%
-     {Oort}{O.}%
-     {Frank~G.}{F.~G.}%
-     {van}{v.}%
-     {}{}}%
-    {{}%
-     {Florax}{F.}%
-     {Raymond~J.G.M.}{R.~J.}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{dGT+1}
-  \strng{fullhash}{dGTvOFGFRJ1}
-  \field{labelyear}{2012}
-  \field{extrayear}{1}
-  \field{sortinit}{D}
-  \field{issn}{0022-4146}
-  \field{number}{1}
-  \field{pages}{60\bibrangedash 84}
-  \field{title}{Regional Population-Employment Dynamics Across Different
+  \entry{DeGraaff2012}{article}{}
+    \name{author}{3}{}{%
+      {{hash=dGT}{%
+         prefix={de},
+         prefix_i={d\bibinitperiod},
+         family={Graaff},
+         family_i={G\bibinitperiod},
+         given={Thomas},
+         given_i={T\bibinitperiod},
+      }}%
+      {{hash=vOFG}{%
+         prefix={van},
+         prefix_i={v\bibinitperiod},
+         family={Oort},
+         family_i={O\bibinitperiod},
+         given={Frank\bibnamedelima G.},
+         given_i={F\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+      {{hash=FRJ}{%
+         family={Florax},
+         family_i={F\bibinitperiod},
+         given={Raymond\bibnamedelima J.G.M.},
+         given_i={R\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{dGT+1}
+    \strng{fullhash}{dGTvOFGFRJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2012}
+    \field{extrayear}{1}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \field{issn}{0022-4146}
+    \field{number}{1}
+    \field{pages}{60\bibrangedash 84}
+    \field{title}{Regional Population-Employment Dynamics Across Different
   Sectors of the Economy}
-  \field{volume}{52}
-  \field{journaltitle}{Journal of Regional Science}
-  \field{year}{2012}
-\endentry
+    \field{volume}{52}
+    \field{journaltitle}{Journal of Regional Science}
+    \field{year}{2012}
+  \endentry
 
-\entry{Graaff2012}{article}{}
-  \name{author}{3}{}{%
-    {{}%
-     {Graaff}{G.}%
-     {Thomas}{T.}%
-     {de}{d.}%
-     {}{}}%
-    {{}%
-     {Oort}{O.}%
-     {Frank~G.}{F.~G.}%
-     {van}{v.}%
-     {}{}}%
-    {{}%
-     {Florax}{F.}%
-     {Raymond~J.G.M.}{R.~J.}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{dGT+1}
-  \strng{fullhash}{dGTvOFGFRJ1}
-  \field{labelyear}{2012}
-  \field{extrayear}{2}
-  \field{sortinit}{D}
-  \field{pages}{115\bibrangedash 127}
-  \field{title}{Sectoral heterogeneity, accessibility and
+  \entry{Graaff2012}{article}{}
+    \name{author}{3}{}{%
+      {{hash=dGT}{%
+         prefix={de},
+         prefix_i={d\bibinitperiod},
+         family={Graaff},
+         family_i={G\bibinitperiod},
+         given={Thomas},
+         given_i={T\bibinitperiod},
+      }}%
+      {{hash=vOFG}{%
+         prefix={van},
+         prefix_i={v\bibinitperiod},
+         family={Oort},
+         family_i={O\bibinitperiod},
+         given={Frank\bibnamedelima G.},
+         given_i={F\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+      {{hash=FRJ}{%
+         family={Florax},
+         family_i={F\bibinitperiod},
+         given={Raymond\bibnamedelima J.G.M.},
+         given_i={R\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{dGT+1}
+    \strng{fullhash}{dGTvOFGFRJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2012}
+    \field{extrayear}{2}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \field{pages}{115\bibrangedash 127}
+    \field{title}{Sectoral heterogeneity, accessibility and
   popu\-lation-employ\-ment dynamics in Dutch cities}
-  \field{volume}{25}
-  \field{journaltitle}{Journal of Transport Geography}
-  \field{year}{2012}
-\endentry
+    \field{volume}{25}
+    \field{journaltitle}{Journal of Transport Geography}
+    \field{year}{2012}
+  \endentry
 
-\entry{Rey:2014cl}{article}{}
-  \name{author}{1}{}{%
-    {{}%
-     {Rey}{R.}%
-     {Sergio~J.}{S.~J.}%
-     {}{}%
-     {}{}}%
-  }
-  \keyw{open science,regional science}
-  \strng{namehash}{RSJ1}
-  \strng{fullhash}{RSJ1}
-  \field{labelyear}{2014}
-  \field{sortinit}{R}
-  \field{number}{3}
-  \field{pages}{825\bibrangedash 837}
-  \field{title}{Open regional science}
-  \field{volume}{52}
-  \verb{file}
-  \verb :Rey/2014f.pdf:PDF
-  \endverb
-  \field{journaltitle}{Annals of Regional Science}
-  \field{year}{2014}
-\endentry
+  \entry{Rey:2014cl}{article}{}
+    \name{author}{1}{}{%
+      {{hash=RSJ}{%
+         family={Rey},
+         family_i={R\bibinitperiod},
+         given={Sergio\bibnamedelima J.},
+         given_i={S\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+    }
+    \keyw{open science,regional science}
+    \strng{namehash}{RSJ1}
+    \strng{fullhash}{RSJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2014}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \field{number}{3}
+    \field{pages}{825\bibrangedash 837}
+    \field{title}{Open regional science}
+    \field{volume}{52}
+    \verb{file}
+    \verb :Rey/2014f.pdf:PDF
+    \endverb
+    \field{journaltitle}{Annals of Regional Science}
+    \field{year}{2014}
+  \endentry
 
-\entry{Thissen2016}{article}{}
-  \name{author}{3}{}{%
-    {{}%
-     {Thissen}{T.}%
-     {Mark}{M.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Graaff}{G.}%
-     {Thomas}{T.}%
-     {de}{d.}%
-     {}{}}%
-    {{}%
-     {Oort}{O.}%
-     {Frank~G.}{F.~G.}%
-     {van}{v.}%
-     {}{}}%
-  }
-  \list{publisher}{1}{%
-    {Wiley}%
-  }
-  \strng{namehash}{TM+1}
-  \strng{fullhash}{TMdGTvOFG1}
-  \field{labelyear}{2016}
-  \field{sortinit}{T}
-  \field{number}{1}
-  \field{pages}{159\bibrangedash 180}
-  \field{title}{Competitive network positions in trade and structural economic
-  growth: A geographically weighted regression analysis for European regions}
-  \field{volume}{95}
-  \field{journaltitle}{Papers in Regional Science}
-  \field{year}{2016}
-\endentry
+  \entry{Thissen2016}{article}{}
+    \name{author}{3}{}{%
+      {{hash=TM}{%
+         family={Thissen},
+         family_i={T\bibinitperiod},
+         given={Mark},
+         given_i={M\bibinitperiod},
+      }}%
+      {{hash=dGT}{%
+         prefix={de},
+         prefix_i={d\bibinitperiod},
+         family={Graaff},
+         family_i={G\bibinitperiod},
+         given={Thomas},
+         given_i={T\bibinitperiod},
+      }}%
+      {{hash=vOFG}{%
+         prefix={van},
+         prefix_i={v\bibinitperiod},
+         family={Oort},
+         family_i={O\bibinitperiod},
+         given={Frank\bibnamedelima G.},
+         given_i={F\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Wiley}%
+    }
+    \strng{namehash}{TM+1}
+    \strng{fullhash}{TMdGTvOFG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2016}
+    \field{sortinit}{T}
+    \field{sortinithash}{T}
+    \field{number}{1}
+    \field{pages}{159\bibrangedash 180}
+    \field{title}{Competitive network positions in trade and structural
+  economic growth: A geographically weighted regression analysis for European
+  regions}
+    \field{volume}{95}
+    \field{journaltitle}{Papers in Regional Science}
+    \field{year}{2016}
+  \endentry
 
-\entry{Wang2016}{article}{}
-  \name{author}{3}{}{%
-    {{}%
-     {Zhiling}{Z.}%
-     {Wang}{W.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Graaff}{G.}%
-     {Thomas}{T.}%
-     {de}{d.}%
-     {}{}}%
-    {{}%
-     {Nijkamp}{N.}%
-     {Peter}{P.}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{ZW+1}
-  \strng{fullhash}{ZWdGTNP1}
-  \field{labelyear}{2016}
-  \field{sortinit}{Z}
-  \verb{doi}
-  \verb 10.1080/17421772.2016.1102956
-  \endverb
-  \field{number}{2}
-  \field{pages}{176\bibrangedash 200}
-  \field{title}{Cultural Diversity and Cultural Distance as Choice Determinants
-  of Migration Destination}
-  \verb{url}
-  \verb http://dx.doi.org/10.1080/17421772.2016.1102956
-  \endverb
-  \field{volume}{11}
-  \field{journaltitle}{Spatial Economic Analysis}
-  \field{year}{2016}
-\endentry
-
-\lossort
-\endlossort
-
+  \entry{Wang2016}{article}{}
+    \name{author}{3}{}{%
+      {{hash=ZW}{%
+         family={Zhiling},
+         family_i={Z\bibinitperiod},
+         given={Wang},
+         given_i={W\bibinitperiod},
+      }}%
+      {{hash=dGT}{%
+         prefix={de},
+         prefix_i={d\bibinitperiod},
+         family={Graaff},
+         family_i={G\bibinitperiod},
+         given={Thomas},
+         given_i={T\bibinitperiod},
+      }}%
+      {{hash=NP}{%
+         family={Nijkamp},
+         family_i={N\bibinitperiod},
+         given={Peter},
+         given_i={P\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{ZW+1}
+    \strng{fullhash}{ZWdGTNP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2016}
+    \field{sortinit}{Z}
+    \field{sortinithash}{Z}
+    \verb{doi}
+    \verb 10.1080/17421772.2016.1102956
+    \endverb
+    \field{number}{2}
+    \field{pages}{176\bibrangedash 200}
+    \field{title}{Cultural Diversity and Cultural Distance as Choice
+  Determinants of Migration Destination}
+    \verb{url}
+    \verb http://dx.doi.org/10.1080/17421772.2016.1102956
+    \endverb
+    \field{volume}{11}
+    \field{journaltitle}{Spatial Economic Analysis}
+    \field{year}{2016}
+  \endentry
+\endsortlist
 \endinput
