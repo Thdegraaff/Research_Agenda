@@ -18,17 +18,18 @@
 	\begin{tikzpicture}[auto, node distance=2cm,>=latex']
 	% We start by placing the blocks
 	\node [input, name=input] {};
-	\node [block, right of=input] (sum) {Input $x$};
-	\node [block, right of=sum, node distance=3cm] (controller) {Theoretical model};
-	\node [block, right of=controller, node distance=3cm] (system) {Output $y$};
+	\node [block, right of=input] (sum) {Independent $\mathbf{x}$};
+	\node [block, right of=sum, node distance=3.5cm] (controller) {Theoretical model};
+	\node [block, right of=controller, node distance=3.3cm] (system) {Dependent $\mathbf{y}$};
 	% We draw an edge between the controller and system block to 
 	% calculate the coordinate u. We need it to place the measurement block. 
-	\draw [->] (controller) -- node[name=u] {} (system);
+	\draw [<-, thick] (controller) -- node[name=u] {} (system);
 	\node [output, right of=system] (output) {};
+	\node [block, below of=controller] (measurements) {Test of hypotheses on $\mathbf{\beta}$};
 	
 	% Once the nodes are placed, connecting them is easy. 
 	%\draw [draw,->] (input) -- node {$r$} (sum);
-	\draw [->] (sum) -- node {} (controller);
-	%\draw [->] (system) -- node [name=y] {}(output);
+	\draw [->, thick] (sum) -- node {} (controller);
+	\draw [->, thick] (measurements) -- node {$H_{\beta_0}$} (controller);
 	\end{tikzpicture}
 \end{document}

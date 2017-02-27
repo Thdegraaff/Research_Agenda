@@ -28,21 +28,20 @@ You can probably speed up the process by creating custom macros.
 	\begin{tikzpicture}[auto, node distance=2cm,>=latex']
 	% We start by placing the blocks
 	\node [input, name=input] {};
-	\node [block, right of=input] (sum) {Input $x$};
+	\node [block, right of=input] (sum) {Predictors $\mathbf{x}$};
 	\node [block, right of=sum, node distance=3cm] (controller) {Unknown model};
-	\node [block, right of=controller, node distance=3cm] (system) {Output $y$};
+	\node [block, right of=controller, node distance=3cm] (system) {Response $\mathbf{y}$};
 	% We draw an edge between the controller and system block to 
 	% calculate the coordinate u. We need it to place the measurement block. 
-	\draw [->] (controller) -- node[name=u] {} (system);
+	\draw [->, thick] (controller) -- node[name=u] {} (system);
 	\node [output, right of=system] (output) {};
 	\node [block, below of=u] (measurements) {Model validation};
 	
 	% Once the nodes are placed, connecting them is easy. 
 	%\draw [draw,->] (input) -- node {$r$} (sum);
-	\draw [->] (sum) -- node {} (controller);
-	\draw [-] (system) -- node [name=y] {}(output);
-	\draw [->] (output) |- (measurements);
-	\draw [->] (measurements) -| node[pos=0.99] {} 
-	node [near end] {} (controller);
+	\draw [->, thick] (sum) -- node {} (controller);
+	\draw [-, thick] (system) -- node [name=y] {}(output);
+	\draw [->, thick] (output) |- (measurements);
+	\draw [->, thick] (measurements) -|  (controller);
 	\end{tikzpicture}
 \end{document}
