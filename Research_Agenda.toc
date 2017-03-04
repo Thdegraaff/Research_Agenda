@@ -4,7 +4,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{Introduction}{1}{Doc-Start}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1}Background}{1}{section.1}
+\contentsline {section}{\numberline {1}Background}{2}{section.1}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2}Research gaps}{2}{section.2}
 \defcounter {refsection}{0}\relax 
@@ -16,5 +16,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.3}Regional sorting models}{2}{subsection.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{References}{2}{subsection.3.3}
+\contentsline {section}{\numberline {4}In conclusion}{2}{section.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{References}{2}{section.4}
 \contentsfinish 
