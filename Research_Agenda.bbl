@@ -20,6 +20,30 @@
  \newcommand{\noop}[1]{}
 }
 
+\entry{angrist2008mostly}{book}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Angrist}{A.}%
+     {Joshua~D}{J.~D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Pischke}{P.}%
+     {J{\"o}rn-Steffen}{J.-S.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Princeton university press}%
+  }
+  \strng{namehash}{AJDPJS1}
+  \strng{fullhash}{AJDPJS1}
+  \field{labelyear}{2008}
+  \field{sortinit}{A}
+  \field{title}{Mostly harmless econometrics: An empiricist's companion}
+  \field{year}{2008}
+\endentry
+
 \entry{arribas2015woow}{article}{}
   \name{author}{2}{}{%
     {{}%

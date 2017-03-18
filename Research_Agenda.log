@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.12.14)  3 MAR 2017 17:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.12.14)  17 MAR 2017 17:15
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1145,55 +1145,70 @@ LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <12> not available
 \tf@toc=\write5
 \openout5 = `Research_Agenda.toc'.
 
+
+<./figures/modelapproach.pdf, id=59, 281.31902pt x 91.30511pt>
+File: ./figures/modelapproach.pdf Graphic file (type pdf)
+
+<use ./figures/modelapproach.pdf>
+Package pdftex.def Info: ./figures/modelapproach.pdf used on input line 107.
+(pdftex.def)             Requested size: 245.2399pt x 79.5964pt.
+
+<./figures/dataapproach.pdf, id=60, 275.9369pt x 87.57217pt>
+File: ./figures/dataapproach.pdf Graphic file (type pdf)
+
+<use ./figures/dataapproach.pdf>
+Package pdftex.def Info: ./figures/dataapproach.pdf used on input line 111.
+(pdftex.def)             Requested size: 245.2399pt x 77.8334pt.
+
+Overfull \hbox (2.7995pt too wide) in paragraph at lines 117--118
+[]\OT1/ptm/m/n/10 (-20) Figure [][]1[][] is an adap-ta-tion from the one dis-pl
+ayed in []Breiman
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
  [1{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 
 ]
-<./figures/modelapproach.pdf, id=73, 281.31902pt x 91.30511pt>
-File: ./figures/modelapproach.pdf Graphic file (type pdf)
 
-<use ./figures/modelapproach.pdf>
-Package pdftex.def Info: ./figures/modelapproach.pdf used on input line 113.
-(pdftex.def)             Requested size: 245.2399pt x 79.5964pt.
+LaTeX Warning: Reference `gaps' on page 2 undefined on input line 147.
 
-<./figures/dataapproach.pdf, id=74, 275.9369pt x 87.57217pt>
-File: ./figures/dataapproach.pdf Graphic file (type pdf)
-
-<use ./figures/dataapproach.pdf>
-Package pdftex.def Info: ./figures/dataapproach.pdf used on input line 117.
-(pdftex.def)             Requested size: 245.2399pt x 77.8334pt.
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 133.
-
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 151.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 133.
-
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 151.
+ [2 <./figures/modelapproach.pdf> <./figures/dataapproach.pdf>]
 
 AED: lastpage setting LastPage
-[2] [3 <./figures/modelapproach.pdf> <./figures/dataapproach.pdf>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 172.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 172.
-
-(./Research_Agenda.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 172.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 172.
+[3]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 186.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 186.
+ (./Research_Agenda.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 186.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 186.
 Package rerunfilecheck Info: File `Research_Agenda.out' has not changed.
-(rerunfilecheck)             Checksum: 3F289E07B72FAC7596CB1895F5E64592;497.
+(rerunfilecheck)             Checksum: 17993FA3CFCAE1AAAC3985820CF04AE0;596.
+
+
+LaTeX Warning: There were undefined references.
+
 Package logreq Info: Writing requests to 'Research_Agenda.run.xml'.
 \openout1 = `Research_Agenda.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 16761 strings out of 493089
- 260812 string characters out of 6134841
- 510751 words of memory out of 5000000
- 19717 multiletter control sequences out of 15000+600000
- 72278 words of font info for 258 fonts, out of 8000000 for 9000
+ 16788 strings out of 493089
+ 261103 string characters out of 6134841
+ 509751 words of memory out of 5000000
+ 19725 multiletter control sequences out of 15000+600000
+ 74392 words of font info for 270 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 43i,11n,61p,1552b,1539s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 43i,12n,61p,1552b,1539s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/te
 xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/tex
@@ -1205,12 +1220,13 @@ ve/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive
 texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2015/texmf-d
 ist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2015/texmf-dist/fon
 ts/type1/urw/helvetic/uhvro8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/typ
-e1/urw/times/utmr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/tim
-es/utmri8a.pfb>
-Output written on Research_Agenda.pdf (3 pages, 131424 bytes).
+e1/urw/symbol/usyr.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/time
+s/utmb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmr8a.p
+fb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on Research_Agenda.pdf (3 pages, 148535 bytes).
 PDF statistics:
- 186 PDF objects out of 1000 (max. 8388607)
- 155 compressed objects within 2 object streams
- 27 named destinations out of 1000 (max. 500000)
+ 206 PDF objects out of 1000 (max. 8388607)
+ 173 compressed objects within 2 object streams
+ 29 named destinations out of 1000 (max. 500000)
  66131 words of extra memory for PDF output out of 74296 (max. 10000000)
 

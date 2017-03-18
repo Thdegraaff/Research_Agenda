@@ -2,21 +2,21 @@
 \defcounter {refsection}{0}\relax 
 \select@language {english}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Introduction}{1}{Doc-Start}
+\contentsline {section}{Introduction: two different cultures}{1}{Doc-Start}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1}Background}{2}{section.1}
+\contentsline {section}{\numberline {1}The road to current day's practice}{2}{section.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2}Research gaps}{2}{section.2}
+\contentsline {section}{\numberline {2}Regional economists turning the blind eye}{2}{section.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3}Research Agenda}{2}{section.3}
+\contentsline {section}{\numberline {3}Incorporating the data science culture}{3}{section.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1}Regional heterogeneity}{2}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.1}Regional heterogeneity}{3}{subsection.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2}Conditional robustness}{2}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.2}Conditional robustness}{3}{subsection.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3}Regional sorting models}{2}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.3}Regional sorting models}{3}{subsection.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4}In conclusion}{2}{section.4}
+\contentsline {section}{\numberline {4}In conclusion}{3}{section.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{References}{2}{section.4}
+\contentsline {section}{References}{3}{section.4}
 \contentsfinish 
