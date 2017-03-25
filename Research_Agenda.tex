@@ -99,7 +99,7 @@
 
 The above quote from Hal Varian is in one aspect wrong; nowadays, we do not call them statisticians but data scientists instead. Nevertheless, in the last two decades companies such as Google, Ebay, Whatsapp, Facebook, Booking.com and Airbnb, have not only witnessed enormous growth but also changed the socio-economic landscape. Indeed, with the increasing abundance of (spatial) data and computer capacity, the ability to gather, process, and visualize data has become highly important and therefore highly in demand as well. And all the models and tools these data scientists within these companies use are very much \textit{data driven} with often remarkable results. 
 
-In his controversial and path-breaking article, \citet{breiman2001statistical} describes two different cultures in statistical science. One governed by (probability) theory and by a data-driven approach. These two cultures carry over to the econometric and thus the empirical regional science domain as well, where the theory driven approach still very much dominates the landscape of regional science of today. 
+In his controversial and path-breaking article, \citet{breiman2001statistical} describes two different cultures in statistical science. One governed by probability theory and one governed by a more data-driven approach. These two cultures carry over to the econometric and thus the empirical regional economics domain as well, where the theory driven approach still very much dominates the landscape of the realm of regional economics of today. 
 
 \begin{figure*}[t!]\centering 
 	\subfloat[Modeling approach\label{modelapproach}]{%
@@ -114,11 +114,11 @@ In his controversial and path-breaking article, \citet{breiman2001statistical} d
 	\label{fig:twocultures}
 \end{figure*}
 
-Figure \ref{fig:twocultures} is an adaptation from the one displayed in \citet{breiman2001statistical} and describes the processes governing these two cultures. Figure \ref{modelapproach} is what I refer to as the modeling approach, where a statistical model is postulated and is central to this culture. This is the classical approach where statistical probability theory meets the empiricism of Karl Popper. Usually the model assumed is stated as a linear model and in its most simple form can be denoted as:
+Figure \ref{fig:twocultures} is an adaptation from the one displayed in \citet{breiman2001statistical} and describes the processes governing these two cultures. Figure (\ref{modelapproach}) is what I refer to as the modeling approach, where a statistical model is postulated and is central to this culture. This is the classical approach\footnote{Sometimes as well referred to as the frequentists' approach. However, this typically concerns the debate between classical statistics and Bayesian statistics, where the two approaches I refer to are more concerned with wider frameworks, of which the Bayesian approach is just one of the elements.} where statistical probability theory meets the empiricism of Karl Popper. Usually the model assumed is stated as a linear model and in its most simple form can be denoted as:
 \begin{equation}
 	\mathbf{y} = \mathbf{x}\beta + \epsilon, 
 \end{equation}
-where in (regional) economics language, $\mathbf{x}$ is referred to as the independent variable, $\mathbf{y}$ as the dependent variable and $\epsilon$ as a residual term. 
+where in (regional) economics language, $\mathbf{x}$ is referred to as the independent variable, $\mathbf{y}$ as the dependent variable and $\epsilon$ as a residual term. In this setup, using the data at hand, one typically constructs a statistical test to which extent the estimated coefficient (denoted with $\hat{\beta}$) deviates from a hypothesized value of the coefficient (denoted with $\beta_0$)---typically the hypothesis $H_0: \hat{\beta} = 0$ is used with as alternative hypothesis that $H_1: \hat{\beta} \neq 0$. However, that is always within the context of the \textit{postulated} model. So, when the null-hypothesis is rejected, it not necessarily means that the true $\beta$ is unequal to zero, it might also be caused by using the wrong \textit{model}!\footnote{One of the assumptions for regression techniques such as the one used here is actually no misspecification of the model, but---apart from some possible tests on the functional form \textit{within} a specific regression form---usually little attention is give on the validity of the model used. More importantly, within this framework the model itself is usually not tested \textit{a posteriori}.}
 
 Therefore it is striking that in economics in general, and in regional economics in specific, most of the tools employed are very much \textit{theory driven} instead of data driven. My (conservative) estimate would be that 90\% of all empirical work in regional economics revolves around postulating a (linear) model and testing whether (a) key determinant(s) are significantly different from a hypothesized value---usually zero.\footnote{In a seminal contribution, \cite{breiman2001statistical} states that deep into the 90s 98\% of the statisticians actually employed the theory driven paradigm and only 2\% a data driven paradigm. With the advent of the availability of internet connectivity, large (online) data sources, and faster computers the statistical realm changed dramatically. However, this has not permeated yet in the social sciences.} That is, \textit{within} the context of the model assumed.
 
@@ -130,13 +130,15 @@ The remaining part of this position paper is structured as follows. The next sec
 
 %------------------------------------------------
 
-\section{The road to current day's practice\label{Background}}
+\section{The road to current day's practice in regional economics\label{Background}}
 
-
+Why do we do it as we do it?
 
 %------------------------------------------------
 
 \section{Regional economists turning the blind eye\label{practices}}
+
+\subsection{The blind eye in research}
 
 Regions are conceptually different than cities, as they contain urban, suburban and rural areas simultaneously. Whilst smaller regions can still be seen as the total influence radius of metropolitan areas---such as measured by the concept of local labor markets and the NUTS-2 regions in Europe---, larger regions can typically contain a multiple of cities in combinations with their various hinterlands --such as the Dutch Randstad, the Belgian Flemish Diamond, and the German Ruhr areas. 
 
@@ -155,24 +157,31 @@ To do so, I first review the previous literature in section \ref{Background}. Th
 	\item social \& humn capital
 \end{itemize}
 
+\subsection{The blind eye in education}
+
 %------------------------------------------------
 
 \section{Incorporating the data science culture\label{agenda}}
 
+What do we need?
 
-\subsection{Regional heterogeneity}
+\subsection{For research}
+
+\subsubsection{Regional heterogeneity}
 
 \citep{Thissen2016, Graaff2012, DeGraaff2012}
 
-\subsection{Conditional robustness}
+\subsubsection{Conditional robustness}
 
 In regional science in general and in regional economics in specific, remarkably little attention has been given to reproducibility and robustness of results \citep[with some exceptions as, amongst some others, by][]{Rey:2014cl,arribas2015woow, Arribas2016}.
 
-\subsection{Regional sorting models}
+\subsubsection{Regional sorting models}
 
 As in \citet{Bayer2004, Bayer2007a} and recently by \citet{Wang2016} and \citet{Bernasco2016}.
 
-\section{In conclusion}
+\subsection{For education}
+
+\section{From here to eternity}
 
 %----------------------------------------------------------------------------------------
 %	REFERENCE LIST
