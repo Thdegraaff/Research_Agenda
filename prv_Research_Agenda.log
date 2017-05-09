@@ -1,13 +1,19 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.5.6)  9 MAY 2017 20:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.5.6)  9 MAY 2017 20:09
 entering extended mode
  restricted \write18 enabled.
- file:line:error style messages enabled.
  %&-line parsing enabled.
-**Research_Agenda.tex
-(./Research_Agenda.tex
+**&pdflatex prv_Research_Agenda.ini \nonstopmode\nofiles\PassOptionsToPackage{a
+ctive,tightpage,auctex}{preview}\AtBeginDocument{\ifx\ifPreview\undefined\Requi
+rePackage[displaymath,floats,graphics,textmath,sections,footnotes]{preview}[200
+4/11/05]\fi} \input Research_Agenda.tex
+(./prv_Research_Agenda.ini
 LaTeX2e <2016/03/31>
 Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
-(./SelfArx.cls
+(/usr/local/texlive/2016/texmf-dist/tex/latex/carlisle/mylatex.ltx)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/tools/.tex File ignored))
+No auxiliary output files.
+
+(./Research_Agenda.tex (./SelfArx.cls
 Document Class: SelfArx 25/01/2012, v1.0
 (/usr/local/texlive/2016/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
@@ -997,12 +1003,16 @@ Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/auxhook.sty
 Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+
+
+Package auxhook Warning: Cannot patch \document,
+(auxhook)                using \AtBeginDocument instead.
+
 )
 \@linkdim=\dimen155
 \Hy@linkcounter=\count310
 \Hy@pagecounter=\count311
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/pd1enc.def
+ (/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2016/05/05 v6.83n Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
@@ -1068,320 +1078,185 @@ Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 
 \@quotelevel=\count320
 \@quotereset=\count321
-(./Research_Agenda.aux)
-\openout1 = `Research_Agenda.aux'.
-
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 85.
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ot1ptm.fd
-File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
-)
-(/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count322
-\scratchdimen=\dimen159
-\scratchbox=\box30
-\nofMPsegments=\count323
-\nofMParguments=\count324
-\everyMPshowfont=\toks26
-\MPscratchCnt=\count325
-\MPscratchDim=\dimen160
-\MPnumerator=\count326
-\makeMPintoPDFobject=\count327
-\everyMPtoPDFconversion=\toks27
-) (/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
-Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/grfext.sty
-Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
-)
-Package grfext Info: Graphics extension search list:
-(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
-G,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 456.
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
-e
-))
-*geometry* driver: auto-detecting
-*geometry* detected driver: pdftex
-*geometry* verbose mode - [ preamble ] result:
-* driver: pdftex
-* paper: letterpaper
-* layout: <same size as paper>
-* layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: 
-* h-part:(L,W,R)=(56.9055pt, 500.484pt, 56.9055pt)
-* v-part:(T,H,B)=(64.01869pt, 666.9326pt, 64.01869pt)
-* \paperwidth=614.295pt
-* \paperheight=794.96999pt
-* \textwidth=500.484pt
-* \textheight=666.9326pt
-* \oddsidemargin=-15.36449pt
-* \evensidemargin=-15.36449pt
-* \topmargin=-44.2513pt
-* \headheight=11.0pt
-* \headsep=25.0pt
-* \topskip=10.0pt
-* \footskip=30.0pt
-* \marginparwidth=65.0pt
-* \marginparsep=11.0pt
-* \columnsep=15.6491pt
-* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
-* \hoffset=0.0pt
-* \voffset=0.0pt
-* \mag=1000
-* \@twocolumnfalse
-* \@twosidefalse
-* \@mparswitchfalse
-* \@reversemarginfalse
-* (1in=72.27pt=25.4mm, 1cm=28.453pt)
-
-Package caption Info: Begin \AtBeginDocument code.
-Package caption Info: subfig package v1.3 is loaded.
-Package caption Info: hyperref package is loaded.
-Package caption Info: End \AtBeginDocument code.
-Package lastpage Info: Please have a look at the pageslts package at
-(lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 85.
-LaTeX Info: Redefining \microtypecontext on input line 85.
-Package microtype Info: Generating PDF output.
-Package microtype Info: Character protrusion enabled (level 2).
-Package microtype Info: Using default protrusion set `alltext'.
-Package microtype Info: Automatic font expansion enabled (level 2),
-(microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
-Package microtype Info: Using default expansion set `basictext'.
-Package microtype Info: No adjustment of tracking.
-Package microtype Info: No adjustment of interword spacing.
-Package microtype Info: No adjustment of character kerning.
-(/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/mt-ptm.cfg
-File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
-)
-Package biblatex Info: Input encoding 'utf8' detected.
-Package biblatex Info: Data encoding 'utf8' specified.
-(biblatex)             No need to reencode data.
-Package biblatex Info: Input encoding 'utf8' specified.
-Package biblatex Info: Data encoding 'utf8' specified.
-(biblatex)             No need to reencode data.
-\openout4 = `Research_Agenda-blx.bib'.
-
-Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'Research_Agenda.bbl' found.
-
-(./Research_Agenda.bbl)
-Package biblatex Info: Reference section=0 on input line 85.
-Package biblatex Info: Reference segment=0 on input line 85.
-\AtBeginShipoutBox=\box31
-Package hyperref Info: Link coloring ON on input line 85.
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/nameref.sty
-Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
-
-(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
-Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
-)
-\c@section@level=\count328
-)
-LaTeX Info: Redefining \ref on input line 85.
-LaTeX Info: Redefining \pageref on input line 85.
-LaTeX Info: Redefining \nameref on input line 85.
-
-(./Research_Agenda.out) (./Research_Agenda.out)
-\@outlinefile=\write5
-\openout5 = `Research_Agenda.out'.
-
-LaTeX Font Info:    Try loading font information for OT1+phv on input line 89.
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ot1phv.fd
-File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
-)
-Package microtype Info: Loading generic settings for font family
-(microtype)             `phv' (encoding: OT1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
-LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <9> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 89.
-LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <10> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 89.
-LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <20> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 89.
-LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <14> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 89.
-LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 89
+LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 85
 .
-
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
-Package microtype Info: Loading generic settings for font family
-(microtype)             `ztmcm' (encoding: OT1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
-LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 89
+LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 85
 .
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 89
+LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 85
 .
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 89
+LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 85
 .
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 89.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 89.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 89.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 85.
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/mt-msa.cfg
-File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
-(/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/mt-msb.cfg
-File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
-)
-LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <10> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 89.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 89.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 85.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 89.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 85.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 89.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 89.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 89.
-LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <8> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 89.
-LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <8> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 89.
-LaTeX Font Info:    Try loading font information for U+mvs on input line 89.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 85.
+LaTeX Font Info:    Try loading font information for U+msa on input line 85.
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/marvosym/umvs.fd)
-(/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/mt-mvs.cfg
-File: mt-mvs.cfg 2006/07/05 v1.1 microtype config. file: Marvosym Euro (RS)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <12> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 89.
+LaTeX Font Info:    Try loading font information for U+msb on input line 85.
 
-(./Research_Agenda.toc
-LaTeX Font Info:    Try loading font information for OMS+phv on input line 21.
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/omsphv.fd
-File: omsphv.fd 
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Font shape `OMS/phv/m/n' in size <8> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 21.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 85.
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 85.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ot1pcr.fd
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
-\tf@toc=\write6
-\openout6 = `Research_Agenda.toc'.
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 85.
 
-
-<./figures/modelapproach.pdf, id=83, 281.31902pt x 91.30511pt>
-File: ./figures/modelapproach.pdf Graphic file (type pdf)
-
-<use ./figures/modelapproach.pdf>
-Package pdftex.def Info: ./figures/modelapproach.pdf used on input line 107.
-(pdftex.def)             Requested size: 245.2399pt x 79.5964pt.
-
-<./figures/dataapproach.pdf, id=84, 275.9369pt x 87.57217pt>
-File: ./figures/dataapproach.pdf Graphic file (type pdf)
-
-<use ./figures/dataapproach.pdf>
-Package pdftex.def Info: ./figures/dataapproach.pdf used on input line 111.
-(pdftex.def)             Requested size: 245.2399pt x 77.8334pt.
-
-Overfull \hbox (3.9995pt too wide) in paragraph at lines 117--118
-[]\OT1/ptm/m/n/10 (-20) Figure [][]1[][] is an adap-ta-tion from the one dis-pl
-ayed in []Breiman,
- []
-
-
-Underfull \vbox (badness 2689) has occurred while \output is active []
-
- [1{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
-
-
-] [2 <./figures/modelapproach.pdf> <./figures/dataapproach.pdf>]
-
-LaTeX Warning: Reference `gaps' on page 3 undefined on input line 149.
-
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 153.
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/omsptm.fd
-File: omsptm.fd 
-)
-LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 153.
-
-
-AED: lastpage setting LastPage
-[3]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 195.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 195.
- (./Research_Agenda.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 195.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 195.
-Package rerunfilecheck Info: File `Research_Agenda.out' has not changed.
-(rerunfilecheck)             Checksum: AF3C976030CDBC953DD7416962061813;932.
-
-
-LaTeX Warning: There were undefined references.
-
-Package logreq Info: Writing requests to 'Research_Agenda.run.xml'.
-\openout1 = `Research_Agenda.run.xml'.
-
- ) 
-Here is how much of TeX's memory you used:
- 18163 strings out of 493014
- 289593 string characters out of 6133352
- 605419 words of memory out of 5000000
- 21090 multiletter control sequences out of 15000+600000
- 76659 words of font info for 293 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 43i,11n,62p,1552b,1576s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
-exlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/te
-xlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/tex
-live/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texli
-ve/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/
-2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2
-016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/201
-6/texmf-dist/fonts/type1/public/marvosym/marvosym.pfb></usr/local/texlive/2016/
-texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2016/texmf-d
-ist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2016/texmf-dist/fon
-ts/type1/urw/helvetic/uhvro8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/typ
-e1/urw/symbol/usyr.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/time
-s/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.p
-fb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Research_Agenda.pdf (3 pages, 151728 bytes).
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ot1phv.fd
+File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
+) )
+Beginning to dump on file prv_Research_Agenda.fmt
+ (preloaded format=prv_Research_Agenda 2017.5.9)
+23690 strings of total length 383904
+593401 memory locations dumped; current usage is 586&551527
+20013 multiletter control sequences
+\font\nullfont=nullfont
+\font\OMX/cmex/m/n/10=cmex10
+\font\tenln=line10
+\font\tenlnw=linew10
+\font\tencirc=lcircle10
+\font\tencircw=lcirclew10
+\font\OT1/cmr/m/n/5=cmr5
+\font\OT1/cmr/m/n/7=cmr7
+\font\OT1/cmr/m/n/10=cmr10
+\font\OML/cmm/m/it/5=cmmi5
+\font\OML/cmm/m/it/7=cmmi7
+\font\OML/cmm/m/it/10=cmmi10
+\font\OMS/cmsy/m/n/5=cmsy5
+\font\OMS/cmsy/m/n/7=cmsy7
+\font\OMS/cmsy/m/n/10=cmsy10
+\font\OT1/ztmcm/m/n/10=zptmcm7t
+\font\OT1/ztmcm/m/n/7.4=zptmcm7t at 7.4pt
+\font\OT1/ztmcm/m/n/6=zptmcm7t at 6.0pt
+\font\OML/ztmcm/m/it/10=zptmcm7m
+\font\OML/ztmcm/m/it/7.4=zptmcm7m at 7.4pt
+\font\OML/ztmcm/m/it/6=zptmcm7m at 6.0pt
+\font\OMS/ztmcm/m/n/10=zptmcm7y
+\font\OMS/ztmcm/m/n/7.4=zptmcm7y at 7.4pt
+\font\OMS/ztmcm/m/n/6=zptmcm7y at 6.0pt
+\font\OMX/ztmcm/m/n/10=zptmcm7v
+\font\OMX/ztmcm/m/n/7.4=zptmcm7v at 7.4pt
+\font\OMX/ztmcm/m/n/6=zptmcm7v at 6.0pt
+\font\OT1/ptm/b/n/10=ptmb7t
+\font\OT1/ptm/b/n/7.4=ptmb7t at 7.4pt
+\font\OT1/ptm/b/n/6=ptmb7t at 6.0pt
+\font\OT1/ptm/m/it/10=ptmri7t
+\font\OT1/ptm/m/it/7.4=ptmri7t at 7.4pt
+\font\OT1/ptm/m/it/6=ptmri7t at 6.0pt
+\font\U/msa/m/n/10=msam10
+\font\U/msa/m/n/7.4=msam7 at 7.4pt
+\font\U/msa/m/n/6=msam7 at 6.0pt
+\font\U/msb/m/n/10=msbm10
+\font\U/msb/m/n/7.4=msbm7 at 7.4pt
+\font\U/msb/m/n/6=msbm7 at 6.0pt
+\font\OT1/ptm/m/n/10=ptmr7t
+\font\OT1/ptm/m/n/12=ptmr7t at 12.0pt
+\font\OT1/ptm/m/n/8=ptmr7t at 8.0pt
+\font\OT1/ptm/b/it/10=ptmbi7t
+\font\OT1/pcr/m/n/10=pcrr7t
+\font\OT1/phv/m/n/10=phvr7t
+15885 words of font info for 44 preloaded fonts
+1141 hyphenation exceptions
+Hyphenation trie of length 337201 has 8432 ops out of 35111
+  143 for language 82
+  110 for language 81
+  138 for language 80
+  7 for language 79
+  12 for language 78
+  52 for language 77
+  127 for language 76
+  183 for language 75
+  71 for language 74
+  248 for language 73
+  62 for language 72
+  66 for language 71
+  119 for language 69
+  43 for language 68
+  58 for language 67
+  7 for language 66
+  194 for language 65
+  37 for language 64
+  23 for language 63
+  852 for language 62
+  852 for language 61
+  21 for language 60
+  38 for language 59
+  77 for language 58
+  58 for language 57
+  141 for language 56
+  105 for language 55
+  25 for language 54
+  27 for language 53
+  37 for language 52
+  229 for language 51
+  38 for language 50
+  21 for language 49
+  147 for language 37
+  185 for language 36
+  50 for language 35
+  18 for language 34
+  389 for language 33
+  235 for language 32
+  207 for language 31
+  39 for language 30
+  76 for language 29
+  40 for language 28
+  89 for language 27
+  31 for language 26
+  113 for language 23
+  145 for language 22
+  377 for language 21
+  224 for language 20
+  265 for language 19
+  60 for language 18
+  63 for language 17
+  19 for language 16
+  14 for language 15
+  2 for language 13
+  21 for language 12
+  12 for language 11
+  5 for language 10
+  148 for language 7
+  97 for language 6
+  137 for language 5
+  409 for language 4
+  411 for language 3
+  2 for language 1
+  181 for language 0
+0 words of pdfTeX memory
+0 indirect objects
+No pages of output.
 PDF statistics:
- 234 PDF objects out of 1000 (max. 8388607)
- 197 compressed objects within 2 object streams
- 35 named destinations out of 1000 (max. 500000)
- 66163 words of extra memory for PDF output out of 74296 (max. 10000000)
+ 0 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
