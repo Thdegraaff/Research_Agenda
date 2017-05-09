@@ -1,7 +1,7 @@
 # Fdb version 3
-["bibtex Research_Agenda"] 1494353292 "Research_Agenda.aux" "Research_Agenda.bbl" "Research_Agenda" 1494353703
+["bibtex Research_Agenda"] 1494355085 "Research_Agenda.aux" "Research_Agenda.bbl" "Research_Agenda" 1494355085
   "/usr/local/texlive/2016/texmf-dist/bibtex/bst/biblatex/biblatex.bst" 1463430410 63005 2d5c74caa08218e0f9e8bc5ec9474f08 ""
-  "Research_Agenda-blx.bib" 1494353699 306 d75b74a329464336412c4408863b442d ""
+  "Research_Agenda-blx.bib" 1494355057 481 baee3edafa4dcb0e4cdb5ad78a681ea0 ""
   "Research_Agenda.aux" 1494353701 8103 11a6ed6f493fa1f70acfcb1c6aa871c5 ""
   "Research_Agenda.bcf" 0 -1 0 ""
   "ThomasReferenties.bib" 1489679635 45368 3c7d5c5afbe2829e4b9149dcfc4dfcd8 ""
@@ -174,10 +174,10 @@
   "figures/dataapproach.pdf" 1488552276 22720 e260f524ebd3f16705523155888135b3 ""
   "figures/modelapproach.pdf" 1490424087 37405 f26cded50926429951e8e73e7645ffd1 ""
   (generated)
-  "Research_Agenda.pdf"
-  "Research_Agenda-blx.bib"
-  "Research_Agenda.out"
-  "Research_Agenda.log"
-  "Research_Agenda.aux"
   "Research_Agenda.run.xml"
+  "Research_Agenda.log"
+  "Research_Agenda-blx.bib"
+  "Research_Agenda.pdf"
   "Research_Agenda.toc"
+  "Research_Agenda.aux"
+  "Research_Agenda.out"
