@@ -1,5 +1,9 @@
 % $ biblatex auxiliary file $
+<<<<<<< HEAD
 % $ biblatex bbl format version 2.7 $
+=======
+% $ biblatex bbl format version 2.8 $
+>>>>>>> origin/master
 % Do not modify the above lines!
 %
 % This is an auxiliary file used by the 'biblatex' package.
@@ -25,6 +29,7 @@
     \name{author}{2}{}{%
       {{hash=AJD}{%
          family={Angrist},
+<<<<<<< HEAD
          family_i={A\bibinitperiod},
          given={Joshua\bibnamedelima D},
          given_i={J\bibinitperiod\bibinitdelim D\bibinitperiod},
@@ -34,6 +39,17 @@
          family_i={P\bibinitperiod},
          given={J{\"o}rn-Steffen},
          given_i={J\bibinitperiod-S\bibinitperiod},
+=======
+         familyi={A\bibinitperiod},
+         given={Joshua\bibnamedelima D},
+         giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=PJS}{%
+         family={Pischke},
+         familyi={P\bibinitperiod},
+         given={J{\"o}rn-Steffen},
+         giveni={J\bibinitperiod-S\bibinitperiod},
+>>>>>>> origin/master
       }}%
     }
     \list{publisher}{1}{%
@@ -54,6 +70,7 @@
     \name{author}{2}{}{%
       {{hash=ABD}{%
          family={Arribas-Bel},
+<<<<<<< HEAD
          family_i={A\bibinitperiod-B\bibinitperiod},
          given={Daniel},
          given_i={D\bibinitperiod},
@@ -65,6 +82,19 @@
          family_i={G\bibinitperiod},
          given={Thomas},
          given_i={T\bibinitperiod},
+=======
+         familyi={A\bibinitperiod-B\bibinitperiod},
+         given={Daniel},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=dGT}{%
+         prefix={de},
+         prefixi={d\bibinitperiod},
+         family={Graaff},
+         familyi={G\bibinitperiod},
+         given={Thomas},
+         giveni={T\bibinitperiod},
+>>>>>>> origin/master
       }}%
     }
     \strng{namehash}{ABDdGT1}
@@ -86,6 +116,7 @@
     \name{author}{3}{}{%
       {{hash=ABD}{%
          family={Arribas-Bel},
+<<<<<<< HEAD
          family_i={A\bibinitperiod-B\bibinitperiod},
          given={Daniel},
          given_i={D\bibinitperiod},
@@ -103,11 +134,31 @@
          family_i={R\bibinitperiod},
          given={Sergio},
          given_i={S\bibinitperiod},
+=======
+         familyi={A\bibinitperiod-B\bibinitperiod},
+         given={Daniel},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=dGT}{%
+         prefix={de},
+         prefixi={d\bibinitperiod},
+         family={Graaff},
+         familyi={G\bibinitperiod},
+         given={Thomas},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=RS}{%
+         family={Rey},
+         familyi={R\bibinitperiod},
+         given={Sergio},
+         giveni={S\bibinitperiod},
+>>>>>>> origin/master
       }}%
     }
     \name{editor}{2}{}{%
       {{hash=JR}{%
          family={Jackson},
+<<<<<<< HEAD
          family_i={J\bibinitperiod},
          given={Randall},
          given_i={R\bibinitperiod},
@@ -117,6 +168,17 @@
          family_i={S\bibinitperiod},
          given={Peter},
          given_i={P\bibinitperiod},
+=======
+         familyi={J\bibinitperiod},
+         given={Randall},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=SP}{%
+         family={Schaeffer},
+         familyi={S\bibinitperiod},
+         given={Peter},
+         giveni={P\bibinitperiod},
+>>>>>>> origin/master
       }}%
     }
     \list{publisher}{1}{%
@@ -142,6 +204,7 @@
     \name{author}{2}{}{%
       {{hash=BP}{%
          family={Bayer},
+<<<<<<< HEAD
          family_i={B\bibinitperiod},
          given={Patrick},
          given_i={P\bibinitperiod},
@@ -151,6 +214,17 @@
          family_i={T\bibinitperiod},
          given={Christopher},
          given_i={C\bibinitperiod},
+=======
+         familyi={B\bibinitperiod},
+         given={Patrick},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=TC}{%
+         family={Timmins},
+         familyi={T\bibinitperiod},
+         given={Christopher},
+         giveni={C\bibinitperiod},
+>>>>>>> origin/master
       }}%
     }
     \list{publisher}{1}{%
@@ -175,6 +249,7 @@
     \name{author}{3}{}{%
       {{hash=BP}{%
          family={Bayer},
+<<<<<<< HEAD
          family_i={B\bibinitperiod},
          given={Patrick},
          given_i={P\bibinitperiod},
@@ -190,6 +265,23 @@
          family_i={R\bibinitperiod},
          given={Kim},
          given_i={K\bibinitperiod},
+=======
+         familyi={B\bibinitperiod},
+         given={Patrick},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=MR}{%
+         family={McMillan},
+         familyi={M\bibinitperiod},
+         given={Robert},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=RK}{%
+         family={Rueben},
+         familyi={R\bibinitperiod},
+         given={Kim},
+         giveni={K\bibinitperiod},
+>>>>>>> origin/master
       }}%
     }
     \strng{namehash}{BP+1}
@@ -208,6 +300,7 @@
     \name{author}{4}{}{%
       {{hash=BW}{%
          family={Bernasco},
+<<<<<<< HEAD
          family_i={B\bibinitperiod},
          given={Wim},
          given_i={W\bibinitperiod},
@@ -231,6 +324,31 @@
          family_i={S\bibinitperiod},
          given={Wouter},
          given_i={W\bibinitperiod},
+=======
+         familyi={B\bibinitperiod},
+         given={Wim},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=dGT}{%
+         prefix={de},
+         prefixi={d\bibinitperiod},
+         family={Graaff},
+         familyi={G\bibinitperiod},
+         given={Thomas},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=RJ}{%
+         family={Rouwendal},
+         familyi={R\bibinitperiod},
+         given={Jan},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=SW}{%
+         family={Steenbeek},
+         familyi={S\bibinitperiod},
+         given={Wouter},
+         giveni={W\bibinitperiod},
+>>>>>>> origin/master
       }}%
     }
     \list{publisher}{1}{%
@@ -253,9 +371,15 @@
     \name{author}{1}{}{%
       {{hash=BL}{%
          family={Breiman},
+<<<<<<< HEAD
          family_i={B\bibinitperiod},
          given={Leo},
          given_i={L\bibinitperiod},
+=======
+         familyi={B\bibinitperiod},
+         given={Leo},
+         giveni={L\bibinitperiod},
+>>>>>>> origin/master
       }}%
     }
     \strng{namehash}{BL1}
@@ -277,6 +401,7 @@
     \name{author}{3}{}{%
       {{hash=dGT}{%
          prefix={de},
+<<<<<<< HEAD
          prefix_i={d\bibinitperiod},
          family={Graaff},
          family_i={G\bibinitperiod},
@@ -296,6 +421,27 @@
          family_i={F\bibinitperiod},
          given={Raymond\bibnamedelima J.G.M.},
          given_i={R\bibinitperiod\bibinitdelim J\bibinitperiod},
+=======
+         prefixi={d\bibinitperiod},
+         family={Graaff},
+         familyi={G\bibinitperiod},
+         given={Thomas},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=vOFG}{%
+         prefix={van},
+         prefixi={v\bibinitperiod},
+         family={Oort},
+         familyi={O\bibinitperiod},
+         given={Frank\bibnamedelima G.},
+         giveni={F\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+      {{hash=FRJ}{%
+         family={Florax},
+         familyi={F\bibinitperiod},
+         given={Raymond\bibnamedelima J.G.M.},
+         giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod},
+>>>>>>> origin/master
       }}%
     }
     \strng{namehash}{dGT+1}
@@ -320,6 +466,7 @@
     \name{author}{3}{}{%
       {{hash=dGT}{%
          prefix={de},
+<<<<<<< HEAD
          prefix_i={d\bibinitperiod},
          family={Graaff},
          family_i={G\bibinitperiod},
@@ -339,6 +486,27 @@
          family_i={F\bibinitperiod},
          given={Raymond\bibnamedelima J.G.M.},
          given_i={R\bibinitperiod\bibinitdelim J\bibinitperiod},
+=======
+         prefixi={d\bibinitperiod},
+         family={Graaff},
+         familyi={G\bibinitperiod},
+         given={Thomas},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=vOFG}{%
+         prefix={van},
+         prefixi={v\bibinitperiod},
+         family={Oort},
+         familyi={O\bibinitperiod},
+         given={Frank\bibnamedelima G.},
+         giveni={F\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+      {{hash=FRJ}{%
+         family={Florax},
+         familyi={F\bibinitperiod},
+         given={Raymond\bibnamedelima J.G.M.},
+         giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod},
+>>>>>>> origin/master
       }}%
     }
     \strng{namehash}{dGT+1}
@@ -361,9 +529,15 @@
     \name{author}{1}{}{%
       {{hash=RSJ}{%
          family={Rey},
+<<<<<<< HEAD
          family_i={R\bibinitperiod},
          given={Sergio\bibnamedelima J.},
          given_i={S\bibinitperiod\bibinitdelim J\bibinitperiod},
+=======
+         familyi={R\bibinitperiod},
+         given={Sergio\bibnamedelima J.},
+         giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod},
+>>>>>>> origin/master
       }}%
     }
     \keyw{open science,regional science}
@@ -389,6 +563,7 @@
     \name{author}{3}{}{%
       {{hash=TM}{%
          family={Thissen},
+<<<<<<< HEAD
          family_i={T\bibinitperiod},
          given={Mark},
          given_i={M\bibinitperiod},
@@ -408,6 +583,27 @@
          family_i={O\bibinitperiod},
          given={Frank\bibnamedelima G.},
          given_i={F\bibinitperiod\bibinitdelim G\bibinitperiod},
+=======
+         familyi={T\bibinitperiod},
+         given={Mark},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=dGT}{%
+         prefix={de},
+         prefixi={d\bibinitperiod},
+         family={Graaff},
+         familyi={G\bibinitperiod},
+         given={Thomas},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=vOFG}{%
+         prefix={van},
+         prefixi={v\bibinitperiod},
+         family={Oort},
+         familyi={O\bibinitperiod},
+         given={Frank\bibnamedelima G.},
+         giveni={F\bibinitperiod\bibinitdelim G\bibinitperiod},
+>>>>>>> origin/master
       }}%
     }
     \list{publisher}{1}{%
@@ -434,6 +630,7 @@
     \name{author}{3}{}{%
       {{hash=ZW}{%
          family={Zhiling},
+<<<<<<< HEAD
          family_i={Z\bibinitperiod},
          given={Wang},
          given_i={W\bibinitperiod},
@@ -451,6 +648,25 @@
          family_i={N\bibinitperiod},
          given={Peter},
          given_i={P\bibinitperiod},
+=======
+         familyi={Z\bibinitperiod},
+         given={Wang},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=dGT}{%
+         prefix={de},
+         prefixi={d\bibinitperiod},
+         family={Graaff},
+         familyi={G\bibinitperiod},
+         given={Thomas},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=NP}{%
+         family={Nijkamp},
+         familyi={N\bibinitperiod},
+         given={Peter},
+         giveni={P\bibinitperiod},
+>>>>>>> origin/master
       }}%
     }
     \strng{namehash}{ZW+1}
