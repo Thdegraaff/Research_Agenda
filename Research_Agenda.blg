@@ -17,53 +17,48 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: Research_Agenda-blx.bib
-I was expecting an "="---line 14 of file Research_Agenda-blx.bib
- : <<<<<<< 
- :         HEAD
-I'm skipping whatever remains of this entry
 Database file #2: ThomasReferenties.bib
 Biblatex version: 3.3
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 You've used 13 entries,
             6256 wiz_defined-function locations,
-            1267 strings with 10833 characters,
-and the built_in function-call counts, 72981 in all, are:
-= -- 5120
-> -- 1458
-< -- 347
-+ -- 1981
-- -- 572
-* -- 5366
-:= -- 7602
+            1268 strings with 10871 characters,
+and the built_in function-call counts, 75164 in all, are:
+= -- 5228
+> -- 1299
+< -- 371
++ -- 1912
+- -- 454
+* -- 5618
+:= -- 7746
 add.period$ -- 0
 call.type$ -- 13
-change.case$ -- 164
-chr.to.int$ -- 0
+change.case$ -- 238
+chr.to.int$ -- 30
 cite$ -- 24
-duplicate$ -- 7993
-empty$ -- 6548
-format.name$ -- 911
-if$ -- 14892
+duplicate$ -- 8383
+empty$ -- 7025
+format.name$ -- 903
+if$ -- 15306
 int.to.chr$ -- 0
-int.to.str$ -- 33
+int.to.str$ -- 34
 missing$ -- 0
-newline$ -- 433
-num.names$ -- 556
-pop$ -- 4339
+newline$ -- 471
+num.names$ -- 592
+pop$ -- 4306
 preamble$ -- 2
-purify$ -- 256
+purify$ -- 273
 quote$ -- 0
-skip$ -- 2091
+skip$ -- 2147
 stack$ -- 0
-substring$ -- 8357
-swap$ -- 1831
-text.length$ -- 305
-text.prefix$ -- 0
+substring$ -- 8507
+swap$ -- 2046
+text.length$ -- 330
+text.prefix$ -- 12
 top$ -- 1
 type$ -- 430
 warning$ -- 0
-while$ -- 936
+while$ -- 1005
 width$ -- 0
-write$ -- 420
-(There was 1 error message)
+write$ -- 458

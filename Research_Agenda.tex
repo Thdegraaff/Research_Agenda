@@ -97,9 +97,22 @@
 
 \epigraph{The sexiest job in the next 10 years will be statisticians.}{Hal Varian, 2009}
 
-The above quote from Hal Varian is in one aspect wrong; nowadays, we do not call them statisticians but data scientists instead. Nevertheless, in the last two decades companies such as Google, Ebay, Whatsapp, Facebook, Booking.com and Airbnb, have not only witnessed enormous growth but also changed the socio-economic landscape. Indeed, with the increasing abundance of (spatial) data and computer capacity, the ability to gather, process, and visualize data has become highly important and therefore highly in demand as well. And all the models and tools these data scientists within these companies use are very much \textit{data driven} with often remarkable results. 
+The above quote from Hal Varian is in one aspect wrong; nowadays, we do not call
+them statisticians but data scientists instead. Nevertheless, in the last two
+decades companies such as Google, Ebay, Whatsapp, Facebook, Booking.com and
+Airbnb, have not only witnessed enormous growth but to a large extent also changed the socio-economic landscape. Indeed, with the increasing abundance of (spatial) data and computer capacity, the ability to gather, process, and visualize data has become highly important and therefore highly in demand as well. And all the models and tools these data scientists within these companies use are very much \textit{data driven} with often remarkable results. 
 
-In his controversial and path-breaking article, \citet{breiman2001statistical} describes two different cultures in statistical science. One governed by probability theory and one governed by a more data-driven approach. These two cultures carry over to the econometric and thus the empirical regional economics domain as well, where the theory driven approach still very much dominates the landscape of the realm of regional economics of today. 
+In his controversial and path-breaking article, \citet{breiman2001statistical}
+presented two different cultures in statistical science. One governed by
+probability theory and one governed by a more data-driven and algorithmic
+approach. These two cultures carry over to the econometric and ultimately the
+empirical regional economics domain\footnote{I use a wide definition for the regional economics
+ domain, which consists of most aspects of regional science in general but for
+ which the theoretical approach is always from an economic perspective. Topics
+ such as, e.g, interregional migration, trade, transport flows and commuting on
+ the one side and regional performance, clustering, population growth and
+ specialisation on the other side fall all under this, admittedly, rather wide umbrella.} as well, where---commonly for all social
+science---the theory driven approach still very much dominates the landscape of the realm of regional economics of today. 
 
 \begin{figure*}[t!]\centering 
 	\subfloat[Modeling approach\label{modelapproach}]{%
@@ -118,15 +131,37 @@ Figure \ref{fig:twocultures} is an adaptation from the one displayed in \citet{b
 \begin{equation}
 	\mathbf{y} = \mathbf{x}\beta + \epsilon, 
 \end{equation}
-where in (regional) economics language, $\mathbf{x}$ is referred to as the independent variable, $\mathbf{y}$ as the dependent variable and $\epsilon$ as a residual term. In this setup, using the data at hand, one typically constructs a statistical test to which extent the estimated coefficient (denoted with $\hat{\beta}$) deviates from a hypothesized value of the coefficient (denoted with $\beta_0$)---typically the hypothesis $H_0: \hat{\beta} = 0$ is used with as alternative hypothesis that $H_1: \hat{\beta} \neq 0$. However, that is always within the context of the \textit{postulated} model. So, when the null-hypothesis is rejected, it not necessarily means that the true $\beta$ is unequal to zero, it might also be caused by using the wrong \textit{model}!\footnote{One of the assumptions for regression techniques such as the one used here is actually no misspecification of the model, but---apart from some possible tests on the functional form \textit{within} a specific regression form---usually little attention is give on the validity of the model used. More importantly, within this framework the model itself is usually not tested \textit{a posteriori}.}
+where in (regional) economics language, $\mathbf{x}$ is referred to as the
+independent variable, $\mathbf{y}$ as the dependent variable and $\epsilon$ as a
+residual term. In this setup, using the data at hand, one typically constructs a
+statistical test to which extent the estimated coefficient (denoted with
+$\hat{\beta}$) deviates from a hypothesized value of the coefficient (denoted
+with $\beta_0$)---typically the hypothesis $H_0: \hat{\beta} = 0$ is used with
+as alternative hypothesis that $H_1: \hat{\beta} \neq 0$. However, that is
+always within the context of the \textit{postulated} model. So, when the
+null-hypothesis is rejected, it not necessarily means that the true $\beta$ is
+unequal to zero, it might also be caused by errors in measuring $\bf{x}$ or even using the wrong \textit{model}!\footnote{One of the assumptions for regression techniques such as the one used here is actually no misspecification of the model, but---apart from some possible tests on the functional form \textit{within} a specific regression form---usually little attention is give on the validity of the model used. More importantly, within this framework the model itself is usually not tested \textit{a posteriori}.}
 
 Therefore it is striking that in economics in general, and in regional economics in specific, most of the tools employed are very much \textit{theory driven} instead of data driven. My (conservative) estimate would be that 90\% of all empirical work in regional economics revolves around postulating a (linear) model and testing whether (a) key determinant(s) are significantly different from a hypothesized value---usually zero.\footnote{In a seminal contribution, \cite{breiman2001statistical} states that deep into the 90s 98\% of the statisticians actually employed the theory driven paradigm and only 2\% a data driven paradigm. With the advent of the availability of internet connectivity, large (online) data sources, and faster computers the statistical realm changed dramatically. However, this has not permeated yet in the social sciences.} That is, \textit{within} the context of the model assumed.
 
 At best, this approach can be seen in a causal inference framework. If a determinant (such as a policy in the context of economics) $x$ changes, does it cause then a change in the output (most economists typically use some welfare measure) $y$. \footnote{Most of this research actually intends to mimic a \textit{difference-in-difference} approach and gained enormous momentum with the textbook of \citet{angrist2008mostly}.} This approach thus provides a rigid and useful approach to regional policy evaluation. If we implement policy $x$, does welfare measure $y$ then improve? 
 
-However, policy makers oftentimes have different questions for which they need solutions. Usually, they revolve around questions starting with \textit{``What determines ...?''} or, more specific, \textit{``What works for my region?''}. These types of questions requires a different approach than the previous one. Namely, the former type requires an approach focused on \textbf{explaining} while the latter type requires an approach focused on \textbf{predicting}.
+However, policy makers oftentimes have different questions for which they need
+solutions. Usually, they revolve around questions starting with \textit{``What
+  determines performance measure $A$?''} or, more generally, \textit{``What
+  works for my region?''}. These types ofquestions require a different approach
+than the previous one. Namely, the former type requires an approach focused on \textbf{explaining} while the latter type requires an approach focused on \textbf{predicting}.
 
-The remaining part of this position paper is structured as follows. The next section deals with the historical background both from an applied statistical and econometric point of view and from a regional science point of view. Section \ref{practices} deals with current practices and describes the `traditional' inference based approach as well as some data-driven approaches that have been used in the recent past (though by far not as often as the traditional methods). Section \ref{agenda} sets out a research agenda as it addresses several research gaps. The final section concludes. 
+The remaining part of this position paper is structured as follows. The next
+section deals with the historical background both from an applied statistical
+and econometric point of view and from a regional science point of view. Section
+\ref{practices} deals with current practices and describes the `traditional'
+inference based approach as well as some data-driven approaches that have been
+used in the recent past (though by far not as often as the traditional methods).
+Section \ref{agenda} sets out both a research and an education agenda as it
+addresses how to bridge the gap between the daily practices of regional
+economists and the demands of local policy makers. The final section shortly
+summarizes the main points raised in this position paper.  
 
 %------------------------------------------------
 
