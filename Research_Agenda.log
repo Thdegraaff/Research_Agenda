@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.8.28)  13 SEP 2017 18:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.8.28)  26 SEP 2017 17:46
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1069,21 +1069,21 @@ Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 (./Research_Agenda.aux)
 \openout1 = `Research_Agenda.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 85.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 89.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
@@ -1158,8 +1158,8 @@ Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 85.
-LaTeX Info: Redefining \microtypecontext on input line 85.
+(lastpage)             ! on input line 89.
+LaTeX Info: Redefining \microtypecontext on input line 89.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -1188,10 +1188,10 @@ expected 2.8.
 
 Package biblatex Info: ... file 'Research_Agenda.bbl' found.
 (./Research_Agenda.bbl)
-Package biblatex Info: Reference section=0 on input line 85.
-Package biblatex Info: Reference segment=0 on input line 85.
+Package biblatex Info: Reference section=0 on input line 89.
+Package biblatex Info: Reference segment=0 on input line 89.
 \AtBeginShipoutBox=\box31
-Package hyperref Info: Link coloring ON on input line 85.
+Package hyperref Info: Link coloring ON on input line 89.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1201,15 +1201,15 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count328
 )
-LaTeX Info: Redefining \ref on input line 85.
-LaTeX Info: Redefining \pageref on input line 85.
-LaTeX Info: Redefining \nameref on input line 85.
+LaTeX Info: Redefining \ref on input line 89.
+LaTeX Info: Redefining \pageref on input line 89.
+LaTeX Info: Redefining \nameref on input line 89.
 
 (./Research_Agenda.out) (./Research_Agenda.out)
 \@outlinefile=\write5
 \openout5 = `Research_Agenda.out'.
 
-LaTeX Font Info:    Try loading font information for OT1+phv on input line 89.
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 93.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/ot1phv.fd
 File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
@@ -1219,14 +1219,14 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <9> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 89.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 93.
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <10> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 89.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 93.
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <20> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 89.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 93.
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <14> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 89.
-LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 89
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 93.
+LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 93
 .
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
@@ -1236,30 +1236,30 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `ztmcm' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 89
+LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 93
 .
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 89
+LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 93
 .
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 89
+LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 93
 .
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 89.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 93.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 89.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 93.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 89.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 93.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
@@ -1268,29 +1268,29 @@ File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <10> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 89.
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 93.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 89.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 93.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 89.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 93.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 89.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 93.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 89.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 93.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 89.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 93.
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <8> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 89.
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 93.
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <8> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 89.
-LaTeX Font Info:    Try loading font information for U+mvs on input line 89.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 93.
+LaTeX Font Info:    Try loading font information for U+mvs on input line 93.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/marvosym/umvs.fd)
 (/usr/local/texlive/2017/texmf-dist/tex/latex/microtype/mt-mvs.cfg
 File: mt-mvs.cfg 2006/07/05 v1.1 microtype config. file: Marvosym Euro (RS)
 )
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <12> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 89.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 93.
 
 (./Research_Agenda.toc
 LaTeX Font Info:    Try loading font information for OMS+phv on input line 21.
@@ -1306,25 +1306,25 @@ LaTeX Font Info:    Font shape `OMS/phv/m/n' in size <8> not available
 
 
 
-./Research_Agenda.tex:105: Package keyval Error: family_i undefined.
+./Research_Agenda.tex:109: Package keyval Error: family_i undefined.
 
 See the keyval package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.105 ...g article, \citet{breiman2001statistical}
+l.109 ...g article, \citet{breiman2001statistical}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Research_Agenda.tex:105: Package keyval Error: given_i undefined.
+./Research_Agenda.tex:109: Package keyval Error: given_i undefined.
 
 See the keyval package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.105 ...g article, \citet{breiman2001statistical}
+l.109 ...g article, \citet{breiman2001statistical}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1337,66 +1337,15 @@ If that doesn't work, type  X <return>  to quit.
 File: ./figures/modelapproach.pdf Graphic file (type pdf)
 
 <use ./figures/modelapproach.pdf>
-Package pdftex.def Info: ./figures/modelapproach.pdf used on input line 119.
+Package pdftex.def Info: ./figures/modelapproach.pdf used on input line 123.
 (pdftex.def)             Requested size: 245.2399pt x 79.5964pt.
 
 <./figures/dataapproach.pdf, id=100, 275.9369pt x 87.57217pt>
 File: ./figures/dataapproach.pdf Graphic file (type pdf)
 
 <use ./figures/dataapproach.pdf>
-Package pdftex.def Info: ./figures/dataapproach.pdf used on input line 123.
+Package pdftex.def Info: ./figures/dataapproach.pdf used on input line 127.
 (pdftex.def)             Requested size: 245.2399pt x 77.8334pt.
-
-
-./Research_Agenda.tex:125: Package keyval Error: family_i undefined.
-
-See the keyval package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.125 ...p[inspired by][]{breiman2001statistical}}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./Research_Agenda.tex:125: Package keyval Error: given_i undefined.
-
-See the keyval package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.125 ...p[inspired by][]{breiman2001statistical}}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./Research_Agenda.tex:125: Package keyval Error: family_i undefined.
-
-See the keyval package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.125 ...p[inspired by][]{breiman2001statistical}}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./Research_Agenda.tex:125: Package keyval Error: given_i undefined.
-
-See the keyval package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.125 ...p[inspired by][]{breiman2001statistical}}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 ./Research_Agenda.tex:129: Package keyval Error: family_i undefined.
@@ -1405,9 +1354,8 @@ See the keyval package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.129 ...played in \citet{breiman2001statistical} 
-                                                  and describes the processe...
-
+l.129 ...p[inspired by][]{breiman2001statistical}}
+                                                  
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -1418,1215 +1366,1269 @@ See the keyval package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.129 ...played in \citet{breiman2001statistical} 
+l.129 ...p[inspired by][]{breiman2001statistical}}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./Research_Agenda.tex:129: Package keyval Error: family_i undefined.
+
+See the keyval package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.129 ...p[inspired by][]{breiman2001statistical}}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./Research_Agenda.tex:129: Package keyval Error: given_i undefined.
+
+See the keyval package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.129 ...p[inspired by][]{breiman2001statistical}}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+./Research_Agenda.tex:133: Package keyval Error: family_i undefined.
+
+See the keyval package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.133 ...played in \citet{breiman2001statistical} 
                                                   and describes the processe...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (2.7995pt too wide) in paragraph at lines 129--130
+./Research_Agenda.tex:133: Package keyval Error: given_i undefined.
+
+See the keyval package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.133 ...played in \citet{breiman2001statistical} 
+                                                  and describes the processe...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (2.7995pt too wide) in paragraph at lines 133--134
 []\OT1/ptm/m/n/10 (-20) Figure [][]1[][] is an adap-ta-tion from the one dis-pl
 ayed in []Breiman
  []
 
 
-./Research_Agenda.tex:145: Package keyval Error: family_i undefined.
+./Research_Agenda.tex:160: Package keyval Error: family_i undefined.
 
 See the keyval package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.145 ...ot permeated yet in the social sciences.}
+l.160 ...ot permeated yet in the social sciences.}
                                                    That is, \textit{within} ...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Research_Agenda.tex:145: Package keyval Error: given_i undefined.
+./Research_Agenda.tex:160: Package keyval Error: given_i undefined.
 
 See the keyval package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.145 ...ot permeated yet in the social sciences.}
+l.160 ...ot permeated yet in the social sciences.}
                                                    That is, \textit{within} ...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Research_Agenda.tex:149: Package keyval Error: family_i undefined.
+./Research_Agenda.tex:164: Package keyval Error: family_i undefined.
 
 See the keyval package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.149 ...e textbook of \citet{angrist2008mostly}.}
+l.164 ...e textbook of \citet{angrist2008mostly}.}
                                                    This approach thus provid...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Research_Agenda.tex:149: Package keyval Error: given_i undefined.
+./Research_Agenda.tex:164: Package keyval Error: given_i undefined.
 
 See the keyval package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.149 ...e textbook of \citet{angrist2008mostly}.}
+l.164 ...e textbook of \citet{angrist2008mostly}.}
                                                    This approach thus provid...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Research_Agenda.tex:149: Package keyval Error: family_i undefined.
+./Research_Agenda.tex:164: Package keyval Error: family_i undefined.
 
 See the keyval package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.149 ...e textbook of \citet{angrist2008mostly}.}
+l.164 ...e textbook of \citet{angrist2008mostly}.}
                                                    This approach thus provid...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Research_Agenda.tex:149: Package keyval Error: given_i undefined.
+./Research_Agenda.tex:164: Package keyval Error: given_i undefined.
 
 See the keyval package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.149 ...e textbook of \citet{angrist2008mostly}.}
+l.164 ...e textbook of \citet{angrist2008mostly}.}
                                                    This approach thus provid...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: Reference `gaps' on page 2 undefined on input line 186.
 
 [2]
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 190.
 
- (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/omsptm.fd
+LaTeX Warning: Reference `gaps' on page 3 undefined on input line 205.
+
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 209.
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 190.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 209.
 
 
-./Research_Agenda.tex:209: Package keyval Error: family_i undefined.
+./Research_Agenda.tex:228: Package keyval Error: family_i undefined.
 
 See the keyval package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.209 ...ep{Thissen2016, Graaff2012, DeGraaff2012}
+l.228 ...ep{Thissen2016, Graaff2012, DeGraaff2012}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Research_Agenda.tex:209: Package keyval Error: given_i undefined.
+./Research_Agenda.tex:228: Package keyval Error: given_i undefined.
 
 See the keyval package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.209 ...ep{Thissen2016, Graaff2012, DeGraaff2012}
+l.228 ...ep{Thissen2016, Graaff2012, DeGraaff2012}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Research_Agenda.tex:209: Package keyval Error: prefix_i undefined.
+./Research_Agenda.tex:228: Package keyval Error: prefix_i undefined.
 
 See the keyval package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.209 ...ep{Thissen2016, Graaff2012, DeGraaff2012}
+l.228 ...ep{Thissen2016, Graaff2012, DeGraaff2012}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Research_Agenda.tex:209: Package keyval Error: family_i undefined.
+./Research_Agenda.tex:228: Package keyval Error: family_i undefined.
 
 See the keyval package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.209 ...ep{Thissen2016, Graaff2012, DeGraaff2012}
+l.228 ...ep{Thissen2016, Graaff2012, DeGraaff2012}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Research_Agenda.tex:209: Package keyval Error: given_i undefined.
+./Research_Agenda.tex:228: Package keyval Error: given_i undefined.
 
 See the keyval package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.209 ...ep{Thissen2016, Graaff2012, DeGraaff2012}
+l.228 ...ep{Thissen2016, Graaff2012, DeGraaff2012}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Research_Agenda.tex:213: Package keyval Error: family_i undefined.
+./Research_Agenda.tex:232: Package keyval Error: family_i undefined.
 
 See the keyval package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.213 ...Rey:2014cl,arribas2015woow, Arribas2016}.
+l.232 ...Rey:2014cl,arribas2015woow, Arribas2016}.
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Research_Agenda.tex:213: Package keyval Error: given_i undefined.
+./Research_Agenda.tex:232: Package keyval Error: given_i undefined.
 
 See the keyval package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.213 ...Rey:2014cl,arribas2015woow, Arribas2016}.
+l.232 ...Rey:2014cl,arribas2015woow, Arribas2016}.
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Research_Agenda.tex:213: Package keyval Error: family_i undefined.
+./Research_Agenda.tex:232: Package keyval Error: family_i undefined.
 
 See the keyval package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.213 ...Rey:2014cl,arribas2015woow, Arribas2016}.
+l.232 ...Rey:2014cl,arribas2015woow, Arribas2016}.
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Research_Agenda.tex:213: Package keyval Error: given_i undefined.
+./Research_Agenda.tex:232: Package keyval Error: given_i undefined.
 
 See the keyval package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.213 ...Rey:2014cl,arribas2015woow, Arribas2016}.
+l.232 ...Rey:2014cl,arribas2015woow, Arribas2016}.
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Research_Agenda.tex:213: Package keyval Error: prefix_i undefined.
+./Research_Agenda.tex:232: Package keyval Error: prefix_i undefined.
 
 See the keyval package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.213 ...Rey:2014cl,arribas2015woow, Arribas2016}.
+l.232 ...Rey:2014cl,arribas2015woow, Arribas2016}.
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Research_Agenda.tex:213: Package keyval Error: family_i undefined.
+./Research_Agenda.tex:232: Package keyval Error: family_i undefined.
 
 See the keyval package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.213 ...Rey:2014cl,arribas2015woow, Arribas2016}.
+l.232 ...Rey:2014cl,arribas2015woow, Arribas2016}.
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Research_Agenda.tex:213: Package keyval Error: given_i undefined.
+./Research_Agenda.tex:232: Package keyval Error: given_i undefined.
 
 See the keyval package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.213 ...Rey:2014cl,arribas2015woow, Arribas2016}.
+l.232 ...Rey:2014cl,arribas2015woow, Arribas2016}.
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Research_Agenda.tex:213: Package keyval Error: family_i undefined.
+./Research_Agenda.tex:232: Package keyval Error: family_i undefined.
 
 See the keyval package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.213 ...Rey:2014cl,arribas2015woow, Arribas2016}.
+l.232 ...Rey:2014cl,arribas2015woow, Arribas2016}.
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Research_Agenda.tex:213: Package keyval Error: given_i undefined.
+./Research_Agenda.tex:232: Package keyval Error: given_i undefined.
 
 See the keyval package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.213 ...Rey:2014cl,arribas2015woow, Arribas2016}.
+l.232 ...Rey:2014cl,arribas2015woow, Arribas2016}.
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Research_Agenda.tex:217: Package keyval Error: family_i undefined.
+./Research_Agenda.tex:236: Package keyval Error: family_i undefined.
 
 See the keyval package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.217 As in \citet{Bayer2004, Bayer2007a} 
+l.236 As in \citet{Bayer2004, Bayer2007a} 
                                           and recently by \citet{Wang2016} a...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Research_Agenda.tex:217: Package keyval Error: given_i undefined.
+./Research_Agenda.tex:236: Package keyval Error: given_i undefined.
 
 See the keyval package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.217 As in \citet{Bayer2004, Bayer2007a} 
+l.236 As in \citet{Bayer2004, Bayer2007a} 
                                           and recently by \citet{Wang2016} a...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Research_Agenda.tex:217: Package keyval Error: family_i undefined.
+./Research_Agenda.tex:236: Package keyval Error: family_i undefined.
 
 See the keyval package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.217 As in \citet{Bayer2004, Bayer2007a} 
+l.236 As in \citet{Bayer2004, Bayer2007a} 
                                           and recently by \citet{Wang2016} a...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Research_Agenda.tex:217: Package keyval Error: given_i undefined.
+./Research_Agenda.tex:236: Package keyval Error: given_i undefined.
 
 See the keyval package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.217 As in \citet{Bayer2004, Bayer2007a} 
+l.236 As in \citet{Bayer2004, Bayer2007a} 
                                           and recently by \citet{Wang2016} a...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Research_Agenda.tex:217: Package keyval Error: family_i undefined.
+./Research_Agenda.tex:236: Package keyval Error: family_i undefined.
 
 See the keyval package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.217 As in \citet{Bayer2004, Bayer2007a} 
+l.236 As in \citet{Bayer2004, Bayer2007a} 
                                           and recently by \citet{Wang2016} a...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Research_Agenda.tex:217: Package keyval Error: given_i undefined.
+./Research_Agenda.tex:236: Package keyval Error: given_i undefined.
 
 See the keyval package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.217 As in \citet{Bayer2004, Bayer2007a} 
+l.236 As in \citet{Bayer2004, Bayer2007a} 
                                           and recently by \citet{Wang2016} a...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Research_Agenda.tex:217: Package keyval Error: family_i undefined.
+./Research_Agenda.tex:236: Package keyval Error: family_i undefined.
 
 See the keyval package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.217 ...r2007a} and recently by \citet{Wang2016} 
+l.236 ...r2007a} and recently by \citet{Wang2016} 
                                                   and \citet{Bernasco2016}.
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Research_Agenda.tex:217: Package keyval Error: given_i undefined.
+./Research_Agenda.tex:236: Package keyval Error: given_i undefined.
 
 See the keyval package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.217 ...r2007a} and recently by \citet{Wang2016} 
+l.236 ...r2007a} and recently by \citet{Wang2016} 
                                                   and \citet{Bernasco2016}.
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Research_Agenda.tex:217: Package keyval Error: family_i undefined.
+./Research_Agenda.tex:236: Package keyval Error: family_i undefined.
 
 See the keyval package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.217 ...citet{Wang2016} and \citet{Bernasco2016}.
+l.236 ...citet{Wang2016} and \citet{Bernasco2016}.
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Research_Agenda.tex:217: Package keyval Error: given_i undefined.
+./Research_Agenda.tex:236: Package keyval Error: given_i undefined.
 
 See the keyval package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.217 ...citet{Wang2016} and \citet{Bernasco2016}.
+l.236 ...citet{Wang2016} and \citet{Bernasco2016}.
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Research_Agenda.tex:229: Package keyval Error: family_i undefined.
+./Research_Agenda.tex:248: Package keyval Error: family_i undefined.
 
 See the keyval package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.229 
+l.248 
       
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Research_Agenda.tex:229: Package keyval Error: given_i undefined.
+./Research_Agenda.tex:248: Package keyval Error: given_i undefined.
 
 See the keyval package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.229 
+l.248 
       
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Research_Agenda.tex:229: Package keyval Error: family_i undefined.
+./Research_Agenda.tex:248: Package keyval Error: family_i undefined.
 
 See the keyval package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.229 
+l.248 
       
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Research_Agenda.tex:229: Package keyval Error: given_i undefined.
+./Research_Agenda.tex:248: Package keyval Error: given_i undefined.
 
 See the keyval package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.229 
+l.248 
       
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Research_Agenda.tex:229: Package keyval Error: family_i undefined.
+./Research_Agenda.tex:248: Package keyval Error: family_i undefined.
 
 See the keyval package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.229 
+l.248 
       
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Research_Agenda.tex:229: Package keyval Error: given_i undefined.
+./Research_Agenda.tex:248: Package keyval Error: given_i undefined.
 
 See the keyval package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.229 
+l.248 
       
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Research_Agenda.tex:229: Package keyval Error: prefix_i undefined.
+./Research_Agenda.tex:248: Package keyval Error: prefix_i undefined.
 
 See the keyval package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.229 
+l.248 
       
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Research_Agenda.tex:229: Package keyval Error: family_i undefined.
+./Research_Agenda.tex:248: Package keyval Error: family_i undefined.
 
 See the keyval package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.229 
+l.248 
       
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Research_Agenda.tex:229: Package keyval Error: given_i undefined.
+./Research_Agenda.tex:248: Package keyval Error: given_i undefined.
 
 See the keyval package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.229 
+l.248 
       
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Research_Agenda.tex:229: Package keyval Error: family_i undefined.
+./Research_Agenda.tex:248: Package keyval Error: family_i undefined.
 
 See the keyval package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.229 
+l.248 
       
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Research_Agenda.tex:229: Package keyval Error: given_i undefined.
+./Research_Agenda.tex:248: Package keyval Error: given_i undefined.
 
 See the keyval package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.229 
+l.248 
       
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Research_Agenda.tex:229: Package keyval Error: prefix_i undefined.
+./Research_Agenda.tex:248: Package keyval Error: prefix_i undefined.
 
 See the keyval package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.229 
+l.248 
       
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Research_Agenda.tex:229: Package keyval Error: family_i undefined.
+./Research_Agenda.tex:248: Package keyval Error: family_i undefined.
 
 See the keyval package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.229 
+l.248 
       
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Research_Agenda.tex:229: Package keyval Error: given_i undefined.
+./Research_Agenda.tex:248: Package keyval Error: given_i undefined.
 
 See the keyval package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.229 
+l.248 
       
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Research_Agenda.tex:229: Package keyval Error: family_i undefined.
+./Research_Agenda.tex:248: Package keyval Error: family_i undefined.
 
 See the keyval package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.229 
+l.248 
       
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Research_Agenda.tex:229: Package keyval Error: given_i undefined.
+./Research_Agenda.tex:248: Package keyval Error: given_i undefined.
 
 See the keyval package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.229 
+l.248 
       
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Research_Agenda.tex:229: Package keyval Error: family_i undefined.
+./Research_Agenda.tex:248: Package keyval Error: family_i undefined.
 
 See the keyval package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.229 
+l.248 
       
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Research_Agenda.tex:229: Package keyval Error: given_i undefined.
+./Research_Agenda.tex:248: Package keyval Error: given_i undefined.
 
 See the keyval package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.229 
+l.248 
       
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Research_Agenda.tex:229: Package keyval Error: family_i undefined.
+./Research_Agenda.tex:248: Package keyval Error: family_i undefined.
 
 See the keyval package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.229 
+l.248 
       
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Research_Agenda.tex:229: Package keyval Error: given_i undefined.
+./Research_Agenda.tex:248: Package keyval Error: given_i undefined.
 
 See the keyval package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.229 
+l.248 
       
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Research_Agenda.tex:229: Package keyval Error: family_i undefined.
+./Research_Agenda.tex:248: Package keyval Error: family_i undefined.
 
 See the keyval package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.229 
+l.248 
       
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Research_Agenda.tex:229: Package keyval Error: given_i undefined.
+./Research_Agenda.tex:248: Package keyval Error: given_i undefined.
 
 See the keyval package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.229 
+l.248 
       
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Research_Agenda.tex:229: Package keyval Error: family_i undefined.
+./Research_Agenda.tex:248: Package keyval Error: family_i undefined.
 
 See the keyval package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.229 
+l.248 
       
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Research_Agenda.tex:229: Package keyval Error: given_i undefined.
+./Research_Agenda.tex:248: Package keyval Error: given_i undefined.
 
 See the keyval package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.229 
+l.248 
       
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Research_Agenda.tex:229: Package keyval Error: family_i undefined.
+./Research_Agenda.tex:248: Package keyval Error: family_i undefined.
 
 See the keyval package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.229 
+l.248 
       
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Research_Agenda.tex:229: Package keyval Error: given_i undefined.
+./Research_Agenda.tex:248: Package keyval Error: given_i undefined.
 
 See the keyval package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.229 
+l.248 
       
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Research_Agenda.tex:229: Package keyval Error: family_i undefined.
+./Research_Agenda.tex:248: Package keyval Error: family_i undefined.
 
 See the keyval package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.229 
+l.248 
       
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Research_Agenda.tex:229: Package keyval Error: given_i undefined.
+./Research_Agenda.tex:248: Package keyval Error: given_i undefined.
 
 See the keyval package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.229 
+l.248 
       
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Research_Agenda.tex:229: Package keyval Error: family_i undefined.
+./Research_Agenda.tex:248: Package keyval Error: family_i undefined.
 
 See the keyval package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.229 
+l.248 
       
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Research_Agenda.tex:229: Package keyval Error: given_i undefined.
+./Research_Agenda.tex:248: Package keyval Error: given_i undefined.
 
 See the keyval package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.229 
+l.248 
       
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (0.34474pt too wide) in paragraph at lines 229--229
+Overfull \hbox (0.34474pt too wide) in paragraph at lines 248--248
 [][]\OT1/ptm/m/n/10 (-20) Bayer, McMil-lan, and Rueben (2004). ``An Equi-lib-ri
 um Model
  []
 
 
-./Research_Agenda.tex:229: Package keyval Error: family_i undefined.
+./Research_Agenda.tex:248: Package keyval Error: family_i undefined.
 
 See the keyval package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.229 
+l.248 
       
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Research_Agenda.tex:229: Package keyval Error: given_i undefined.
+./Research_Agenda.tex:248: Package keyval Error: given_i undefined.
 
 See the keyval package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.229 
+l.248 
       
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Research_Agenda.tex:229: Package keyval Error: prefix_i undefined.
+./Research_Agenda.tex:248: Package keyval Error: prefix_i undefined.
 
 See the keyval package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.229 
+l.248 
       
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Research_Agenda.tex:229: Package keyval Error: family_i undefined.
+./Research_Agenda.tex:248: Package keyval Error: family_i undefined.
 
 See the keyval package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.229 
+l.248 
       
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Research_Agenda.tex:229: Package keyval Error: given_i undefined.
+./Research_Agenda.tex:248: Package keyval Error: given_i undefined.
 
 See the keyval package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.229 
+l.248 
       
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Research_Agenda.tex:229: Package keyval Error: family_i undefined.
+./Research_Agenda.tex:248: Package keyval Error: family_i undefined.
 
 See the keyval package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.229 
+l.248 
       
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Research_Agenda.tex:229: Package keyval Error: given_i undefined.
+./Research_Agenda.tex:248: Package keyval Error: given_i undefined.
 
 See the keyval package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.229 
+l.248 
       
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Research_Agenda.tex:229: Package keyval Error: family_i undefined.
+./Research_Agenda.tex:248: Package keyval Error: family_i undefined.
 
 See the keyval package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.229 
+l.248 
       
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Research_Agenda.tex:229: Package keyval Error: given_i undefined.
+./Research_Agenda.tex:248: Package keyval Error: given_i undefined.
 
 See the keyval package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.229 
+l.248 
       
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Research_Agenda.tex:229: Package keyval Error: family_i undefined.
+./Research_Agenda.tex:248: Package keyval Error: family_i undefined.
 
 See the keyval package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.229 
+l.248 
       
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Research_Agenda.tex:229: Package keyval Error: given_i undefined.
+./Research_Agenda.tex:248: Package keyval Error: given_i undefined.
 
 See the keyval package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.229 
+l.248 
       
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Research_Agenda.tex:229: Package keyval Error: prefix_i undefined.
+./Research_Agenda.tex:248: Package keyval Error: prefix_i undefined.
 
 See the keyval package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.229 
+l.248 
       
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Research_Agenda.tex:229: Package keyval Error: family_i undefined.
+./Research_Agenda.tex:248: Package keyval Error: family_i undefined.
 
 See the keyval package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.229 
+l.248 
       
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Research_Agenda.tex:229: Package keyval Error: given_i undefined.
+./Research_Agenda.tex:248: Package keyval Error: given_i undefined.
 
 See the keyval package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.229 
+l.248 
       
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Research_Agenda.tex:229: Package keyval Error: prefix_i undefined.
+./Research_Agenda.tex:248: Package keyval Error: prefix_i undefined.
 
 See the keyval package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.229 
+l.248 
       
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Research_Agenda.tex:229: Package keyval Error: family_i undefined.
+./Research_Agenda.tex:248: Package keyval Error: family_i undefined.
 
 See the keyval package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.229 
+l.248 
       
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Research_Agenda.tex:229: Package keyval Error: given_i undefined.
+./Research_Agenda.tex:248: Package keyval Error: given_i undefined.
 
 See the keyval package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.229 
+l.248 
       
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Research_Agenda.tex:229: Package keyval Error: family_i undefined.
+./Research_Agenda.tex:248: Package keyval Error: family_i undefined.
 
 See the keyval package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.229 
+l.248 
       
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Research_Agenda.tex:229: Package keyval Error: given_i undefined.
+./Research_Agenda.tex:248: Package keyval Error: given_i undefined.
 
 See the keyval package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.229 
+l.248 
       
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (2.63495pt too wide) in paragraph at lines 229--229
+Overfull \hbox (2.63495pt too wide) in paragraph at lines 248--248
 [][]\OT1/ptm/m/n/10 (-20) De Graaff, van Oort, and Flo-rax (2012a). ``Re-gional
  Population-
  []
 
 
-./Research_Agenda.tex:229: Package keyval Error: family_i undefined.
+./Research_Agenda.tex:248: Package keyval Error: family_i undefined.
 
 See the keyval package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.229 
+l.248 
       
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Research_Agenda.tex:229: Package keyval Error: given_i undefined.
+./Research_Agenda.tex:248: Package keyval Error: given_i undefined.
 
 See the keyval package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.229 
+l.248 
       
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Research_Agenda.tex:229: Package keyval Error: family_i undefined.
+./Research_Agenda.tex:248: Package keyval Error: family_i undefined.
 
 See the keyval package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.229 
+l.248 
       
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Research_Agenda.tex:229: Package keyval Error: given_i undefined.
+./Research_Agenda.tex:248: Package keyval Error: given_i undefined.
 
 See the keyval package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.229 
+l.248 
       
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Research_Agenda.tex:229: Package keyval Error: prefix_i undefined.
+./Research_Agenda.tex:248: Package keyval Error: prefix_i undefined.
 
 See the keyval package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.229 
+l.248 
       
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Research_Agenda.tex:229: Package keyval Error: family_i undefined.
+./Research_Agenda.tex:248: Package keyval Error: family_i undefined.
 
 See the keyval package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.229 
+l.248 
       
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Research_Agenda.tex:229: Package keyval Error: given_i undefined.
+./Research_Agenda.tex:248: Package keyval Error: given_i undefined.
 
 See the keyval package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.229 
+l.248 
       
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Research_Agenda.tex:229: Package keyval Error: prefix_i undefined.
+./Research_Agenda.tex:248: Package keyval Error: prefix_i undefined.
 
 See the keyval package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.229 
+l.248 
       
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Research_Agenda.tex:229: Package keyval Error: family_i undefined.
+./Research_Agenda.tex:248: Package keyval Error: family_i undefined.
 
 See the keyval package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.229 
+l.248 
       
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Research_Agenda.tex:229: Package keyval Error: given_i undefined.
+./Research_Agenda.tex:248: Package keyval Error: given_i undefined.
 
 See the keyval package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.229 
+l.248 
       
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Research_Agenda.tex:229: Package keyval Error: family_i undefined.
+./Research_Agenda.tex:248: Package keyval Error: family_i undefined.
 
 See the keyval package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.229 
+l.248 
       
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Research_Agenda.tex:229: Package keyval Error: given_i undefined.
+./Research_Agenda.tex:248: Package keyval Error: given_i undefined.
 
 See the keyval package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.229 
+l.248 
       
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Research_Agenda.tex:229: Package keyval Error: prefix_i undefined.
+./Research_Agenda.tex:248: Package keyval Error: prefix_i undefined.
 
 See the keyval package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.229 
+l.248 
       
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Research_Agenda.tex:229: Package keyval Error: family_i undefined.
+./Research_Agenda.tex:248: Package keyval Error: family_i undefined.
 
 See the keyval package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.229 
+l.248 
       
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Research_Agenda.tex:229: Package keyval Error: given_i undefined.
+./Research_Agenda.tex:248: Package keyval Error: given_i undefined.
 
 See the keyval package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.229 
+l.248 
       
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Research_Agenda.tex:229: Package keyval Error: family_i undefined.
+./Research_Agenda.tex:248: Package keyval Error: family_i undefined.
 
 See the keyval package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.229 
+l.248 
       
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Research_Agenda.tex:229: Package keyval Error: given_i undefined.
+./Research_Agenda.tex:248: Package keyval Error: given_i undefined.
 
 See the keyval package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.229 
+l.248 
       
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
+[3 <./figures/modelapproach.pdf> <./figures/dataapproach.pdf>]
 
 AED: lastpage setting LastPage
-[3 <./figures/modelapproach.pdf> <./figures/dataapproach.pdf>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 232.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 232.
+[4
 
-(./Research_Agenda.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 232.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 232.
+]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 251.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 251.
+ (./Research_Agenda.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 251.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 251.
 Package rerunfilecheck Info: File `Research_Agenda.out' has not changed.
 (rerunfilecheck)             Checksum: AF3C976030CDBC953DD7416962061813;932.
 
@@ -2638,13 +2640,13 @@ Package logreq Info: Writing requests to 'Research_Agenda.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 18670 strings out of 492995
- 300013 string characters out of 6132704
- 629837 words of memory out of 5000000
+ 18667 strings out of 492995
+ 299989 string characters out of 6132704
+ 630878 words of memory out of 5000000
  21601 multiletter control sequences out of 15000+600000
- 77180 words of font info for 299 fonts, out of 8000000 for 9000
+ 76960 words of font info for 296 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 48i,11n,62p,1559b,1636s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 48i,11n,62p,1293b,1636s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/te
 xlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/tex
@@ -2659,10 +2661,10 @@ ts/type1/urw/helvetic/uhvro8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/typ
 e1/urw/symbol/usyr.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/time
 s/utmb8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times/utmr8a.p
 fb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Research_Agenda.pdf (3 pages, 152316 bytes).
+Output written on Research_Agenda.pdf (4 pages, 153740 bytes).
 PDF statistics:
- 237 PDF objects out of 1000 (max. 8388607)
- 200 compressed objects within 2 object streams
- 36 named destinations out of 1000 (max. 500000)
+ 248 PDF objects out of 1000 (max. 8388607)
+ 209 compressed objects within 3 object streams
+ 38 named destinations out of 1000 (max. 500000)
  66163 words of extra memory for PDF output out of 74296 (max. 10000000)
 
