@@ -1,5 +1,5 @@
 % $ biblatex auxiliary file $
-% $ biblatex bbl format version 2.7 $
+% $ biblatex bbl format version 2.8 $
 % Do not modify the above lines!
 %
 % This is an auxiliary file used by the 'biblatex' package.
@@ -25,15 +25,15 @@
     \name{author}{2}{}{%
       {{hash=AJD}{%
          family={Angrist},
-         family_i={A\bibinitperiod},
+         familyi={A\bibinitperiod},
          given={Joshua\bibnamedelima D},
-         given_i={J\bibinitperiod\bibinitdelim D\bibinitperiod},
+         giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod},
       }}%
       {{hash=PJS}{%
          family={Pischke},
-         family_i={P\bibinitperiod},
+         familyi={P\bibinitperiod},
          given={J{\"o}rn-Steffen},
-         given_i={J\bibinitperiod-S\bibinitperiod},
+         giveni={J\bibinitperiod-S\bibinitperiod},
       }}%
     }
     \list{publisher}{1}{%
@@ -54,17 +54,17 @@
     \name{author}{2}{}{%
       {{hash=ABD}{%
          family={Arribas-Bel},
-         family_i={A\bibinitperiod-B\bibinitperiod},
+         familyi={A\bibinitperiod-B\bibinitperiod},
          given={Daniel},
-         given_i={D\bibinitperiod},
+         giveni={D\bibinitperiod},
       }}%
       {{hash=dGT}{%
          prefix={de},
-         prefix_i={d\bibinitperiod},
+         prefixi={d\bibinitperiod},
          family={Graaff},
-         family_i={G\bibinitperiod},
+         familyi={G\bibinitperiod},
          given={Thomas},
-         given_i={T\bibinitperiod},
+         giveni={T\bibinitperiod},
       }}%
     }
     \strng{namehash}{ABDdGT1}
@@ -86,37 +86,37 @@
     \name{author}{3}{}{%
       {{hash=ABD}{%
          family={Arribas-Bel},
-         family_i={A\bibinitperiod-B\bibinitperiod},
+         familyi={A\bibinitperiod-B\bibinitperiod},
          given={Daniel},
-         given_i={D\bibinitperiod},
+         giveni={D\bibinitperiod},
       }}%
       {{hash=dGT}{%
          prefix={de},
-         prefix_i={d\bibinitperiod},
+         prefixi={d\bibinitperiod},
          family={Graaff},
-         family_i={G\bibinitperiod},
+         familyi={G\bibinitperiod},
          given={Thomas},
-         given_i={T\bibinitperiod},
+         giveni={T\bibinitperiod},
       }}%
       {{hash=RS}{%
          family={Rey},
-         family_i={R\bibinitperiod},
+         familyi={R\bibinitperiod},
          given={Sergio},
-         given_i={S\bibinitperiod},
+         giveni={S\bibinitperiod},
       }}%
     }
     \name{editor}{2}{}{%
       {{hash=JR}{%
          family={Jackson},
-         family_i={J\bibinitperiod},
+         familyi={J\bibinitperiod},
          given={Randall},
-         given_i={R\bibinitperiod},
+         giveni={R\bibinitperiod},
       }}%
       {{hash=SP}{%
          family={Schaeffer},
-         family_i={S\bibinitperiod},
+         familyi={S\bibinitperiod},
          given={Peter},
-         given_i={P\bibinitperiod},
+         giveni={P\bibinitperiod},
       }}%
     }
     \list{publisher}{1}{%
@@ -142,15 +142,15 @@
     \name{author}{2}{}{%
       {{hash=BP}{%
          family={Bayer},
-         family_i={B\bibinitperiod},
+         familyi={B\bibinitperiod},
          given={Patrick},
-         given_i={P\bibinitperiod},
+         giveni={P\bibinitperiod},
       }}%
       {{hash=TC}{%
          family={Timmins},
-         family_i={T\bibinitperiod},
+         familyi={T\bibinitperiod},
          given={Christopher},
-         given_i={C\bibinitperiod},
+         giveni={C\bibinitperiod},
       }}%
     }
     \list{publisher}{1}{%
@@ -175,21 +175,21 @@
     \name{author}{3}{}{%
       {{hash=BP}{%
          family={Bayer},
-         family_i={B\bibinitperiod},
+         familyi={B\bibinitperiod},
          given={Patrick},
-         given_i={P\bibinitperiod},
+         giveni={P\bibinitperiod},
       }}%
       {{hash=MR}{%
          family={McMillan},
-         family_i={M\bibinitperiod},
+         familyi={M\bibinitperiod},
          given={Robert},
-         given_i={R\bibinitperiod},
+         giveni={R\bibinitperiod},
       }}%
       {{hash=RK}{%
          family={Rueben},
-         family_i={R\bibinitperiod},
+         familyi={R\bibinitperiod},
          given={Kim},
-         given_i={K\bibinitperiod},
+         giveni={K\bibinitperiod},
       }}%
     }
     \strng{namehash}{BP+1}
@@ -208,29 +208,29 @@
     \name{author}{4}{}{%
       {{hash=BW}{%
          family={Bernasco},
-         family_i={B\bibinitperiod},
+         familyi={B\bibinitperiod},
          given={Wim},
-         given_i={W\bibinitperiod},
+         giveni={W\bibinitperiod},
       }}%
       {{hash=dGT}{%
          prefix={de},
-         prefix_i={d\bibinitperiod},
+         prefixi={d\bibinitperiod},
          family={Graaff},
-         family_i={G\bibinitperiod},
+         familyi={G\bibinitperiod},
          given={Thomas},
-         given_i={T\bibinitperiod},
+         giveni={T\bibinitperiod},
       }}%
       {{hash=RJ}{%
          family={Rouwendal},
-         family_i={R\bibinitperiod},
+         familyi={R\bibinitperiod},
          given={Jan},
-         given_i={J\bibinitperiod},
+         giveni={J\bibinitperiod},
       }}%
       {{hash=SW}{%
          family={Steenbeek},
-         family_i={S\bibinitperiod},
+         familyi={S\bibinitperiod},
          given={Wouter},
-         given_i={W\bibinitperiod},
+         giveni={W\bibinitperiod},
       }}%
     }
     \list{publisher}{1}{%
@@ -253,9 +253,9 @@
     \name{author}{1}{}{%
       {{hash=BL}{%
          family={Breiman},
-         family_i={B\bibinitperiod},
+         familyi={B\bibinitperiod},
          given={Leo},
-         given_i={L\bibinitperiod},
+         giveni={L\bibinitperiod},
       }}%
     }
     \strng{namehash}{BL1}
@@ -277,25 +277,25 @@
     \name{author}{3}{}{%
       {{hash=dGT}{%
          prefix={de},
-         prefix_i={d\bibinitperiod},
+         prefixi={d\bibinitperiod},
          family={Graaff},
-         family_i={G\bibinitperiod},
+         familyi={G\bibinitperiod},
          given={Thomas},
-         given_i={T\bibinitperiod},
+         giveni={T\bibinitperiod},
       }}%
       {{hash=vOFG}{%
          prefix={van},
-         prefix_i={v\bibinitperiod},
+         prefixi={v\bibinitperiod},
          family={Oort},
-         family_i={O\bibinitperiod},
+         familyi={O\bibinitperiod},
          given={Frank\bibnamedelima G.},
-         given_i={F\bibinitperiod\bibinitdelim G\bibinitperiod},
+         giveni={F\bibinitperiod\bibinitdelim G\bibinitperiod},
       }}%
       {{hash=FRJ}{%
          family={Florax},
-         family_i={F\bibinitperiod},
+         familyi={F\bibinitperiod},
          given={Raymond\bibnamedelima J.G.M.},
-         given_i={R\bibinitperiod\bibinitdelim J\bibinitperiod},
+         giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod},
       }}%
     }
     \strng{namehash}{dGT+1}
@@ -320,25 +320,25 @@
     \name{author}{3}{}{%
       {{hash=dGT}{%
          prefix={de},
-         prefix_i={d\bibinitperiod},
+         prefixi={d\bibinitperiod},
          family={Graaff},
-         family_i={G\bibinitperiod},
+         familyi={G\bibinitperiod},
          given={Thomas},
-         given_i={T\bibinitperiod},
+         giveni={T\bibinitperiod},
       }}%
       {{hash=vOFG}{%
          prefix={van},
-         prefix_i={v\bibinitperiod},
+         prefixi={v\bibinitperiod},
          family={Oort},
-         family_i={O\bibinitperiod},
+         familyi={O\bibinitperiod},
          given={Frank\bibnamedelima G.},
-         given_i={F\bibinitperiod\bibinitdelim G\bibinitperiod},
+         giveni={F\bibinitperiod\bibinitdelim G\bibinitperiod},
       }}%
       {{hash=FRJ}{%
          family={Florax},
-         family_i={F\bibinitperiod},
+         familyi={F\bibinitperiod},
          given={Raymond\bibnamedelima J.G.M.},
-         given_i={R\bibinitperiod\bibinitdelim J\bibinitperiod},
+         giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod},
       }}%
     }
     \strng{namehash}{dGT+1}
@@ -361,9 +361,9 @@
     \name{author}{1}{}{%
       {{hash=RSJ}{%
          family={Rey},
-         family_i={R\bibinitperiod},
+         familyi={R\bibinitperiod},
          given={Sergio\bibnamedelima J.},
-         given_i={S\bibinitperiod\bibinitdelim J\bibinitperiod},
+         giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod},
       }}%
     }
     \keyw{open science,regional science}
@@ -385,29 +385,56 @@
     \field{year}{2014}
   \endentry
 
+  \entry{schwabish2014economist}{article}{}
+    \name{author}{1}{}{%
+      {{hash=SJA}{%
+         family={Schwabish},
+         familyi={S\bibinitperiod},
+         given={Jonathan\bibnamedelima A},
+         giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Economic Association}%
+    }
+    \strng{namehash}{SJA1}
+    \strng{fullhash}{SJA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2014}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{number}{1}
+    \field{pages}{209\bibrangedash 233}
+    \field{title}{An economist's guide to visualizing data}
+    \field{volume}{28}
+    \field{journaltitle}{The Journal of Economic Perspectives}
+    \field{year}{2014}
+  \endentry
+
   \entry{Thissen2016}{article}{}
     \name{author}{3}{}{%
       {{hash=TM}{%
          family={Thissen},
-         family_i={T\bibinitperiod},
+         familyi={T\bibinitperiod},
          given={Mark},
-         given_i={M\bibinitperiod},
+         giveni={M\bibinitperiod},
       }}%
       {{hash=dGT}{%
          prefix={de},
-         prefix_i={d\bibinitperiod},
+         prefixi={d\bibinitperiod},
          family={Graaff},
-         family_i={G\bibinitperiod},
+         familyi={G\bibinitperiod},
          given={Thomas},
-         given_i={T\bibinitperiod},
+         giveni={T\bibinitperiod},
       }}%
       {{hash=vOFG}{%
          prefix={van},
-         prefix_i={v\bibinitperiod},
+         prefixi={v\bibinitperiod},
          family={Oort},
-         family_i={O\bibinitperiod},
+         familyi={O\bibinitperiod},
          given={Frank\bibnamedelima G.},
-         given_i={F\bibinitperiod\bibinitdelim G\bibinitperiod},
+         giveni={F\bibinitperiod\bibinitdelim G\bibinitperiod},
       }}%
     }
     \list{publisher}{1}{%
@@ -434,23 +461,23 @@
     \name{author}{3}{}{%
       {{hash=ZW}{%
          family={Zhiling},
-         family_i={Z\bibinitperiod},
+         familyi={Z\bibinitperiod},
          given={Wang},
-         given_i={W\bibinitperiod},
+         giveni={W\bibinitperiod},
       }}%
       {{hash=dGT}{%
          prefix={de},
-         prefix_i={d\bibinitperiod},
+         prefixi={d\bibinitperiod},
          family={Graaff},
-         family_i={G\bibinitperiod},
+         familyi={G\bibinitperiod},
          given={Thomas},
-         given_i={T\bibinitperiod},
+         giveni={T\bibinitperiod},
       }}%
       {{hash=NP}{%
          family={Nijkamp},
-         family_i={N\bibinitperiod},
+         familyi={N\bibinitperiod},
          given={Peter},
-         given_i={P\bibinitperiod},
+         giveni={P\bibinitperiod},
       }}%
     }
     \strng{namehash}{ZW+1}

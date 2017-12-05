@@ -65,7 +65,7 @@
 \Archive{Position paper} % Additional notes (e.g. copyright, DOI, review/research article)
 
 \PaperTitle{Do regional economists answer the right questions?}
-\SubPaperTitle{On the current discrepancy between the questions regional economists solve and the questions policy makers actually ask}
+\SubPaperTitle{On the discrepancy between the questions regional economists solve and the questions policy makers actually ask}
 
 \Authors{Thomas de Graaff\textsuperscript{1}*} % Authors
 \affiliation{\textsuperscript{1}\textit{Department of Spatial Economics, Vrije Universiteit Amsterdam, Amsterdam, The Netherlands}} % Author affiliation
@@ -82,7 +82,7 @@
   (\textit{i}) regional (or spatial) economists are very restrictive in the tool
   set they apply, and consequently (\textit{ii}) their models do not always
 match with the type of questions policy makers are concerned about. To start
-with the latter, policy makers---whether national, regional or local---are oftentimes concerned about holistic approaches and future predictions. Exemplary questions are ``What works best for my country/region/city'' and ``If we change this what will happen to the country/region/city as a whole?''. Regional economists---actually, most economists---usually isolate phenomena in order to, at best, explain the impact of a single determinant. Indeed, most regional economists feel very uncomfortable when asked to predict or give the best set of determinants for a certain phenomenon. This has its consequences for the tool set regional economists apply. Usually a parametric regression type of framework is applied isolating the determinant under consideration and controlling as much as possible for observables and unobservables, ideally in a pseudo-experimental framework. A direct consequence of this approach is that emphasis is very much on explaining the impact of an isolated determinant and not on predicting (non-marginal) changes in larger systems. For many applications that is definitely the right approach. However, as this paper ultimately argues, it is very much as well a selective approach that does not do well to deliver on some of the questions policy makers ask regional economists.}
+with the latter, policy makers---whether national, regional or local---are oftentimes concerned about holistic approaches and future predictions. Exemplary questions are ``What works best for my country/region/city'' and ``If we change this what will happen to the country/region/city as a whole?''. Regional economists---actually, most economists---usually isolate phenomena in order to, at best, explain the impact of a single determinant. Indeed, most regional economists feel very uncomfortable when asked to predict or give the best set of determinants for a certain phenomenon. This has its consequences for the tool set regional economists apply. Usually a parametric regression type of framework is applied isolating the determinant under consideration and controlling as much as possible for observables and unobservables, ideally in a pseudo-experimental framework. A direct consequence of this approach is that emphasis is very much on explaining the impact of a determinant and not on predicting phenomena. For many applications that is definitely the right approach. However, as this paper ultimately argues, it is very much as well a selective approach that does not do well to deliver on some of the questions policy makers ask regional economists.}
 
 %----------------------------------------------------------------------------------------
 
@@ -101,7 +101,7 @@ with the latter, policy makers---whether national, regional or local---are often
 
 \epigraph{The sexiest job in the next 10 years will be statisticians.}{Hal Varian, 2009}
 
-The quote above from Hal Varian is in one aspect wrong; nowadays, we do not call
+The above quote from Hal Varian is in one aspect wrong; nowadays, we do not call
 them statisticians but data scientists instead. Nevertheless, in the last two
 decades companies such as Google, Ebay, Whatsapp, Facebook, Booking.com and
 Airbnb, have not only witnessed enormous growth but to a large extent also changed the socio-economic landscape. Indeed, with the increasing abundance of (spatial) data and computer capacity, the ability to gather, process, and visualize data has become highly important and therefore highly in demand as well. And all the models and tools these data scientists within these companies use are very much \textit{data driven} with often remarkable results. 
@@ -169,7 +169,7 @@ solutions. Usually, they revolve around questions starting with \textit{``What
   works for my region?''}. These types of questions require a different approach
 than the previous one. Namely, the former type requires an approach focused on \textbf{explaining} while the latter type requires an approach focused on \textbf{predicting}.
 
-Figure \ref{dataapproach})
+Figure \ref{dataapproach} 
 
 The remaining part of this position paper is structured as follows. The next
 section deals with the historical background both from an applied statistical
@@ -184,7 +184,7 @@ summarizes the main points raised in this position paper.
 
 %------------------------------------------------
 
-\section{The road to current day's practice\label{Background}}
+\section{The road to current day's practice in regional economics\label{Background}}
 
 Regional science itself started with the seminal work of
 
@@ -241,7 +241,7 @@ As in \citet{Bayer2004, Bayer2007a} and recently by \citet{Wang2016} and \citet{
 
 \citet{schwabish2014economist}
 
-\section{Into the abyss}
+\section{From here to eternity}
 
 %----------------------------------------------------------------------------------------
 %	REFERENCE LIST
