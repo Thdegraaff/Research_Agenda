@@ -2,8 +2,6 @@
 \defcounter {refsection}{0}\relax 
 \select@language {english}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Introduction: two different cultures}{1}{Doc-Start}
-\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1}The road to current day's practice}{2}{section.1}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2}Regional economists turning the blind eye}{2}{section.2}

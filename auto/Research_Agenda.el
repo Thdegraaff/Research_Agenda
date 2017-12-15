@@ -28,8 +28,10 @@
     "modelapproach"
     "dataapproach"
     "fig:twocultures"
-    "Background"
     "practices"
+    "model_economist"
+    "P"
+    "E"
     "agenda")
    (LaTeX-add-bibliographies
     "ThomasReferenties.bib"))
