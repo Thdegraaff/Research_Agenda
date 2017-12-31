@@ -162,35 +162,12 @@ most hypotheses researchers test are typically not very probable. Not taken this
 into account would actually lead to more null hypotheses to be rejected then
 should be (false positives).}
 
-Therefore it is striking that in economics in general, and in regional economics
-in specific, most of the tools employed are very much \textit{theory or model
-  driven} instead of data driven. My (conservative) estimate would be that 90\%
-of all empirical work in regional economics revolves around postulating a
-(linear) model and testing whether (a) key determinant(s) are significantly
-different from a hypothesized value---usually zero.\footnote{In a seminal
-  contribution, \cite{breiman2001statistical} states that deep into the 90s 98\%
-  of the statisticians actually employed the theory driven paradigm and only 2\%
-  a data driven paradigm. With the advent of the availability of internet
-  connectivity, large (online) data sources, and faster computers the
-  statistical realm changed dramatically. However, this has not permeated yet in
-  the social sciences \citep[see as well][]{varian2014big}} That is, \textit{within} the context of the model assumed.
-
-At best, this approach can be seen in a causal inference framework. If a
-determinant (such as a policy in the context of economics) $x$ changes, does it
-cause then a change in the output $y$ (most economists typically use some welfare measure).\footnote{Most of this research actually intends to mimic a \textit{difference-in-difference} approach and gained enormous momentum with the textbook of \citet{angrist2008mostly}.} This approach thus provides a rigid and useful approach to regional policy evaluation. If we implement policy $x$, does welfare measure $y$ then improve? 
-
-However, policy makers oftentimes have different questions for which they need
-solutions. Usually, they revolve around questions starting with \textit{``What
-  determines performance measure $A$?''}, \textit{``Which regions can we best
-    invest in?''} or, more generally, \textit{``What
-  works for my region?''}. These types of questions require a different approach
-than the previous one. Namely, the former type requires an approach focused on \textbf{explaining} while the latter type requires an approach focused on \textbf{predicting}.
-
 Figure (\ref{dataapproach}) yields a schematic overview of a more data driven
 approach. Here, we see an unknown model fed by predictors $\mathbf{x}$ that lead
 to one or multiple reponses $\mathbf{y}$. The main objective here is not to test
-hypotheses, but to find the best model instead able to explain the data.
-Usually, the models are evaluated by some kind of criterion (e.g., mean squared
+hypotheses, but to find the best model instead which able to explain the
+\emph{in-sample} data and to predict the \emph{out-of-sample} data.
+Usually, the models are evaluated by some kind of criterion (e.g., the mean squared
 error), which is not completely unlike the modeling approach. However, there are
 two main differences between the two approaches. First, the data driven approach
 considers several models in a structural approach. For instance, the question
@@ -203,8 +180,37 @@ specification. Second, measurements on model performance are done
 \textbf{in-sample} in the model approach. The latter is not that important for
 hypothesis testing, but for prediction this matters enormously, because adding
 parameters might increase the in-sample fit, but actually worsen the
-out-of-sample fit (overfitting).  
+out-of-sample fit (a phenomenon called overfitting).  
 
+In economics in general, and in regional economics
+in specific, most of the tools employed are very much \textit{theory or model
+  driven} instead of data driven. My (conservative) estimate would be that at least 90\%
+of all empirical work in regional economics revolves around postulating a
+(linear) model and testing whether (a) key determinant(s) is (are) significantly
+different from a hypothesized value---usually zero.\footnote{In a seminal
+  contribution, \cite{breiman2001statistical} states that deep into the 90s 98\%
+  of the statisticians actually employed the theory driven paradigm and only 2\%
+  a data driven paradigm. With the advent of the availability of internet
+  connectivity, large (online) data sources, and faster computers the
+  statistical realm changed dramatically. However, this has not permeated yet in
+  the social sciences \citep[see as well][]{varian2014big}.} That is, \textit{within} the context of the model assumed.
+
+At best, this approach can be seen in a causal inference framework. If a
+determinant (such as a policy in the context of regional economics) $x$ changes, does it
+cause then a change in the output $y$ (most economists typically use some
+welfare measure).\footnote{Most of this research actually intends to mimic a
+  \textit{difference-in-difference} approach and gained enormous momentum with
+  the textbook of \citet{angrist2008mostly}.} This approach thus provides a
+rigid and useful approach to regional policy evaluation. If we implement policy
+$x$, does welfare measure $y$ then improve? Note that this always considers a
+\textit{marginal} change as $x$ is usually isolated from other (confounding) factors.
+
+However, policy makers oftentimes have different questions for which they need
+solutions. Usually, they revolve around questions starting with \textit{``What
+  determines performance measure $A$?''}, \textit{``Which regions can we best
+    invest in?''} or, more generally, \textit{``What
+  works for my region?''}. These types of questions require a different approach
+than the previous one. Namely, the former type requires an approach focused on \textbf{explaining} while the latter type requires an approach focused on \textbf{predicting}.
 
 The remaining part of this position paper is structured as follows. Section
 \ref{practices} gives an overview of current modeling practices and describes the `traditional'
@@ -254,17 +260,18 @@ measurement error, reverse causality, selection bias, and so forth. Econometric
 theory has produced some very powerful techniques to control for some of these
 biases, such as instrumental variables, diff-in-diff procedures and the use of
 fixed effects. However, these methods are not panacea for everything. First, they work
-wonders for only specific research questions that have to do with the marginal effects of
+wonders for only specific research questions that have to do with the preferably
+causal effects of
 marginal changes. Second, some of these techniques require very specific and
 strong assumptions which are possibly not always met, which leaves doubts upon
-the validity of the results 
+the validity of the results. 
 
 Below, I will deal with instrumental variables, diff-in-diff and fixed effect
 techniques. I will specificially focus on some of the disadvantages. Some of the
 arguments are adaptions from \citet{deaton2010instruments} and I refer to this
 reference for a more complete treatise on the disadvantages of using
-instrumental variables and diff-in-diff methods. For all the advantages,
-read \citet{angrist2008mostly}. 
+instrumental variables and diff-in-diff methods. For all the advantages not
+dealt with in this paper, read \citet{angrist2008mostly}. 
 
 \subsubsection{Exogeneity versus independence}
 
@@ -292,7 +299,8 @@ impact of the population change in the current region
 \citep[see][]{DeGraaff2012, Graaff2012}
 
 The main point, however, is that equations (\ref{P})--(\ref{E}) constitute a full-blown
-economic \emph{model} which has direct relations with the theoretical model of \citet{roback1982wages}. 
+economic \emph{model} which has direct relations with underlying structural
+theoretical modeling frameworks \citep[such as][]{roback1982wages}. 
 
 \subsubsection{Local average treatment effects}
 
