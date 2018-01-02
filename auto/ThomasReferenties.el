@@ -3,6 +3,7 @@
  (lambda ()
    (LaTeX-add-bibitems
     ""
+    "bettencourt2010unified"
     "varian2014big"
     "roback1982wages"
     "deaton2010instruments"

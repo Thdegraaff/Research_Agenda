@@ -1,13 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.10.8)  31 DEC 2017 15:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.10.8)  2 JAN 2018 17:04
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**Research_Agenda.tex
-(./Research_Agenda.tex
-LaTeX2e <2017-04-15>
-Babel <3.10> and hyphenation patterns for 84 language(s) loaded.
-(./SelfArx.cls
+**\input Research_Agenda.tex
+(./Research_Agenda.tex (./SelfArx.cls
 Document Class: SelfArx 25/01/2012, v1.0
 (/usr/local/texlive/2017/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
@@ -1057,6 +1054,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 Package hyperref Info: Option `colorlinks' set `true' on input line 58.
 Package hyperref Info: Option `breaklinks' set `true' on input line 58.
 Package hyperref Info: Option `bookmarksopen' set `false' on input line 58.
+Package hyperref Info: Option `draft' set `true' on input line 94.
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
 
@@ -1190,8 +1188,11 @@ Package biblatex Info: ... file 'Research_Agenda.bbl' found.
 Package biblatex Info: Reference section=0 on input line 95.
 Package biblatex Info: Reference segment=0 on input line 95.
 \AtBeginShipoutBox=\box31
-Package hyperref Info: Link coloring ON on input line 95.
 
+
+Package hyperref Warning: Draft mode on.
+
+Package hyperref Info: Link coloring ON on input line 95.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
@@ -1203,11 +1204,6 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 95.
 LaTeX Info: Redefining \pageref on input line 95.
 LaTeX Info: Redefining \nameref on input line 95.
-
-(./Research_Agenda.out) (./Research_Agenda.out)
-\@outlinefile=\write5
-\openout5 = `Research_Agenda.out'.
-
 LaTeX Font Info:    Try loading font information for OT1+phv on input line 100.
 
 
@@ -1292,14 +1288,14 @@ File: mt-mvs.cfg 2006/07/05 v1.1 microtype config. file: Marvosym Euro (RS)
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <12> not available
 (Font)              Font shape `OT1/phv/b/n' tried instead on input line 104.
 
-<./figures/modelapproach.pdf, id=66, 281.31902pt x 91.30511pt>
+<./figures/modelapproach.pdf, id=1, 281.31902pt x 91.30511pt>
 File: ./figures/modelapproach.pdf Graphic file (type pdf)
 
 <use ./figures/modelapproach.pdf>
 Package pdftex.def Info: ./figures/modelapproach.pdf used on input line 129.
 (pdftex.def)             Requested size: 245.2399pt x 79.5964pt.
 
-<./figures/dataapproach.pdf, id=67, 275.9369pt x 87.57217pt>
+<./figures/dataapproach.pdf, id=2, 275.9369pt x 87.57217pt>
 File: ./figures/dataapproach.pdf Graphic file (type pdf)
 
 <use ./figures/dataapproach.pdf>
@@ -1307,8 +1303,8 @@ Package pdftex.def Info: ./figures/dataapproach.pdf used on input line 133.
 (pdftex.def)             Requested size: 245.2399pt x 77.8334pt.
 
 Overfull \hbox (2.7995pt too wide) in paragraph at lines 139--140
-[]\OT1/ptm/m/n/10 (-20) Figure [][]1[][] is an adap-ta-tion from the one dis-pl
-ayed in []Breiman
+[]\OT1/ptm/m/n/10 (-20) Figure 1 is an adap-ta-tion from the one dis-played in 
+[]Breiman
  []
 
 [1{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
@@ -1316,45 +1312,67 @@ ayed in []Breiman
 
 ]
 [2 <./figures/modelapproach.pdf> <./figures/dataapproach.pdf>] [3]
+Overfull \hbox (2.21452pt too wide) in paragraph at lines 341--353
+\OT1/ptm/m/n/10 (-20) specif-i-cally ac-ces-si-bil-ity mea-sures as road, rail-
+roads and canals.
+ []
 
+[4] <./figures/fe.pdf, id=56, 242.5331pt x 198.05894pt>
+File: ./figures/fe.pdf Graphic file (type pdf)
+ <use ./figures/fe.pdf>
+Package pdftex.def Info: ./figures/fe.pdf used on input line 444.
+(pdftex.def)             Requested size: 245.2399pt x 200.26761pt.
+
+<./figures/hetero.pdf, id=57, 242.5331pt x 198.05894pt>
+File: ./figures/hetero.pdf Graphic file (type pdf)
+
+<use ./figures/hetero.pdf>
+Package pdftex.def Info: ./figures/hetero.pdf used on input line 448.
+(pdftex.def)             Requested size: 245.2399pt x 200.26761pt.
+ [5] 
 AED: lastpage setting LastPage
-[4]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 346.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 346.
+[6 <./figures/fe.pdf> <./figures/hetero.pdf>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 560.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 560.
  (./Research_Agenda.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 346.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 346.
-Package rerunfilecheck Info: File `Research_Agenda.out' has not changed.
-(rerunfilecheck)             Checksum: 4C87962D1440E161C173F604F664FDDF;1105.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 560.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 560.
+
+
+Package biblatex Warning: Please rerun LaTeX.
+(biblatex)                Page breaks have changed.
+
 Package logreq Info: Writing requests to 'Research_Agenda.run.xml'.
 \openout1 = `Research_Agenda.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 18675 strings out of 492995
- 300172 string characters out of 6132704
- 630027 words of memory out of 5000000
- 21592 multiletter control sequences out of 15000+600000
- 79006 words of font info for 307 fonts, out of 8000000 for 9000
+ 18652 strings out of 492995
+ 299717 string characters out of 6132704
+ 628837 words of memory out of 5000000
+ 21597 multiletter control sequences out of 15000+600000
+ 80765 words of font info for 324 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 48i,11n,62p,1062b,1635s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 48i,12n,62p,1069b,1635s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/te
 xlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/tex
-live/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texli
-ve/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/
-2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2
-017/texmf-dist/fonts/type1/public/marvosym/marvosym.pfb></usr/local/texlive/201
-7/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2017/texmf
--dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2017/texmf-dist/f
-onts/type1/urw/helvetic/uhvro8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/t
-ype1/urw/symbol/usyr.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/ti
-mes/utmb8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times/utmr8a
-.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Research_Agenda.pdf (4 pages, 152150 bytes).
+live/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texli
+ve/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive
+/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/20
+17/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/201
+7/texmf-dist/fonts/type1/public/marvosym/marvosym.pfb></usr/local/texlive/2017/
+texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2017/texmf-d
+ist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2017/texmf-dist/fon
+ts/type1/urw/helvetic/uhvro8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/typ
+e1/urw/symbol/usyr.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/symb
+ol/usyr.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times/utmb8a.pf
+b></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/lo
+cal/texlive/2017/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on Research_Agenda.pdf (6 pages, 180230 bytes).
 PDF statistics:
- 250 PDF objects out of 1000 (max. 8388607)
- 225 compressed objects within 3 object streams
- 49 named destinations out of 1000 (max. 500000)
- 66179 words of extra memory for PDF output out of 74296 (max. 10000000)
+ 127 PDF objects out of 1000 (max. 8388607)
+ 99 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 66069 words of extra memory for PDF output out of 74296 (max. 10000000)
 

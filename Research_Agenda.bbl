@@ -249,6 +249,39 @@
     \field{year}{\noop{3002}Forthcoming}
   \endentry
 
+  \entry{bettencourt2010unified}{article}{}
+    \name{author}{2}{}{%
+      {{hash=BL}{%
+         family={Bettencourt},
+         familyi={B\bibinitperiod},
+         given={Luis},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=WG}{%
+         family={West},
+         familyi={W\bibinitperiod},
+         given={Geoffrey},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Nature Research}%
+    }
+    \strng{namehash}{BLWG1}
+    \strng{fullhash}{BLWG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2010}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{number}{7318}
+    \field{pages}{912\bibrangedash 913}
+    \field{title}{A unified theory of urban living}
+    \field{volume}{467}
+    \field{journaltitle}{Nature}
+    \field{year}{2010}
+  \endentry
+
   \entry{breiman2001statistical}{article}{}
     \name{author}{1}{}{%
       {{hash=BL}{%

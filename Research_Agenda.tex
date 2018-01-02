@@ -91,7 +91,7 @@ employment throughout the whole region'' and ``Given limited budget, which
 region should I first invest in''. Regional economists---actually, most economists---usually isolate phenomena in order to, at best, explain the impact of a single determinant. Indeed, most regional economists feel very uncomfortable when asked to predict or give the best set of determinants for a certain phenomenon. This has its consequences for the tool set regional economists apply. Usually a parametric regression type of framework is applied isolating the determinant under consideration and controlling as much as possible for observables and unobservables, ideally in a pseudo-experimental framework. A direct consequence of this approach is that emphasis is very much on explaining the impact of an isolated determinant and not on predicting (non-marginal) changes in larger systems. For many applications that is definitely the right approach. However, as this paper ultimately argues, it is very much as well a selective approach that does not do well to deliver on some of the questions policy makers ask regional economists.}
 
 %----------------------------------------------------------------------------------------
-
+\hypersetup{draft} 
 \begin{document}
 
 \flushbottom % Makes all text pages the same height
@@ -254,20 +254,19 @@ $\gamma$ are parameters, where we are especially interested in the value of
 $\beta$. Finally, $\epsilon_i$ is an identical and independent distributed error
 term.
 
-The main aim is to estimate $\beta$ as unbiased as possible. So, ideally, we
+Usually the main aim is to estimate $\beta$ as unbiased as possible in a causal framework. So, ideally, we
 would like to control for unobserved heterogeneity bias, specification bias,
 measurement error, reverse causality, selection bias, and so forth. Econometric
 theory has produced some very powerful techniques to control for some of these
 biases, such as instrumental variables, diff-in-diff procedures and the use of
 fixed effects. However, these methods are not panacea for everything. First, they work
 wonders for only specific research questions that have to do with the preferably
-causal effects of
-marginal changes. Second, some of these techniques require very specific and
+causal effects of marginal changes. Second, some of these techniques require very specific and
 strong assumptions which are possibly not always met, which leaves doubts upon
 the validity of the results. 
 
 Below, I will deal with instrumental variables, diff-in-diff and fixed effect
-techniques. I will specificially focus on some of the disadvantages. Some of the
+techniques consecutively. I will specificially focus on some of the disadvantages. Some of the
 arguments are adaptions from \citet{deaton2010instruments} and I refer to this
 reference for a more complete treatise on the disadvantages of using
 instrumental variables and diff-in-diff methods. For all the advantages not
@@ -289,8 +288,8 @@ regional $r$ characteristics. $\alpha$, $\beta$, $\gamma$, $\delta$, $\kappa$
 and $\lambda$ are parameters to be estimated.
 
 Obviously, one can not directly estimate (\ref{P}) and (\ref{E}) because of the
-intrinsic simultaneity. However suppose one is interested in estimating the
-impact of employment on population growth, then one can use (\ref{E}) and seach
+intrinsic simultaneity. However, suppose one is interested in estimating the
+impact of employment on population growth, then one can use (\ref{E}) and search
 for \emph{exogeneous}\footnote{This is not really precise; I mean exogeneous to
   population variation. I will come back to the use of exogeneous later.} variation in employment to use it as an instrumental
 variable. A possible strategy could be to look into the population changes of
@@ -298,15 +297,230 @@ surrounding regions (but within commuting distance), as they might not have an
 impact of the population change in the current region
 \citep[see][]{DeGraaff2012, Graaff2012}
 
-The main point, however, is that equations (\ref{P})--(\ref{E}) constitute a full-blown
+The main point\footnote{Directly from \cite{deaton2010instruments}.},
+however, is that equations (\ref{P})--(\ref{E}) constitute a full-blown
 economic \emph{model} which has direct relations with underlying structural
-theoretical modeling frameworks \citep[such as][]{roback1982wages}. 
+theoretical modeling frameworks \citep[such as][]{roback1982wages}. And the
+instrument then comes directly (is interal) from the model. 
+
+In practice, however, researchers often take another approach. And that is to
+look for external instruments. Instruments that have no relation with a
+structural (simultaneity) model. And there are is (a large) potential pitfall when doing so
+and that is to end up with an instrumental variables that is not independent from
+the left-hand-side variable. As it seems, there is some confusion about terms as
+independence and exogeneity, so let's first clarify the exact assumptions a
+valid instrument should satisfy.
+
+Suppose that somebody is interested in the impact of population on employment; so, one would like to
+identify $\kappa$ in (\ref{E}). To control for endogeneity researchers then
+search for an \emph{exogenous} and \emph{relevant} instrument, $Z_r$. The latter
+indicates that the instrument has an impact on the possible endogeneous variable
+($P_r$) and the former indicates that the instrument does not affect the
+left-hand-side variable ($E_r$), only via $P_r$ and other instruments. In formal
+notation: $E_r \perp Z_r|P_r, w_r$. Thus, exogeneity means that the instrument
+and the left-hand-side variables are \emph{independent} from each other conditional on
+the instruments.
+
+Unfortunately, exogeneity is often used as an argument for variables that are
+external to the system, denote a sudden shock or for phenomena that are
+considered to be exogenous in other fields (such as in geography).
+And this usually leads to instruments that do not satisfy the
+independence assumption. I will give three examples below.
+
+First, and very often use is the concept of deeplagging. So, in our case, we
+look for regional population say 100 years ago and use that as an instrument. It
+must be exogenous because we cannot change it, right? Well, it is definitely
+relevant, as regional population is remarkably resilient. Where people lived
+100 years ago, they most likely live today. But, if we take model
+(\ref{P})-(\ref{E}) seriously, then the population 100 years ago, must at least
+have affected employment 100 years ago, and if population is resilient then most
+likely employment as well (and we even do not consider yearly temporal dynamic
+between population and employment). So, in all likeliness, employment and
+population 100 years are not (conditionally) independent.
+
+The second type of instruments people often use are regional characteristics
+(preferably deeplagged as well), and specifically accessibility measures as
+road, railroads and canals. For a large audience the following story typically seems very plausible at first
+sight. At the end of the 19th century the large scale introduction of the
+railways enabled households to live further from home and escape the heavilty
+polluted inner cities where the factories remained (making use of the same
+railroads intersecting in city centres). Railroads thus changed the location of
+population and not that of employment. While this story is entirely possible,
+what is often overlooked is the fact that factories and thus employment changed location as
+well, but only 20-30 years later, and typically along the same links as opened
+up by railway lines. So, the railway network 140 years ago and contemporary
+location of employment are not (conditionally) independent.
+
+A last often used category of candidate instruments is geography-related
+variables. In our case that could be regions of municipalities. For instance,
+the Netherlands witnessed for a large period intensive population location
+policies. This entailed that the dutch government pointed out municipalities
+that were allowed to grow (in terms of housing policies). Using fixed effects of
+these specific municipalities then as instruments sound as a viable strategy.
+However, this requires strict assumptions. Namely, being a specific municipality
+will only have an effect on employment through being designated by the Dutch
+government; and by nothing else.\footnote{A similar argument has been made by
+  \cite{deaton2010instruments}, who considers economic growth theory, where fixed
+  effects of specific countries are used as instruments because they took part
+  in specific agreements---i.e., the Camp David accord for Egypt. Then the
+  heroic assumptions has to be made that being Egypt has no effect on growth,
+  except for the Camp David accord.}
+
+Is this to say that instrumental variables is a bad technique? No, absolutely
+not. If the instrument is valid, this is one of the most powerful techniques in
+the econometric toolbox. The point made here is that good instruments are
+actually hard to find and that structural simultaneous models (typically, in the
+context of supply and demand) usually work better to find instruments than
+instruments that are completely external to your problem. And if you really need
+to use an external instrument, be very specific and open about the assumptions
+you need to make.
 
 \subsubsection{Local average treatment effects}
 
 \subsubsection{Fixed effects and heterogeneity}
 
+An often used technique in applied econometrics is the use of fixed effects.
+They work brilliantly in removing unobserved heterogeneity but they come at a
+price which is typically overlooked. Namely, they remove valuable variation as well in
+both the dependent (predictor) $x$ and the independent (reponse) variable $y$.
+
+Consider the following model in equation (\ref{eq:density}), which is at the moment a heavily
+researched issue in both regional and urban economics. The issue here is to what
+extent city density increases individual productivity.  
+
+\begin{equation}
+  \label{eq:density}
+  \ln(w_{ic}) = \alpha + \beta \ln(d_{ic})+\epsilon_{ic},
+\end{equation}
+$w_{ic}$ denotes here individual wages (as a proxy for productivity) and
+$d_{ic}$ density of the city $c$ individual $i$ lives in. $\beta$ is our
+parameter of interest and because of the log-log structure $\beta$ denotes an
+elasticity. Obviously, direct
+estimation of model (\ref{eq:density}), would lead to a misleading parameter
+$\beta$ if one is aiming to measure a causal effect.\footnote{I specifically do not use
+the term \emph{biased} here. Namely, model (\ref{eq:density}) is a perfectly fine
+model to measure the overall correlation ($\beta$) between city density and individual
+wages and mosts non-economists are perfectly fine with this model
+\citep[see, e.g.,][]{bettencourt2010unified}. So, whether a parameter is biased depends ultimately upon the research question.}
+Namely, $\beta$ might be influenced by other (confounding) factors than only city density. One
+can think of factors such as skill level of the city population, accessibility of the city,
+sector structure of the city and city government. Moreover, a phenomenon called
+sorting might occur, where more ambitious, risk-seeking and high-skilled people
+migrate into larger and more dynamic cities.\footnote{Another issue we will not
+  deal with here is reverse causality where it might be that higher wages lead
+  to larger in-migration and thus larger density. This can, however, not be solved
+with fixed effects, but with tools as instrumental variables instead. We
+therefore leave it out of the discussion in this paragraph.}
+
+To answer the question to what extent density causes wages, researchers
+therefore resolved to using fixed effects. A baseline model can be seen in
+(\ref{eq:fe}). 
+
+\begin{equation}
+  \label{eq:fe}
+  \ln(w_{ic}) = \nu_i + \xi_c + \beta \ln(d_{ic})+\epsilon_{ic},
+\end{equation}
+here, $\nu_i$ denotes individual $i$ specific fixed effects and $\xi_c$ city $c$
+specific fixed effects. So, everything that does not vary over time for
+individuals and cities is now controlled for. A more insightful way what exactly
+happens is to write model (\ref{eq:fe}) in changes, such as: $\Delta \ln(w_{ic}) =
+\beta \Delta\ln( d_{ic}) + \epsilon_{ic}$.\footnote{Using changes (first differences)
+to remove fixed effects is a viable but often overlooked technique for dealing
+with fixed effects.}. So our model (\ref{eq:fe}) now identifies the
+\emph{causal} effect by looking at the impact of a change in density on a change
+in wages \emph{for the same individual within the same city}.
+
+Multiple improvement have already been to this model including controlling for
+sector/task of work and migrating between cities. Including these fixed effects
+(and many more) has had a profound effect on the value of $\beta$. Directly
+estimating model (\ref{eq:density}) yields an elasticity of around $1.15$,
+while estimating a model such as (\ref{eq:fe}) including many fixed effects
+would yield an elasticity of around $1.02$. So, there are economies of
+agglomeration, but they are not very large.
+
+\begin{figure*}[t!]\centering 
+	\subfloat[Fixed effects\label{fe}]{%
+		\includegraphics[width=0.49\textwidth]{./figures/fe}
+	}
+	\hfill
+	\subfloat[Heterogeneity in $\beta$\label{heterogeneity}]{%
+		\includegraphics[width=0.49\textwidth]{./figures/hetero}
+	}
+	\caption{Heterogeneity in levels versus slopes.}
+	\label{fig:heterogeneity}
+\end{figure*}
+
+Is this now the end of the story? Alas, it is not. At least three remarks can be
+made that put the above into perspective.
+
+First of all, note that we need changes over time---in our case in individual wages and
+city density. Now, if we take the extreme example of a subgroup of individuals
+who do not face wage changes and cities who remain relatively of equal size,
+than this subgroups will not be used for determination of $\beta$. Of course,
+not many observations will have these characteristics. Unfortunately, with
+more detailed data on sector structure and migration, we need individuals that
+move both residence and job for identification. All others are redundant. This
+increases the risk on what is called sample selection bias---identification is
+based on a specific subgroup with deviant characteristics. The point made here,
+is that with the use of many fixed effects, much is demanded from the data and
+one need always check whether the sample used for identification is not too
+restrictive.  
+
+Secondly, if there are unobserved factors that both relate to wages and density,
+then it is actually very likely that these unobserved factors are related to
+their \emph{changes} as well. One particular example here is technological
+change, which might affect density (suburbs) and wages at the same time, and is
+definitely not time-invariant. If one thinks about it, most interesting
+socio-economic phenomena are not time-invariant, except perhaps longitude and
+latitude. For example, a specific argument to use fixed effects is to control
+for local attractivity. But what individuals and firms find attractive does
+change of time, especially within cities, but across cities as well. Before
+air-conditioning cities in Florida and Nevada were definitely not as popular as
+today. And malaria-rich areas such as wetlands and river banks were always
+avoided until recently.   
+
+Thirdly, the use of fixed effects is based upon the assumption that all
+variation is based on variation of \emph{levels}. That is, each fixed effects
+actually denotes a very specific constant (for each individual and city in our
+case). However, this really requires a very homogeneous sample except in levels.
+For illustration, assume that there are three individuals, where individual 3
+has gigher wages than individual 1 and 2, because of, say, differences in skill
+levels (see as well Figure \ref{fe}). However, as Figure \ref{fe} clearly shows
+as well, apart from individual level variation, returns to density are similar
+for individuals 1, 2 and 3. So, each individual benefits equally from moving
+from a small village not a large metropolitan area. Now, assume that individuals
+are different with respect to the returns by living in large and denser cities.
+Then the impact $\beta$ should also differ amongst individuals as is illustrated
+in Figure \ref{heterogeneity}. This is not an argument to say that using fixed
+effects is wrong. But if the sample might be heterogenous, i.e. that
+units respond differently to different predictors, then using fixed effect might
+not yield a complete pictures and in some specific cases even a distorted picture. 
+
+Fixed effect techniques is a must have for every empirical regional economists.
+However, the message I would like to convey here is that it does not remove
+time-invariant unobserved heterogeneity (of which there is more than most
+researchers realise), is not very suitable for tackling heterogeneity in your
+main effect and might lead in some cases to sample selection bias.
+
 \subsection{The blind eye in education}
+
+So, if the main instruments of regional economists are not always applicable and
+we miss tools in our toolbox to tackle, e.g., heterogeneity, prediction and
+non-marginal changes, how do we then fare in teaching? Are the students who now
+graduate equipped with the right toolbox that they use as well in their later
+careers? And do we have a consistent curriculum using similar or complementary
+tools running from the bachelor to the graduate studies? These types of
+questions are not frequently asked, and, if at all, not very well met. Mostly
+because of vested interests of departments and researchers.
+
+In this subsection I will, however, try to answer partly some of these questions
+and identify what is missing in our curriculum. I will first look at the
+traditional applied econometrics approach and then to the (non-existence) of
+other courses, including the use of statistical software.
+
+\subsubsection{Applied Econometrics}
+
+\subsubsection{Current day practice}
 
 %------------------------------------------------
 
