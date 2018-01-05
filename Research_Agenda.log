@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.10.8)  2 JAN 2018 17:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.10.8)  5 JAN 2018 14:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1317,26 +1317,37 @@ Overfull \hbox (2.21452pt too wide) in paragraph at lines 341--353
 roads and canals.
  []
 
-[4] <./figures/fe.pdf, id=56, 242.5331pt x 198.05894pt>
+[4]
+Overfull \hbox (9.57835pt too wide) in paragraph at lines 468--472
+\OT1/ptm/m/n/10 (-20) meth-ods are strong tech-niques for the ap-plied re-giona
+l economist.
+ []
+
+[5] <./figures/fe.pdf, id=60, 242.5331pt x 198.05894pt>
 File: ./figures/fe.pdf Graphic file (type pdf)
  <use ./figures/fe.pdf>
-Package pdftex.def Info: ./figures/fe.pdf used on input line 444.
+Package pdftex.def Info: ./figures/fe.pdf used on input line 537.
 (pdftex.def)             Requested size: 245.2399pt x 200.26761pt.
 
-<./figures/hetero.pdf, id=57, 242.5331pt x 198.05894pt>
+<./figures/hetero.pdf, id=61, 242.5331pt x 198.05894pt>
 File: ./figures/hetero.pdf Graphic file (type pdf)
 
 <use ./figures/hetero.pdf>
-Package pdftex.def Info: ./figures/hetero.pdf used on input line 448.
+Package pdftex.def Info: ./figures/hetero.pdf used on input line 541.
 (pdftex.def)             Requested size: 245.2399pt x 200.26761pt.
- [5] 
+
+Underfull \vbox (badness 1112) has occurred while \output is active []
+
+ [6]
+[7 <./figures/fe.pdf> <./figures/hetero.pdf>] [8]
+
 AED: lastpage setting LastPage
-[6 <./figures/fe.pdf> <./figures/hetero.pdf>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 560.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 560.
+[9]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 805.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 805.
  (./Research_Agenda.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 560.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 560.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 805.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 805.
 
 
 Package biblatex Warning: Please rerun LaTeX.
@@ -1347,11 +1358,11 @@ Package logreq Info: Writing requests to 'Research_Agenda.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 18652 strings out of 492995
- 299717 string characters out of 6132704
+ 18679 strings out of 492995
+ 300144 string characters out of 6132704
  628837 words of memory out of 5000000
- 21597 multiletter control sequences out of 15000+600000
- 80765 words of font info for 324 fonts, out of 8000000 for 9000
+ 21612 multiletter control sequences out of 15000+600000
+ 81323 words of font info for 332 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  48i,12n,62p,1069b,1635s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
@@ -1369,10 +1380,10 @@ e1/urw/symbol/usyr.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/symb
 ol/usyr.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times/utmb8a.pf
 b></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/lo
 cal/texlive/2017/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Research_Agenda.pdf (6 pages, 180230 bytes).
+Output written on Research_Agenda.pdf (9 pages, 197490 bytes).
 PDF statistics:
- 127 PDF objects out of 1000 (max. 8388607)
- 99 compressed objects within 1 object stream
+ 139 PDF objects out of 1000 (max. 8388607)
+ 107 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  66069 words of extra memory for PDF output out of 74296 (max. 10000000)
 

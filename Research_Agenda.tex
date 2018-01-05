@@ -375,7 +375,100 @@ instruments that are completely external to your problem. And if you really need
 to use an external instrument, be very specific and open about the assumptions
 you need to make.
 
-\subsubsection{Local average treatment effects}
+\subsubsection{Local and average treatment effects}
+
+Two concepts which have received quite some attention recently in econometrics, but is often
+overlooked in applied regional and urban economics are local average treatment
+effects and average treatment effects. The former deals with the interpretation
+of instrumental variables, the latter with the (interpretation) of spatial
+difference-in-difference methods. Even though those methods are different, they
+have similar consequences for the interpretation of research findings and their
+unlying assumptions.
+
+The \emph{Local Average Treatment Effect} (or the LATE theorem) deals with the underlying
+assumptions that have to be made so that the instrumental variable estimation
+actually measures what we want \citep[see][]{imbens1994identification}. Referring again to our example above and say
+that we want to instrument regional population changes with municipalities being
+designated by a national policy to increase local housing supply. What we then
+actually measure is the effect of changes in population on employment of those
+municipalities that have actually complied with the national policy.
+Municipalities that dropped out in an earlier stage are not taken into account,
+but municipalities who did comply but never implemented the policy are.
+
+So, what is actually measured is the designation of municipalties to a policy,
+which might be a very interesting research question indeed, but in all
+likelihood does not necessarily coincide with the coefficient $\kappa$ in
+model (\ref{E}) above. In almost all cases the LATE theorem points at a more
+restrictive effect (and thus interpretation) of the instrumental variable than
+the \emph{structural} model sets out to estimate. Only under very strong
+assumptions---homogeneity of regions, perfect compliance, and so forth---
+the coefficient by the instrumental variable coincides with the coefficient of
+the structural model.  
+
+A different but related issue is that of the average treatment effects. Since
+the seminal work of \citet{angrist2008mostly} difference-in-difference methods
+(and all its variants) gained enormously in popularity. As well as in regional
+economics where spatial difference-in-difference are applied as often as
+possible. The idea itself is rather straightforward and originates from the
+search for semi-experimental randomized controlled trials (RCT's). 
+
+For the regional domain, assume the following: there is one group of
+municipalities that implement a policy (the treatment; $T = 1$) and one group of municipalities that does
+not ($T = 0$). Both groups of municipalities are measured before ($t = 0$) and after
+implementation ($t=1$).
+Then we can rewrite model (\ref{model_economist}) as:
+
+\begin{equation}
+  \label{eq:diff}
+  y_r = \alpha + \gamma_1 T_r + \gamma_2 t_r+ \beta (T_r \times t_r) + \epsilon_r,  
+\end{equation}
+where $Y_r$ denotes a specific regional outcome variable, $T_r$ the set of
+regions that are treated and $t_r$ the post implementation period. In this
+set-up $\gamma_1$ measures the average impact of the treated regions, $\gamma_2$
+the impact of the time period, and $\beta$ is our coefficient of interest; being
+the impact of the treatment. Note that $\beta$ in this setting actually denotes
+the difference in the outcome of the treatment groups \emph{minus} the
+difference in the outcome of the non-treated groups: hence, the name
+differences-in-differences.
+
+The main assumption for this technique relies on the trueness of randomization of treatment
+across, in our case, municipalities. In reality, the concept of randomization is
+difficult to defend. Poor regions are more likely to receive governmental
+subsidies, accessibility improvement are usually implemented in dynamic and
+succesful regions, and so forth. To circumvent this, researchers look at borders
+between regions. Back to our example, we then look at individuals close to a
+border between two municipalities, where one municipality received a treatment
+and the other did not. It is then defendable that such a band around a border is
+relatively homogeneous in characteristics an that both regions are thus equal
+except for the receivement of treatment.  
+
+This approach has two main consequences. The most mentioned consequence is that
+the effect $\beta$ is a so-called mean treatment effect. Every region, firm or
+individual benefits (is harmed by) equally from the treatment. So, it might very
+well be that some regions benefit greatly from some a policy, while it is
+actually harmful for others. Making the treatment effect more heterogenous is
+difficult and requires a lot from the data as every subgroup needs its own
+semi-experimental randomized control trial.
+
+Extending this argument to spatial difference-in-difference methods leaves us
+even with the assumption that the whole region should be alike the border area
+in term of benefitting from the policy. Or one should be satisfied with the fact
+that $\beta$ only tells us something about the effect of the policy in a border
+area. An area most likely not very representative of the rest of the region. 
+
+The other consequence relates again to the compliance assumption. Regions and
+municipalities themselves can be argued to fit well in treatment or
+non-treatment groups. And if not, non-compliance should be easily detected.
+However, for firms and individuals, compliance to randomization
+of treatment is often a very harsh assumption. More and more, evidence is found
+that especially individuals are very resourceful to circumvent randomization,
+whether it by allocation to class sizes, elementary schools, or even military
+draft by lottery.
+
+Randomized controlled trials and difference-in-difference methods are strong
+techniques for the applied regional economist. The point here is, however, that
+without very strong assumptions, findings are mean effects that only applied to
+a limited part of total sample. 
 
 \subsubsection{Fixed effects and heterogeneity}
 
@@ -451,7 +544,7 @@ agglomeration, but they are not very large.
 \end{figure*}
 
 Is this now the end of the story? Alas, it is not. At least three remarks can be
-made that put the above into perspective.
+made which put the above into perspective.
 
 First of all, note that we need changes over time---in our case in individual wages and
 city density. Now, if we take the extreme example of a subgroup of individuals
@@ -516,37 +609,189 @@ because of vested interests of departments and researchers.
 In this subsection I will, however, try to answer partly some of these questions
 and identify what is missing in our curriculum. I will first look at the
 traditional applied econometrics approach and then to the (non-existence) of
-other courses, including the use of statistical software.
+other courses geared towards data science, including the use of statistical software.
 
-\subsubsection{Applied Econometrics}
+\subsubsection{Statistics \& Applied Econometrics}
 
-\subsubsection{Current day practice}
+In contemporary economic bachelor curriculae students typically follow one
+applied statistics course, where some hands-on experience is offered by working
+with small datasets---typically in menu driven statistical software such as SPSS
+or STATA. In the master phase, if students start to specialise in, e.g.,
+regional economics, students then follow one applied econometrics
+course with an emphasis on regression techniques, instrumental variables and the
+use of fixed effects.
+
+The statistics courses are very much geared towards traditional socio-economic
+research where a hypothesis is formed (usually the difference between two groups
+not being zero), data is gather (via survey techniques) and statistical tests
+are applied on the difference between two groups (usually with the use of
+$t$-tests).
+
+For most students, especially applied statistics feel as a very mechinal
+procedure using a pre-defined set or recipes. \citet{mcelreath2016statistical}
+introduced a nice analogy with the old folkore of the Golem of Prague. The
+Golem was a mindless robot of clay that obeys orders. Scientists also use
+golems, especially with statistical procedure, where test or estimation one
+performs is a small golem in itself. A mindless procedure that obeys what you
+tell them do. Sometimes for the better, sometimes for the worse. 
+
+For students this is not completely unlike: if you have this procedure, with
+these data, you should use this test---if not, use that test. Why that test is
+not an issue, one just follows a particular scheme and deploys one's own golem. What is
+problematic with this approach is that students never completely understand what
+they are doing. Throughout their bachelor years, the relation between test
+statistics, $p$-values, significance level and confidence levels is typically
+lost on them.
+
+For a large part, confusion amongst students is caused by the fact that
+(classical) statistics at the bachelor level is in way rather counter intuitive.
+Take, e.g., the following two statements about the 95\% confidence interval.
+
+\begin{quotation}
+  A 95\% confidence interval means that for a given realized interval there is a 95\% probability that the population parameter lies within the interval.
+\end{quotation}
+
+\begin{quotation}
+  With numerous repeated samples, the fraction of calculated confidence intervals (which would differ for each sample) that encompass the true population parameter would tend toward 95\%.
+\end{quotation}
+
+Most students---in fact the audience at large and most scholars as well---would
+choose the first statement as being true for the 95\% confidence interval. But
+in fact, the first statement is wrong and the second is true. The confidence
+interval is only formed by the (often implicit) assumption of numerours (infite)
+sampling. It does not resemble a statement about a probability of the population
+parameter even though most us feel intuitively that that \emph{should} be the
+case.
+
+These concepts of sampling and the associated confusion unfortunately,
+carry directly over to the applied econometrics domain. However, usually
+students find applied econometrics easier as less emphasis is put on the
+statistical background of the estimators. Unfortunately, applied econometrics
+only comes back in non-methods courses in the master phase, less so in the bachelor years,
+even though concepts as regression is taught in the first bachelor. This
+typically leaves bachelor students with a small amount of experience and less to none
+intuition when it comes to applied (econometric) work with empirical datasets.   
+
+as I will argue in the next section there are other ways of teaching students
+concepts of statistics and probabilities which rely less on sampling and more on
+counting (frequentism) instead. However, for this, computers and statistical
+software packages are needed, but then at least we can make statement as the
+first one above, which feel far more intuitive. 
+
+\subsubsection{The usage of data science}
+
+In addition to statistics and applied econometrics, students are now offered a
+(data science) programming language as well in the
+bachelor, mostly R of Python. They usually only learn the basics and typically
+do not work with databases, datascience of modeling techniques in these type of
+courses. And, unfortunately, subsequent bachelor courses do not use these programming
+languages for their exercises. This renders the added value of these courses
+quickly to zero.
+
+Master courses now use more and more data science techniques and languages,
+although---in all honesty---typically outside the domain of (regional)
+economics. Unfortunately, without a solid background in dealing with data
+management and newer and more applied concepts of statistics, students approach these forms of
+techniques (e.g., classification and regression trees) again as mechanical
+golems by following recipes without truly understanding the underlying theory.   
 
 %------------------------------------------------
 
 \section{Incorporating the data science culture\label{agenda}}
 
-What do we need?
+The previous section discussed contemporay and cutting-edge methods of (regional)
+economists. As argued, these methods have merits. Not least because they are all
+geared towards identifying \emph{causal} relationships, and to a far greater
+extent then in other social sciences.
 
-\subsection{For research}
+However, these methods do come at some costs. First of all, the results should
+be interpreted as \emph{marginal} effects. A small change in $x$ causes a
+certain change in $y$. Second, the effect is always \emph{ceteris paribus}.
+All possible other factors are controlled for. Third, most of these methods face
+difficulties with \emph{heterogeneous} effects. Fourth, and final, the underlying
+statistical framework is often difficult to interpret---for students, scholars,
+and the audience at large.
 
-\subsubsection{Regional heterogeneity}
+These disadvantages do have serious consequences for what this traditional
+toolkit can and what it cannot. First of all, it is very
+good in explaining but very bad in predicting. Second, system-wide changes and
+impacts are difficult to incorporate. Third, it has difficulties with different
+heterogeneous subgroups. Fourth, the underlying statistical framework makes it
+difficult to evaluate models. And, as last, the statistical framework also make
+it difficult to deal with non-linear and non-parametric techniques are
+difficult to yield with this specifications.
+
+Below, I first explain how using techniques from the data driven approach side, or the
+data science side, can help research in  the field of regional economics further in three
+directions: model comparison, heterogeneous effect sizes, and predicting.
+
+Thereafter, I describe what needs to be changed in education, so that future
+students will better enabled to deal with the abundance of larger datasets, the
+need for better predictions and a more intuitive understanding of probabilities
+and testing.
+
+
+\subsection{In research}
+
+\subsubsection{Heterogeneity}
 
 \citep{Thissen2016, Graaff2012, DeGraaff2012}
 
-\subsubsection{Conditional robustness}
+\subsubsection{Model comparison}
 
 In regional science in general and in regional economics in specific, remarkably little attention has been given to reproducibility and robustness of results \citep[with some exceptions as, amongst some others, by][]{Rey:2014cl,arribas2015woow, Arribas2016}.
 
-\subsubsection{Regional sorting models}
+\subsubsection{Predicting}
 
 As in \citet{Bayer2004, Bayer2007a} and recently by \citet{Wang2016} and \citet{Bernasco2016}.
 
-\subsection{For education}
+\subsection{In education}
+
 
 \citet{schwabish2014economist}
 
 \section{Into the abyss}
+
+I started this paper with the observation, that, in the words of
+\citet{breiman2001statistical}, there seems so be two cultures in statistical or
+econometric modeling; a theory driven and a data driven approach. These two
+approaches are not mutually exclusive, but complementary. And both have their
+own strengths and weaknesses. However, especially in economics---and thus in
+regional economics as well---the theory driven approach still seems to be highly
+dominant, even with the advent of increasingly larger (micro-)databases.
+Arguably, this is problematic as the theory driven approach has difficulties when anwering questions typically
+asked by policy makers; questions such as ``What works best for my region?'',
+``What happens with the capacity of my whole network when I invest in a specific
+highway link?'' and ``In which region should I invest to get highest returns?''.
+
+So, the main argument of this paper lies in introducing more data apprach/data
+science techniques in the toolkit of the regional economist. Other related fields, even
+in the social sciences, have already made large advances, such as predictive
+policing in criminology, latent class approaches in transportion modeling, and
+the use of deep learning techniques in marketing sciences. 
+
+Obviously, this needs large investments (mostly in time), both for researchers
+and for teachers. The first group needs to invest in new techniques and probably
+in new statistical software. The second group needs to change parts of the
+curriculum in terms of the specific contents of methods courses and exercises.
+Fortunately, many online and open source manuals, videos and even textbooks are
+available.\footnote{Especially for the R language there is Vast amount of
+  material available, such as \href{http://r4ds.had.co.nz/}{R for Data Science}
+  and \href{https://csgillespie.github.io/efficientR/}{Efficient R programming}.
+Moreover, companies such as DataCamp allow for free subscriptions as long as the
+material is used for classes.} 
+
+To conclude, I would like to note that apart from the intrinsic scientific
+arguments there are two other very compelling arguments to invest at least some
+time in data driven approaches. First, it coincides wonderfully with other
+techniques, such as versioning, blogging (publishing to HTML), and command line
+tools. All these approaches ensure that research becomes more reproducible.
+Something that becomes more and more a hard requirement by both university and
+the audience at large. Second, when looking at recent advances both in industry
+(e.g., all the dotcom companies but also others, such as more traditional media
+companies) and in other scientific, it is not the question \emph{if} regional economists
+should invest more in the data science approach, but the question \emph{how
+  soon} can we start.  
 
 %----------------------------------------------------------------------------------------
 %	REFERENCE LIST
