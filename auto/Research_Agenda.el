@@ -38,7 +38,8 @@
     "fe"
     "heterogeneity"
     "fig:heterogeneity"
-    "agenda")
+    "agenda"
+    "fig:mixturetwocultures")
    (LaTeX-add-bibliographies
     "ThomasReferenties.bib"))
  :latex)
