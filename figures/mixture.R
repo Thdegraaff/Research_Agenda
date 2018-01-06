@@ -24,4 +24,6 @@ p2<-ggplot(xy, aes(x=xvar)) +
 p3<-ggplot(xy, aes(xvar, fill = zvar)) + geom_density(alpha = 0.5)+ 
   xlab("ln(housing prices)") +theme_economist() + scale_colour_economist() + labs(fill="Group") 
 
+pdf(file = "~/projects/Research_Agenda/figures/mixture.pdf", width = 8.27, height = 3)
 grid.arrange(p1, p2, p3, nrow=1)
+dev.off()

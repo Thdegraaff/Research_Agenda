@@ -729,10 +729,25 @@ students will better enabled to deal with the abundance of larger datasets, the
 need for better predictions and a more intuitive understanding of probabilities
 and testing.
 
-
 \subsection{In research}
 
-\subsubsection{Heterogeneity}
+\subsubsection{Dealing with heterogeneity}
+
+One of the weaknesses of the theory driven approach---or the more classical
+research methods---is dealing with heterogeneity. Fixed effects regressions
+only deal with removing level effects and not varying slope effects,
+difference-in-difference designs only give average treatment effects and
+instrumental variables have difficulties with incorporating
+heterogeneity\footnote{There are some advances made in introducing
+  heterogeneous instuments in quantile regression techniques, but the exact
+  mechanism is still not clear-cut.}.
+
+The argument made against heterogeneity is that it only affects efficiency
+(i.a., the standard errors), but in most cases this is not true. In non-linear
+models, such as discrete choice and duration models heterogeneity affects the
+consistency (i.a., the parameter of interest) as well. Moreover, interpration of
+the parameter of interest might be completely off when not allowing for
+heterogeneous groups. 
 
 \begin{figure*}[t!]\centering 
 		\includegraphics[width=\textwidth]{./figures/mixture}
@@ -740,18 +755,80 @@ and testing.
 	\label{fig:mixturetwocultures}
 \end{figure*}
 
-\citep{Thissen2016, Graaff2012, DeGraaff2012}
+Consider Figure \ref{fig:mixturetwocultures} where in the left panel a density
+distibution is given from a distribution of lognormally distributed housing
+prices. When interested in explaining the effect of a variable $x$ on housing prices
+this is typically the first descriptive plot an applied researcher creates. The
+middle panel enlights this plot further by combining both a density plot and a
+histogram. But what if the sample consists of \emph{two} types of housing
+markets. One overheated and one with ample housing supply. Then most likely the
+mechanism on both markets are different and the effect $\beta$ could be very
+well different for both markets. Indeed, the right panel shows that the density
+distribution from the left panel is actually a realization of a mixture of two
+(in this case normal) distributions. The housing market with ample supply of
+houses is then represented by group 1 and the overheated housing market is
+represented by group 2.
+
+These latent class approaches are typically not much applied in (regional)
+economics \citep[see for an exception, e.g.,]{lankhuizen2015}.\footnote{In other
+ecoomic or social science fields, such as market and transportation science,
+however, this is already a common approach.} However, correct identification of
+submarkets or subgroups could be very important for policy makers as the average
+treatment effect may very well not even apply to anyone \citep[an argument, in
+Dutch, made as well in][]{DeGraaff2014misc}.  
+
+Slowly, the notation that fixed effects contain much useful information
+permeated in the regional economics domain. An insightful and straightforward
+way to do this is by adapting the wage model in (\ref{eq:fe}) as follows:
+\begin{align}
+  \label{eq:fe2}
+  \ln(w_{ic}) &= \xi_c + \beta \ln(d_{ic})+\mathbf{z_{ic}}\gamma + \epsilon_{ic} \notag \\
+  \xi_c&=\alpha + \mathbf{x_c}\delta + \mu_c,
+\end{align}
+where the individual wage model is now split up in two stages. The first stage
+model the individual variation and regional fixed effects. The second stage now
+regresses regional variables on the estimated fixed effects. This approach is
+now frequently applied \citep[For example, in the so-called sorting
+model][]{Bayer2004, Bayer2007a, Wang2016,
+  Bernasco2016}. 
+
+Two large advantages of this approach are that the standard errors on both the
+individual and the regional level are correctly estimated and that, if needed,
+instrumental variable methods may be applied in the second stage. There is one
+disadvantage and that is the fixed effects in the second stage are not observed
+but estimated (imputed) and that has an effect on the standard errors.
+
+Note that model (\ref{eq:fe2}) is very much alike multi-level models, which are
+very often used both in the data driven approach and in other social science
+apart from economics. Multi-level modeling works great in both correctly
+estimating a model with observations on various levels (such as individuals, firms,
+sectors and regions) and in retrieving heterogeneous estimates (both in levels
+and in slopes). Unfortunately, correcting for possible endogeneity is cumbersome
+in multi=level modeling. But, with the increasing advent of micro-data,
+combining a individual-regional model as in (\ref{eq:fe2}) with the more
+rigorous structure of multi-level modeling is definitely worth more attention in
+the near future. 
+
+Interestingly, more (spatial) non-parametric approaches \citep[see, e.g., the
+geograpically weighted regression exercise in]{Thissen2016} have become more
+popular as well in the last decade (typically, because of increased computer
+power). This approach needs more attention as well, as the connection with
+(economic) theory is often lost. And, especially regional geographers apply
+spatial non-parametric techniques, not the regional economists 
 
 \subsubsection{Model comparison}
 
-In regional science in general and in regional economics in specific, remarkably little attention has been given to reproducibility and robustness of results \citep[with some exceptions as, amongst some others, by][]{Rey:2014cl,arribas2015woow, Arribas2016}.
+One element that is notoriously weak in the theory-driven approach is model
+comparison---or the models should be nested. And in many cases, model comparison
+is often very much asked by policy makers and the audience at large, if not only
+for finding the correct specification. 
 
 \subsubsection{Predicting}
 
-As in \citet{Bayer2004, Bayer2007a} and recently by \citet{Wang2016} and \citet{Bernasco2016}.
 
 \subsection{In education}
 
+In regional science in general and in regional economics in specific, remarkably little attention has been given to reproducibility and robustness of results \citep[with some exceptions as, amongst some others, by][]{Rey:2014cl,arribas2015woow, Arribas2016}.
 
 \citet{schwabish2014economist}
 
@@ -780,7 +857,7 @@ and for teachers. The first group needs to invest in new techniques and probably
 in new statistical software. The second group needs to change parts of the
 curriculum in terms of the specific contents of methods courses and exercises.
 Fortunately, many online and open source manuals, videos and even textbooks are
-available.\footnote{Especially for the R language there is Vast amount of
+available.\footnote{Especially for the R language there is a vast amount of
   material available, such as \href{http://r4ds.had.co.nz/}{R for Data Science}
   and \href{https://csgillespie.github.io/efficientR/}{Efficient R programming}.
 Moreover, companies such as DataCamp allow for free subscriptions as long as the
