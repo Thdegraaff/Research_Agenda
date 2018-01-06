@@ -40,7 +40,9 @@
     "fig:heterogeneity"
     "agenda"
     "fig:mixturetwocultures"
-    "eq:fe2")
+    "eq:fe2"
+    "eq:bayes"
+    "fig:flowchart")
    (LaTeX-add-bibliographies
     "ThomasReferenties.bib"))
  :latex)

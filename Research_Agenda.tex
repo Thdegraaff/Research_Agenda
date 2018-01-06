@@ -135,7 +135,23 @@ sciences---the theory driven approach still very much dominates the landscape of
 	\label{fig:twocultures}
 \end{figure*}
 
-Figure \ref{fig:twocultures} is an adaptation from the one displayed in \citet{breiman2001statistical} and describes the processes governing these two cultures. Figure (\ref{modelapproach}) is what I refer to as the modeling approach, where a statistical model is postulated and is central to this culture. This is the classical approach\footnote{Sometimes as well referred to as the frequentists' approach. However, this typically concerns the debate between classical statistics and Bayesian statistics, where the two approaches I refer to are more concerned with wider frameworks, of which the Bayesian approach is just one of the elements.} where statistical probability theory meets the empiricism of Karl Popper. Usually the model assumed is stated as a linear model and in its most simple form can be denoted as:
+Figure \ref{fig:twocultures} is an adaptation from the one displayed in
+\citet{breiman2001statistical} and describes the processes governing these two
+cultures. Figure (\ref{modelapproach}) is what I refer to as the modeling
+approach, where a statistical model is postulated and is central to this
+culture. This is the classical approach\footnote{Sometimes as well referred to
+  as the frequentists' approach. However, this typically concerns the debate
+  between classical statistics and Bayesian statistics, where the two approaches
+  I refer to are more concerned with wider frameworks, of which the Bayesian
+  approach is just one of the elements. I come back to Bayesian statistics and
+  the frequentists' approach later, but I do not see them necessarily as
+  opposites. And I quite object to the term frequentists' approach as Bayesian
+  statistics is much more focuses on counting then the frequentists' approach.}
+  where statistical probability theory
+  meets the empiricism of Karl Popper.\footnote{To be honest, Popper himself was not a
+  great fan of simply null hypothesis testing. He actually argued for the
+  falsification of explanatory models, where in his view falsification does not
+  only rely on statistics but on consensus amongst scientists as well.} Usually the model assumed is stated as a linear model and in its most simple form can be denoted as:
 \begin{equation}
 	\mathbf{y} = \mathbf{x}\beta + \epsilon, 
 \end{equation}
@@ -804,7 +820,7 @@ apart from economics. Multi-level modeling works great in both correctly
 estimating a model with observations on various levels (such as individuals, firms,
 sectors and regions) and in retrieving heterogeneous estimates (both in levels
 and in slopes). Unfortunately, correcting for possible endogeneity is cumbersome
-in multi=level modeling. But, with the increasing advent of micro-data,
+in multi-level modeling. But, with the increasing advent of micro-data,
 combining a individual-regional model as in (\ref{eq:fe2}) with the more
 rigorous structure of multi-level modeling is definitely worth more attention in
 the near future. 
@@ -823,12 +839,31 @@ comparison---or the models should be nested. And in many cases, model comparison
 is often very much asked by policy makers and the audience at large, if not only
 for finding the correct specification. 
 
+Sampling in frequentist statistics is a device to construct undercertainty
+around an estimate. Sampling in Bayesian statistics is a way to perform integral
+calculus (or to simulate observations). 
+
+\begin{align}
+  \ln(h_c) & \sim \text{Normal}(\mu_c, \sigma) \tag{likelihood}\\
+  \mu_c & = \alpha + \beta x_c \tag{linear model}\\
+  \alpha & \sim \text{Normal}(12,3) \tag{$\alpha$ prior}\\
+  \beta & \sim \text{Normal}(5,10) \tag{$\beta$ prior}\\
+  \sigma &\sim \text{Uniform}(0,2) \tag{$\sigma$ prior}
+  \label{eq:bayes}         
+\end{align}
 \subsubsection{Predicting}
 
 
 \subsection{In education}
 
 In regional science in general and in regional economics in specific, remarkably little attention has been given to reproducibility and robustness of results \citep[with some exceptions as, amongst some others, by][]{Rey:2014cl,arribas2015woow, Arribas2016}.
+
+\begin{figure}[t!]\centering 
+  \includegraphics[width=\columnwidth]{./figures/flowchart.jpg}
+  \caption{An example of a flowchart for statistical tests.}
+	\label{fig:flowchart}
+\end{figure}
+
 
 \citet{schwabish2014economist}
 
