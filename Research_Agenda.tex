@@ -24,7 +24,7 @@
 
 \usepackage[english]{babel} % Specify a different language here - english by default
 
-\usepackage{marvosym, epigraph, subfig}
+\usepackage{marvosym, epigraph, subfig, listings}
 
 \usepackage[sortcites=false,style=authoryear-comp,bibencoding=utf8, natbib=true, firstinits=true, maxcitenames=2, maxbibnames = 99, uniquename=false, backend=bibtex, useprefix=true, backref=false,doi=false,isbn=false,url=false,dashed=true]{biblatex}
 \setlength\bibhang{20pt}
@@ -88,7 +88,21 @@ oftentimes concerned about holistic approaches and future predictions. Exemplary
 questions are ``Which policy instrument works best for my city'', ``What
 happens after the construction of this highway with housing prices and
 employment throughout the whole region'' and ``Given limited budget, which
-region should I first invest in''. Regional economists---actually, most economists---usually isolate phenomena in order to, at best, explain the impact of a single determinant. Indeed, most regional economists feel very uncomfortable when asked to predict or give the best set of determinants for a certain phenomenon. This has its consequences for the tool set regional economists apply. Usually a parametric regression type of framework is applied isolating the determinant under consideration and controlling as much as possible for observables and unobservables, ideally in a pseudo-experimental framework. A direct consequence of this approach is that emphasis is very much on explaining the impact of an isolated determinant and not on predicting (non-marginal) changes in larger systems. For many applications that is definitely the right approach. However, as this paper ultimately argues, it is very much as well a selective approach that does not do well to deliver on some of the questions policy makers ask regional economists.}
+region should I first invest in''. Regional economists---actually, most
+economists---usually isolate phenomena in order to, at best, explain the impact
+of a single determinant. Indeed, most regional economists feel very
+uncomfortable when asked to predict or give the best set of determinants for a
+certain phenomenon. This has its consequences for the tool set regional
+economists apply. Usually a parametric regression type of framework is applied
+isolating the determinant under consideration and controlling as much as
+possible for observables and unobservables, ideally in a pseudo-experimental
+framework. A direct consequence of this approach is that emphasis is very much
+on explaining the impact of an isolated determinant and not on predicting
+(non-marginal) changes in larger systems. For many research questions that is the
+right approach. For other research questions (revolving around non-marginal
+changes and predicting) we need other more data driven tools. Therefore, my main
+argument would be that we allow for more data science techniques in the toolkit
+of the regional economist, both in research and in education}
 
 %----------------------------------------------------------------------------------------
 \hypersetup{draft} 
@@ -651,9 +665,16 @@ performs is a small golem in itself. A mindless procedure that obeys what you
 tell them do. Sometimes for the better, sometimes for the worse. 
 
 For students this is not completely unlike: if you have this procedure, with
-these data, you should use this test---if not, use that test. Why that test is
-not an issue, one just follows a particular scheme and deploys one's own golem. What is
-problematic with this approach is that students never completely understand what
+these data, you should use this test---if not, use that test. Why to use that test is
+not an issue, one just follows a particular scheme and deploys one's own golem.
+Figure \ref{fig:flowchart} gives a typical example of such scheme or flowchart
+for the useage of statistical tests.
+\begin{figure}[t!]\centering 
+  \includegraphics[width=\columnwidth]{./figures/flowchart.jpg}
+  \caption{An example of a flowchart for statistical tests.}
+	\label{fig:flowchart}
+\end{figure}
+What is problematic with this approach is that students never completely understand what
 they are doing. Throughout their bachelor years, the relation between test
 statistics, $p$-values, significance level and confidence levels is typically
 lost on them.
@@ -980,16 +1001,99 @@ satisfied.
 
 \subsection{In education}
 
-In regional science in general and in regional economics in specific, remarkably little attention has been given to reproducibility and robustness of results \citep[with some exceptions as, amongst some others, by][]{Rey:2014cl,arribas2015woow, Arribas2016}.
+As discussed above, in regional economics---in fact, in all social sciences---introductionary
+statistics courses are like cook books. In this situation you need that recipe
+(test), in that situation you need that recipe (test). These recipes even
+perfectly coincide with the drop-down menu from certain, grapically user
+interface driven, statistical software packages such as SPSS. This causes
+students not to understand the underlying mechanism but just to apply procedures
+(or actually push buttons).  
+
+Without going into the need for using a frequentist or a Bayesian approach (they
+coincide more than most people think), I would actually argue very much for
+already using computers and coding in an early phase in students' education.
+This could coincide with more traditional probability theory, but has an
+advantage that it is a general approach instead of a flowchart.
 
 \begin{figure}[t!]\centering 
-  \includegraphics[width=\columnwidth]{./figures/flowchart.jpg}
-  \caption{An example of a flowchart for statistical tests.}
-	\label{fig:flowchart}
+  \includegraphics[width=\columnwidth]{./figures/normal}
+  \caption{Overlapping normal distributions.}
+	\label{fig:normal}
 \end{figure}
+As an example, consider Figure \ref{fig:normal} where two normal distributions
+are depicted. The left one has a mean of $-1$, the right one has a mean of $1$.
+Both have a standard deviation of 1. The question is now to what extent these
+distributions are different from each other. (Slightly rephrased: this is actually the problem whether
+two coefficients in a frequentist framework are different from each other). One
+approach is to search for a suitable test (and quickly run in a plethora of $F$,
+$z$ and $t$-tests); so, following a flowhart again.
 
+Another approach would actually be to \emph{count}---well, take the integral of
+---the number of observations in the area that belongs to both distributions. By
+hand this is infeasible, but with a computer this is rather easy. Just sample a
+reasonable amount of realisations from both distributions (say $N$ times) and
+count how many times the realisation from the second distribution is smaller
+than the first distributions. To get a probability, divide by $N$. In R the code
+simply boils down to:
 
-\citet{schwabish2014economist}
+\begin{lstlisting}[language=R]
+  N = 100000          # number of draws
+  # Draw from first distribution
+  n1 <- rnorm(N,-1, 1) 
+  # Draw from second distribution
+  n2 <- rnorm(N, 1, 1) 
+  # Count how many times second dist.
+  # is smaller than first dist.
+  count <- sum(n2 < n1)    
+  count/N       # get probability 
+\end{lstlisting}
+And for those who are interested, the probability is approximately $0.079$. Note
+that this is a full-blown probability and not so much a test. You could easily
+turn this into a test when comparing this with a pre-defined probability. If you
+find this probability to high, you actually have large doubts whether two
+coefficients are different.\footnote{Note that I refrain from using the term
+  significance level. This concept is truly a frequentists' concept and on a
+  fundamental level relies on the concept of infinite sampling to get uncertainty.} 
+
+Although this approach is definitely intuitive and arguable very powerful (if
+you understand the approach above, you basically understand Bayesian statistics
+as well) it does require computer literate skills from students. And contrary to
+popular belief, most students actually face large difficulties with coding,
+command line tools, working with file systems, and so on. This is caused by the
+fact that all tools they usually work with\footnote{Typically they work with Powerpoint, Excel
+  and Word.} are driven by drop-down menu's,
+templates and strong graphical user interfaces.  
+
+This is also caused by the fact that in regional economics (actually in al the
+social sciences), remarkably little attention has been given to the set of
+computer-related tools students could use, why they should use them and the
+relation between them \citep[with some exceptions as, amongst some others, by][]{Rey:2014cl,arribas2015woow, Arribas2016}.
+This is even more remarkable as reproducibility and robustness of results become
+more important in research and teaching. 
+
+And this does not not apply for statistical software tools such as R or Python,
+but as well to other fields. Gathering data, manipulating data, visualising data
+and communing results are all skills that arguably are very important for
+students and scientist and become even more important in the future
+\citep{varian2014big}. There are some exceptions as
+\citet{schwabish2014economist}, but in (regional) economics these skill still
+receive not much attention---in research, but especially in education.
+
+I conclude this section by argueing that we miss three main elements in our
+curriculum. The first on being a larger emphasis on computer literature skills, such as coding, command
+line tools, visualisation of data, an so forth. The second is more room for the
+data driven approach, where using software packages such as R of Python,
+problems are solved with data science techniques, with its larger emphasis on
+predicting and non-linear modeling. To be clear, simulation exercises as above
+functions as well as a data driven approach. Most importantly, students should
+understand the underlying mechanism, instead of applying procedures. The third
+and final element that is missing is consistently throughout the curriculum.
+This is often understood as applying the same tools for each course, but this is
+not necessarily the case. What I mean with consistently is that elements from
+method courses should come back in regular courses. Nowadays, most courses could
+implement an empirical element, such as regression techniques, data
+visualisation, data manipulation, and perhaps coding as well. Why otherwise give
+a Python in the first year of the bachelor, without using that in other courses?
 
 \section{Into the abyss}
 
@@ -1005,7 +1109,7 @@ asked by policy makers; questions such as ``What works best for my region?'',
 ``What happens with the capacity of my whole network when I invest in a specific
 highway link?'' and ``In which region should I invest to get highest returns?''.
 
-So, the main argument of this paper lies in introducing more data apprach/data
+So, the main argument of this paper lies in introducing more data approach/data
 science techniques in the toolkit of the regional economist. Other related fields, even
 in the social sciences, have already made large advances, such as predictive
 policing in criminology, latent class approaches in transportion modeling, and

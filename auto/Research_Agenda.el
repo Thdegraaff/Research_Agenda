@@ -20,6 +20,7 @@
     "marvosym"
     "epigraph"
     "subfig"
+    "listings"
     "biblatex"
     "hyperref")
    (TeX-add-symbols
@@ -38,12 +39,13 @@
     "fe"
     "heterogeneity"
     "fig:heterogeneity"
+    "fig:flowchart"
     "agenda"
     "fig:mixturetwocultures"
     "eq:fe2"
     "eq:bayes"
     "eq:gravity"
-    "fig:flowchart")
+    "fig:normal")
    (LaTeX-add-bibliographies
     "ThomasReferenties.bib"))
  :latex)
