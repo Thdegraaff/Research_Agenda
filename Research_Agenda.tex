@@ -826,7 +826,7 @@ rigorous structure of multi-level modeling is definitely worth more attention in
 the near future. 
 
 Interestingly, more (spatial) non-parametric approaches \citep[see, e.g., the
-geograpically weighted regression exercise in]{Thissen2016} have become more
+geograpically weighted regression exercise in][]{Thissen2016} have become more
 popular as well in the last decade (typically, because of increased computer
 power). This approach needs more attention as well, as the connection with
 (economic) theory is often lost. And, especially regional geographers apply
@@ -837,22 +837,146 @@ spatial non-parametric techniques, not the regional economists
 One element that is notoriously weak in the theory-driven approach is model
 comparison---or the models should be nested. And in many cases, model comparison
 is often very much asked by policy makers and the audience at large, if not only
-for finding the correct specification. 
+for finding the correct specification. The latter question is concerned with the
+question which variables (predictors) to include in a model and which predictors
+of them perform best. Note that this is analogous to questions regional policy makers
+might have: such as, which policy instruments best to deploy given limited
+financial budgets.
 
-Sampling in frequentist statistics is a device to construct undercertainty
+A typical example can be found in the field of spatial econometrics model where comparison is an important
+issue as typically there are several competing theories, non-nested, for the
+distance decay function (usually measured with a so-called spatial weight matrix
+$\mathbf{W}$). And usually those theories are very much related (e.g., distance
+decay measured in Eucledian distance or generalized travel costs).
+
+Another field where model comparison is of large importance is in the estimation
+of the strength of socio-ecoomic networks. In theory, socio-economic networks
+should produce so-called power-laws: or a loglinear relation between the size of
+nodes and the number of connections.\footnote{One of the most famous of these
+  relations is Zipf's law, where the ordering of cities and the size of the
+  population follows an almost perfect loglinear distribution; see for an
+  in-depth treatment \citet{gabaix1999zipf}.} Empirically, these relations often follow a
+slightly different distribution. What kind of distribution fits then best is
+still a matter of debate.  
+
+For proper model comparison, a Bayesian approach is almost unavoidable. The key
+difference between the frequentist and the Bayesian approach is how to interpret
+uncertainty. In the frequentist approach uncertainty originates from sampling,
+while in the Bayesian approach uncertainty is caused by not having enough
+information. So, a Bayesian statistian lives in a deterministic world but has
+a limited observational view.\footnote{Both frequentists and bayesians rely
+  heavily on sampling. However, sampling in frequentist statistics is a device to construct undercertainty
 around an estimate. Sampling in Bayesian statistics is a way to perform integral
-calculus (or to simulate observations). 
+calculus (or to simulate observations).}. Note that the rule of Bayes is not
+unique for Bayesian statistics. Namely, this rule is central for all probability
+theory.
+
+What is unique for each Bayesian model is that it has a prior and posterior. The
+prior is an assumption about something that you do not know (uncertainty
+measured by a parameter). With additional information (data), knowledge about
+the uncertainty is then updated (and hopefully the uncertainty is diminished).
+The updated probabilities are represented in a posterior distribution. To
+understand the probabilities then is simply a matter of sampling from the
+posterior distribution. So, the
+frequentist approach typically give a point estimate of a parameter, the Bayesian approach
+gives the whole distribution of the parameter. Note that under the Bayesian
+paradigm , everything (including the data) is regarded as an variable with
+associated uncertainty.
 
 \begin{align}
-  \ln(h_c) & \sim \text{Normal}(\mu_c, \sigma) \tag{likelihood}\\
-  \mu_c & = \alpha + \beta x_c \tag{linear model}\\
+  \ln(h_r) & \sim \text{Normal}(\mu_r, \sigma) \tag{likelihood}\\
+  \mu_r & = \alpha + \beta x_r \tag{linear model}\\
   \alpha & \sim \text{Normal}(12,3) \tag{$\alpha$ prior}\\
   \beta & \sim \text{Normal}(5,10) \tag{$\beta$ prior}\\
-  \sigma &\sim \text{Uniform}(0,2) \tag{$\sigma$ prior}
+  \sigma &\sim \text{Uniform}(0,2) \tag{$\sigma$ prior} 
   \label{eq:bayes}         
 \end{align}
+Model (\ref{eq:bayes}) gives an example of a Bayesian linear regression
+model.\footnote{Under relatively mild assumptions this should yield similar
+  results as the frequentist approach.}. Here, we want to model the relation
+between regional housing prices ($h_r$) and the regional percentage of open
+space ($o_c$). Note that all parameter and the distribition of the data
+(likelihood) require distributional assumptions. This is a disadvantage in
+relation to the inference based frequentist approach, where no distributional
+assumptions are needed. But, note as well that model (\ref{eq:bayes}) specifies
+\emph{explicitly} all assumptions for this model (e.g., a linear model and a
+normal distribution for the likelihood). If you think the model is incorrect you
+can rather easily change the assumptions.
+
+Estimating Bayesian models have always been computionally cumbersome, especially
+with more parameters as sampling from the posterior distribution equalizes
+sampling from a multi-dimensional integral. Fortunately, computational power has
+increased dramatically in the last decaded and techniques for sampling from the
+posterior distribution have become rather efficient (the most often used
+techniques nowadays are Monte Carlo Markov Chain algorithms which is basically a
+simulation of the posterior distribution).
+
+Although Bayesian statitics has already been applied to spatial
+econometrics \citep[see the excellent textbook
+of][]{lesage2009introduction}, applications have not permeated much to other fields
+in regional economics, such as in regional growth estimations,
+individual-regional multi-level modeling and population-employment modeling.  
+
 \subsubsection{Predicting}
 
+A last field not well developed in (regional) economics is that of predicting.
+Most economists\footnote{In popular media, though, they are less hesitant to
+  offer predictions.} would shy away from predictions as, in their opinion, identying
+causal relations is already difficult enough (they have a point there). What
+economists love to do is giving counterfactuals instead. For example, if
+regional open space would decrease significantly, what would happens with
+regional housing prices. This counterfactual approach looks very much as a
+prediction, however there are two large disadvantages associated with
+counterfactuals.
+
+First, counterfactual are always made \emph{in sample}. Actually, all marginal
+effects are made \emph{in-sample}. Splitting the sample in a training set and a
+test set is not something that (regional) economists are prone to do. There is
+an intrinsic worry then for \emph{overfitting}, especially when using many fixed
+effects. Explanatory power may be very high, but could also be very situational
+related. What works in one region, does not necessarily works in another region.
+Note that predicting in spatial setting is more difficult as the unit of
+analysis is typically a spatial system. And subsetting a spatial system in a
+training and test set is often difficult.
+
+Consider, e.g., the following often used gravity model in linear form as
+depicted in (\ref{eq:gravity}): 
+\begin{equation}
+  \label{eq:gravity}
+  \ln(c_{ij}) = \alpha + \beta \ln(P_i) + \gamma \ln(E_j) + \ln(d_{ij}) + \epsilon_{ij}.
+\end{equation}
+Here, we aim to model the number of commuters ($c$) from region $i$ to region
+$j$, by looking at the total labor force $P_i$ in region $i$, the total number of
+jobs $E_j$ in region $j$ and the distance ($d_{ij}$) between the two regions.
+Suppose, we can improve the distance between region $i$ and $j$ by, e.g.,
+enlarging highway capacity. This does not only change the commuter flow between
+$i$ and $j$, but also between other region; say beween $i$ and $k$. As usual
+there is no free lunch and total employment and population in each should remain
+constant, at least in the short-run.
+
+However, this make subsetting difficult and correctly predicting cumbersome.
+But, model (\ref{eq:gravity}) of above is just one example of a large class of
+models that all face this difficulty. And policy makers (and firms) are actually
+very much interested in the questions associated with these predictions.
+Questions related to the impact of Brexit on other countries, total network
+effects of infrastructure improvements, identifying profitable routes for
+airlines, impact of housing projects on commuting quickly come to mind. So, it
+is especially the relation between predicting and spatial (interaction) systems
+that need considerable attention.
+
+A second problem with the counterfactual approach is that it considers marginal
+changes. Unfortunately, in models as (\ref{eq:gravity}) this would not work. A
+marginal change on the link between $i$ and $j$ would have marginal changes on
+most other links. Marginal changes in a network setting is still a relatively
+underdeveloped area.\footnote{That is, in applied empirical statistical work.
+  Computational equilibrium models and to a lesser extent input-output models
+  are able to model network-wide impacts. However, these models are cumbersome
+  to construct and are less based on data.}
+
+So, on of the main research challenges in the regional economic domain for the near future would be to combine
+the data science models with the concept of spatial interaction models in such a
+way that both predictions can be made and that model restrictions are still
+satisfied. 
 
 \subsection{In education}
 
@@ -892,8 +1016,8 @@ and for teachers. The first group needs to invest in new techniques and probably
 in new statistical software. The second group needs to change parts of the
 curriculum in terms of the specific contents of methods courses and exercises.
 Fortunately, many online and open source manuals, videos and even textbooks are
-available.\footnote{Especially for the R language there is a vast amount of
-  material available, such as \href{http://r4ds.had.co.nz/}{R for Data Science}
+available.\footnote{Especially for the R programming environment \citep{R2017}  there is a vast amount of
+  material available on the internet, such as \href{http://r4ds.had.co.nz/}{R for Data Science}
   and \href{https://csgillespie.github.io/efficientR/}{Efficient R programming}.
 Moreover, companies such as DataCamp allow for free subscriptions as long as the
 material is used for classes.} 
@@ -906,7 +1030,7 @@ tools. All these approaches ensure that research becomes more reproducible.
 Something that becomes more and more a hard requirement by both university and
 the audience at large. Second, when looking at recent advances both in industry
 (e.g., all the dotcom companies but also others, such as more traditional media
-companies) and in other scientific, it is not the question \emph{if} regional economists
+companies) and in other scientific disciplines, it is not the question \emph{if} regional economists
 should invest more in the data science approach, but the question \emph{how
   soon} can we start.  
 
