@@ -330,11 +330,11 @@ The main point\footnote{Directly from \cite{deaton2010instruments}.},
 however, is that equations (\ref{P})--(\ref{E}) constitute a full-blown
 economic \emph{model} which has direct relations with underlying structural
 theoretical modeling frameworks \citep[such as][]{roback1982wages}. And the
-instrument then comes directly (is interal) from the model. 
+instrument then comes directly (is internal) from the model. 
 
 In practice, however, researchers often take another approach. And that is to
 look for external instruments. Instruments that have no relation with a
-structural (simultaneity) model. And there are is (a large) potential pitfall when doing so
+structural (simultaneity) model. And there is (a large) potential pitfall when doing so
 and that is to end up with an instrumental variables that is not independent from
 the left-hand-side variable. As it seems, there is some confusion about terms as
 independence and exogeneity, so let's first clarify the exact assumptions a
@@ -348,7 +348,7 @@ indicates that the instrument has an impact on the possible endogeneous variable
 left-hand-side variable ($E_r$), only via $P_r$ and other instruments. In formal
 notation: $E_r \perp Z_r|P_r, w_r$. Thus, exogeneity means that the instrument
 and the left-hand-side variables are \emph{independent} from each other conditional on
-the instruments.
+the right-hand-side variables.
 
 Unfortunately, exogeneity is often used as an argument for variables that are
 external to the system, denote a sudden shock or for phenomena that are
@@ -356,7 +356,7 @@ considered to be exogenous in other fields (such as in geography).
 And this usually leads to instruments that do not satisfy the
 independence assumption. I will give three examples below.
 
-First, and very often use is the concept of deeplagging. So, in our case, we
+First, and very often used, is the concept of deeplagging. So, in our case, we
 look for regional population say 100 years ago and use that as an instrument. It
 must be exogenous because we cannot change it, right? Well, it is definitely
 relevant, as regional population is remarkably resilient. Where people lived
@@ -578,7 +578,7 @@ made which put the above into perspective.
 First of all, note that we need changes over time---in our case in individual wages and
 city density. Now, if we take the extreme example of a subgroup of individuals
 who do not face wage changes and cities who remain relatively of equal size,
-than this subgroups will not be used for determination of $\beta$. Of course,
+then this subgroups will not be used for determination of $\beta$. Of course,
 not many observations will have these characteristics. Unfortunately, with
 more detailed data on sector structure and migration, we need individuals that
 move both residence and job for identification. All others are redundant. This
@@ -606,7 +606,7 @@ variation is based on variation of \emph{levels}. That is, each fixed effects
 actually denotes a very specific constant (for each individual and city in our
 case). However, this really requires a very homogeneous sample except in levels.
 For illustration, assume that there are three individuals, where individual 3
-has gigher wages than individual 1 and 2, because of, say, differences in skill
+has higher wages than individual 1 and 2, because of, say, differences in skill
 levels (see as well Figure \ref{fe}). However, as Figure \ref{fe} clearly shows
 as well, apart from individual level variation, returns to density are similar
 for individuals 1, 2 and 3. So, each individual benefits equally from moving
@@ -633,7 +633,7 @@ graduate equipped with the right toolbox that they use as well in their later
 careers? And do we have a consistent curriculum using similar or complementary
 tools running from the bachelor to the graduate studies? These types of
 questions are not frequently asked, and, if at all, not very well met. Mostly
-because of vested interests of departments and researchers.
+because of vested interests of departments and lecturers.
 
 In this subsection I will, however, try to answer partly some of these questions
 and identify what is missing in our curriculum. I will first look at the
@@ -652,15 +652,15 @@ use of fixed effects.
 
 The statistics courses are very much geared towards traditional socio-economic
 research where a hypothesis is formed (usually the difference between two groups
-not being zero), data is gather (via survey techniques) and statistical tests
+not being zero), data is gathered (via survey techniques) and statistical tests
 are applied on the difference between two groups (usually with the use of
 $t$-tests).
 
-For most students, especially applied statistics feel as a very mechinal
-procedure using a pre-defined set or recipes. \citet{mcelreath2016statistical}
+For most students, especially applied statistics feel as a very mechanical
+procedure using a pre-defined set of recipes. \citet{mcelreath2016statistical}
 introduced a nice analogy with the old folkore of the Golem of Prague. The
 Golem was a mindless robot of clay that obeys orders. Scientists also use
-golems, especially with statistical procedure, where test or estimation one
+golems, especially with statistical procedures, where the test or the estimation procedure one
 performs is a small golem in itself. A mindless procedure that obeys what you
 tell them do. Sometimes for the better, sometimes for the worse. 
 
